@@ -34,6 +34,7 @@
         "react-animate-on-scroll": "^2.1.7",
         "react-animated-cursor": "^2.11.2",
         "react-animation-on-scroll": "^5.1.0",
+        "react-device-detect": "^2.2.3",
         "react-dom": "^18.2.0",
         "react-plx": "^2.1.2"
     },
