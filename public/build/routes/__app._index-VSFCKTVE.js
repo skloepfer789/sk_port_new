@@ -207,10 +207,10 @@ var require_window_scroll_manager = __commonJS({
 });
 
 // app/styles/landing.styles.css
-var landing_styles_default = "/build/_assets/landing.styles-V7DDJT5B.css";
+var landing_styles_default = "/build/_assets/landing.styles-M5IV2WLF.css";
 
 // app/styles/hero.styles.css
-var hero_styles_default = "/build/_assets/hero.styles-A4X3CQBZ.css";
+var hero_styles_default = "/build/_assets/hero.styles-LLBGJUWI.css";
 
 // app/components/logoSVG.component.jsx
 var React = __toESM(require_react());
@@ -444,4 +444,4 @@ export {
   links2 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app._index-DPRBVPQD.js.map
+//# sourceMappingURL=/build/routes/__app._index-VSFCKTVE.js.map

@@ -40,7 +40,10 @@
     .container {
         margin: 0 -30vw 0 0;
     }
+    .containerRow {
+        height: 70px;
+    }
     .containerImage {
-        width: 350px;
+        width: 320px;
     }
 }

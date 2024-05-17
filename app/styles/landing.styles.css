@@ -58,6 +58,9 @@
     }
     .logo {
         left: -25vh;
+        width: 80vh;
+        padding: 35px 10vh;
+        top: 89vh;
     }
     .heading {
         font-size: 25px;
