@@ -1,0 +1,65 @@
+.backgroundVid {
+    z-index: -1;
+    min-height: 100vh;
+    min-width: 100vw;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scrollText {
+    color: rgba(255, 255, 255, 0.6);
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 90vh;
+}
+
+.scroller {
+    width: 100vw;
+    overflow-x: hidden;
+    background-image: url('/images/GraidentBackground_Full.webp');
+    background-color: var(--blueMain);
+    overflow: hidden;
+}
+
+.spacer {
+    height: 10vh;
+}
+
+.heading {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    opacity: 0;
+    margin-bottom: 18vh;
+}
+
+.spacerLogo {
+    height: 10px;
+}
+
+.logo {
+    width: 90vh;
+    rotate: 90deg;
+    position: absolute;
+    top: 86.5vh;
+    left: -20vw;
+    transform: translate(-50%, -50%);
+    z-index: 40;
+    background-color: var(--blueMain);
+    padding: 50px 5vh;
+}
+
+@media only screen and (max-width: 700px) {
+    .spacerLogo {
+        display: none;
+    }
+    .logo {
+        left: -25vh;
+    }
+    .heading {
+        font-size: 25px;
+    }
+}

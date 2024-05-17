@@ -1,0 +1,529 @@
+{
+    "branding": [{
+        "name": "Enhance Printing",
+        "images": [{
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
+            "alt": "Enhance Printing Brand Portfolio",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/enhance/EnhanceWebsite.webp",
+            "alt": "A Website To Compete in a Modern Market",
+            "placeholder": "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-9.webp",
+            "alt": "Stationary to fit the New Look",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-9_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_Sketches.webp",
+            "alt": "Sketching out the Idea",
+            "placeholder": "/images/brandImages/enhance/Enhance_Sketches_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-8.webp",
+            "alt": "Branded Icons to Communicate Services Quickly",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-8_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-4.webp",
+            "alt": "Bringing the Brand To Life With Color",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-4_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-6.webp",
+            "alt": "The Brand Identity Across Print",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-6_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/EnhanceMagazines.webp",
+            "alt": "Magazines to Showcase Services",
+            "placeholder": "/images/brandImages/enhance/EnhanceMagazines_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/EnhanceMagazines_Spreads.webp",
+            "alt": "Magazines to Showcase Services",
+            "placeholder": "/images/brandImages/enhance/EnhanceMagazines_Spreads_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-11.webp",
+            "alt": "Enhance Printing, Refreshed and Ready to Serve",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-11_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "The Rolling Restaurant",
+        "images": [{
+            "image": "/images/brandImages/rolling/RollingRest_Logo.webp",
+            "alt": "The Rolling Restaurant Brand Identity",
+            "placeholder": "/images/brandImages/rolling/RollingRest_Logo_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/rolling/FoodWrap_1.webp",
+            "alt": "Eyecatching Wraps to Draw New Customers",
+            "placeholder": "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/FoodWrap_2.webp",
+            "alt": "Eyecatching Wraps to Draw New Customers",
+            "placeholder": "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRest_Sketches.webp",
+            "alt": "Crafting the Brand Identity",
+            "placeholder": "/images/brandImages/rolling/RollingRest_Sketches.webp_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRest_Alternates.webp",
+            "alt": "Alternate Logos in the Brainstorming Stage",
+            "placeholder": "/images/brandImages/rolling/RollingRest_Alternates_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/Shirt-Mockup.webp",
+            "alt": "Repping the Brand While Cooking",
+            "placeholder": "/images/brandImages/rolling/Shirt-Mockup_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
+            "alt": "Business Cards to Drum Up Business",
+            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
+            "alt": "Taking a Piece Home With You",
+            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
+            "alt": "A Menu To Catch the Eye",
+            "placeholder": "/images/brandImages/rolling/RollingRestaurant_Menu_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "Rex's Plumbing",
+        "images": [{
+            "image": "/images/brandImages/rex/RexLogo.webp",
+            "alt": "Rex's Plumbing & Heating",
+            "placeholder": "/images/brandImages/rex/RexLogo_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/rex/Rex Van.webp",
+            "alt": "Eyecatching Vehicles for Mobile Advertising",
+            "placeholder": "/images/brandImages/rex/Rex Van_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/RexShirt_Mockup.webp",
+            "alt": "Shirts For Customer Trust",
+            "placeholder": "/images/brandImages/rex/RexShirt_Mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/Rex_Sketches.webp",
+            "alt": "Crafting the Brand Identity",
+            "placeholder": "/images/brandImages/rex/Rex_Sketches_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/Rex_Alternates.webp",
+            "alt": "Alternate Logos in the Brainstorming Stage",
+            "placeholder": "/images/brandImages/rex/Rex_Alternates_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/RexBC.webp",
+            "alt": "Business Cards to Drum Up Business",
+            "placeholder": "/images/brandImages/rex/RexBCs_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6.webp",
+            "alt": "Creating the Brand's Voice",
+            "placeholder": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11.webp",
+            "alt": "A New Face For Rex",
+            "placeholder": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "Aegir's Workshop",
+        "images": [{
+            "image": "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
+            "alt": "Aegir's Workshop Brand",
+            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/aegir/Aegir_Sketches.webp",
+            "alt": "Crafting the Brand Identity",
+            "placeholder": "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/Aegir_Alternates.webp",
+            "alt": "Alternate Logos in the Brainstorming Stage",
+            "placeholder": "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
+            "alt": "Branded Imagery",
+            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
+            "alt": "Finding the Brand's Look",
+            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsWorkshopSite.webp",
+            "alt": "A Website To Draw Consumer's to Custom Goods",
+            "placeholder": "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsBC_Mockup.webp",
+            "alt": "Business Cards for Local Sales",
+            "placeholder": "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsLabel.webp",
+            "alt": "Custom Tags",
+            "placeholder": "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsTag.webp",
+            "alt": "Tags for Custom Items",
+            "placeholder": "/images/brandImages/aegir/AegirsTag_LowRes.webp",
+            "size": "small"
+        }]
+    }, {
+        "name": "Mutt Knee Brace",
+        "images": [{
+            "image": "/images/brandImages/mutt/MuttKneeLogo.webp",
+            "alt": "Mutt Knee Brace Logo Design",
+            "placeholder": "/images/brandImages/mutt/MuttKneeLogo_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
+            "alt": "Mutt Knee Brace Business Cards",
+            "placeholder": "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/mutt/MuttKneeTrifold.webp",
+            "alt": "Mutt Knee Brace Brochures",
+            "placeholder": "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "Four Seasons Businesss Solutions",
+        "images": [{
+            "image": "/images/brandImages/seasons/FourSeasonsLogo.webp",
+            "alt": "Four Seasons Businesss Solutions Logo Design",
+            "placeholder": "/images/brandImages/seasons/FourSeasonsLogo_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
+            "alt": "Four Seasons Businesss Solutions Letterhead",
+            "placeholder": "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/seasons/FourSeasons_BC.webp",
+            "alt": "Four Seasons Businesss Solutions Business Cards",
+            "placeholder": "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "Sleepy Siren Bath Company",
+        "images": [{
+            "image": "/images/brandImages/siren/SleepySirenLogo.webp",
+            "alt": "Sleepy Siren Bath Co. Logo Design",
+            "placeholder": "/images/brandImages/siren/SleepySirenLogo_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/siren/SleepySirenSoapMockup.webp",
+            "alt": "Sleepy Siren Bath Co. Soap Packaging",
+            "placeholder": "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
+            "alt": "Sleepy Siren Bath Co. Fragrance Bottle",
+            "placeholder": "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "RetroFit Electric",
+        "images": [{
+            "image": "/images/brandImages/misc/RetroFit-Electric-Logo.webp",
+            "alt": "RetroFit Electric Logo Design",
+            "placeholder": "/images/brandImages/misc/RetroFit-Electric-Logo_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "Ascendent Sales & Marketing",
+        "images": [{
+            "image": "/images/brandImages/misc/AscendentLogo.webp",
+            "alt": "Ascendent Sales & Marketing Logo Design",
+            "placeholder": "/images/brandImages/misc/AscendentLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "True North Sales & Marketing",
+        "images": [{
+            "image": "/images/brandImages/misc/TrueNorthLogo.webp",
+            "alt": "True North Sales & Marketing Logo Design",
+            "placeholder": "/images/brandImages/misc/TrueNorthLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Execute Multi Services Logo Design",
+        "images": [{
+            "image": "/images/brandImages/misc/ExecuteLogo.webp",
+            "alt": "Execute Multi Services Logo Design",
+            "placeholder": "/images/brandImages/misc/ExecuteLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Summit Cabinet Coatings Logo Design",
+        "images": [{
+            "image": "/images/brandImages/misc/SummitCabinetLogo.webp",
+            "alt": "Summit Cabinet Coatings Logo Design",
+            "placeholder": "/images/brandImages/misc/SummitCabinetLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "NoCo Patch Pros Logo Design",
+        "images": [{
+            "image": "/images/brandImages/misc/NoCoPatchProsLogo.webp",
+            "alt": "NoCo Patch Pros Logo Design",
+            "placeholder": "/images/brandImages/misc/NoCoPatchProsLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Illumination Hebrew Insights Logo Design",
+        "images": [{
+            "image": "/images/brandImages/misc/IlluminationLogo.webp",
+            "alt": "Illumination Hebrew Insights Logo Design",
+            "placeholder": "/images/brandImages/misc/IlluminationLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Jennifer Madrick Real Estate",
+        "images": [{
+            "image": "/images/brandImages/misc/JenniferMadrickLogo.webp",
+            "alt": "Jennifer Madrick Real Estate",
+            "placeholder": "/images/brandImages/misc/JenniferMadrickLogo_LowRes.webp",
+            "size": "large"
+        }]
+
+    }, {
+        "name": "Endodontic of the Rockies Spec Logo Design",
+        "images": [{
+            "image": "/images/brandImages/misc/EndoRockiesMockup.webp",
+            "alt": "Endodontic of the Rockies Spec Logo Design",
+            "placeholder": "/images/brandImages/misc/EndoRockiesMockup_LowRes.webp",
+            "size": "large"
+        }]
+
+    }],
+    "print": [{
+        "name": "Branded Designs",
+        "images": [{
+            "image": "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
+            "alt": "Rolling Restaurant Business Cards",
+            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
+            "alt": "Four Seasons Businesss Solutions Letterhead",
+            "placeholder": "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/seasons/FourSeasons_BC.webp",
+            "alt": "Four Seasons Businesss Solutions Business Cards",
+            "placeholder": "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/EndoRockies_Round_Sticker_Mockup_6.webp",
+            "alt": "Endodontic of the Rockies Stickers",
+            "placeholder": "/images/printImages/EndoRockies_Round_Sticker_Mockup_6_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/Shirt-Mockup.webp",
+            "alt": "Rolling Restaurant T-Shirt",
+            "placeholder": "/images/brandImages/rolling/Shirt-Mockup_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-9.webp",
+            "alt": "Enhance Printing Stationary",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-9_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsBC_Mockup.webp",
+            "alt": "Aegir's workshop Business Cards",
+            "placeholder": "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
+            "alt": "Mutt Knee Brace Business Cards",
+            "placeholder": "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/mutt/MuttKneeTrifold.webp",
+            "alt": "Mutt Knee Brace Brochures",
+            "placeholder": "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
+            "size": "small"
+        }]
+    }, {
+        "name": "Tradeshow Design & Signage",
+        "images": [{
+            "image": "/images/printImages/EliteEstheticianBooth.webp",
+            "alt": "Elite Esthetician Booth Setup",
+            "placeholder": "/images/printImages/EliteEstheticianBooth_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/retractables.webp",
+            "alt": "Tanco Engineering Retractable Banners",
+            "placeholder": "/images/printImages/retractables_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
+            "alt": "Rolling Restaurant Menus",
+            "placeholder": "/images/rolling/RollingRestaurant_Menu_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/SummitSign.webp",
+            "alt": "Summit Cabinet Coatings Signage",
+            "placeholder": "/images/printImages/SummitSign_LowRes.webp",
+            "size": "small"
+        }]
+    }, {
+        "name": "Packaging Design",
+        "images": [{
+            "image": "/images/printImages/FreyaAbsinthe_MockUp.webp",
+            "alt": "Freya Absinthe Bottle",
+            "placeholder": "/images/printImages/FreyaAbsinthe_MockUp_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/MatadorBottle_v2_Mockup.webp",
+            "alt": "Matty's Red Hot Louisiana Style Hot Sauce",
+            "placeholder": "/images/printImages/MatadorBottle_v2_Mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/siren/SleepySirenSoapMockup.webp",
+            "alt": "Sleepy Siren Bath Co. Soap Packaging",
+            "placeholder": "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
+            "alt": "Sleepy Siren Bath Co. Fragrance Bottle",
+            "placeholder": "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/ThankYouBox-Mockup.webp",
+            "alt": "Kenny Anderson Realty Thank You Box",
+            "placeholder": "/images/printImages/ThankYouBox-Mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
+            "alt": "Rolling Restaurant Burger Box",
+            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsLabel.webp",
+            "alt": "Aegir's Workshop Leather Tag",
+            "placeholder": "/images/brandImages/aegir/AegirsLabel_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/AegirsTag.webp",
+            "alt": "Aegir's Workshop Custom Item Tag",
+            "placeholder": "/images/brandImages/aegir/AegirsTag_LowRes.webp",
+            "size": "small"
+        }]
+    }, {
+        "name": "Vehicle Wraps",
+        "images": [{
+            "image": "/images/brandImages/rolling/FoodWrap_1.webp",
+            "alt": "Rolling Restaurant Vehicle Wrap",
+            "placeholder": "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rolling/FoodWrap_2.webp",
+            "alt": "Rolling Restaurant Vehicle Wrap",
+            "placeholder": "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/CMM_wrap.webp",
+            "alt": "Concrete Mobile Mix Wrap",
+            "placeholder": "/images/printImages/CMM_wrap_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/rex/Rex Van.webp",
+            "alt": "Eyecatching Vehicles for Mobile Advertising",
+            "placeholder": "/images/brandImages/rex/Rex Van_LowRes.webp",
+            "size": "small"
+        }]
+    }, {
+        "name": "Book & Magazine Design",
+        "images": [{
+            "image": "/images/printImages/FossilBaseball_MagazineCover.webp",
+            "alt": "Fossil Ridge High School Player Guide Cover",
+            "placeholder": "/images/printImages/FossilBaseball_MagazineCover_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/FossilBaseball_MagazineGuts.webp",
+            "alt": "Fossil Ridge High School Player Guide Inside",
+            "placeholder": "/images/printImages/FossilBaseball_MagazineGuts_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/EnhanceMagazines.webp",
+            "alt": "Enhance Printing Graphics Magazine Cover",
+            "placeholder": "/images/brandImages/enhance/EnhanceMagazines_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/enhance/EnhanceMagazines_Spreads.webp",
+            "alt": "Enhance Printing Graphics Magazine Interior",
+            "placeholder": "/images/brandImages/enhance/EnhanceMagazines_Spreads_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/DeadlandsBook Mockup.webp",
+            "alt": "Novel Cover Design",
+            "placeholder": "/images/printImages/DeadlandsBook Mockup_LowRes.webp",
+            "size": "small"
+        }]
+    }, {
+        "name": "Invitations & Cards",
+        "images": [{
+            "image": "/images/printImages/Invitations_Gatefold.webp",
+            "alt": "Wedding Invitations",
+            "placeholder": "/images/printImages/Invitations_Gatefold_LowRes.webp",
+            "size": "large"
+        }]
+    }],
+    "web": [{
+        "name": "Enhance Printing Website",
+        "image": "/images/webImages/EnhanceWebsite.webp",
+        "alt": "Enhance Printing Website",
+        "placeholder": "/images/webImages/EnhanceWebsite-lowRes.webp"
+    }, {
+        "name": "Hood Guy Website",
+        "image": "/images/HoodGuyMockup copy.webp",
+        "alt": "Hood Guy Website",
+        "placeholder": "/images/webImages/HoodGuyMockup copy-lowRes.webp"
+    }, {
+        "name": "Aegir's Workshop Website",
+        "image": "/images/webImages/AegirsSite.webp",
+        "alt": "Aegir's Workshop Website",
+        "placeholder": "/images/webImages/AegirsSite-lowRes.webp"
+    }, {
+        "name": "NatureScapes Photography Website",
+        "image": "/images/webImages/NatureScapesWebsite.webp",
+        "alt": "NatureScapes Photography Website",
+        "placeholder": "/images/webImages/NatureScapesWebsite-lowRes.webp"
+    }, {
+        "name": "Kenny Anderson Website",
+        "image": "/images/webImages/KennyAndersonWebsite.webp",
+        "alt": "Kenny Anderson Website",
+        "placeholder": "/images/webImages/KennyAndersonWebsite-lowRes.webp"
+    }]
+}
