@@ -7,9 +7,7 @@ const Modal = (props) => {
 
     if(props.data && props.data != ''){
         const data = props.data;
-        console.log(data);
         const images = data.images;
-        console.log(images);
 
         return(
             <div className={"modalBackground " + props.className} style={{backgroundColor: props.color}} >

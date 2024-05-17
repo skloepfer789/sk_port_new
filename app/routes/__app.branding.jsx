@@ -84,7 +84,6 @@ const Branding = () => {
     }
 
     const onReopen = () => {
-      console.log('fire');
       hasloaded(false);
     }
 

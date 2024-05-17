@@ -59,7 +59,6 @@ const WebDesign = () => {
     })
 
     const onReopen = () => {
-      console.log('fire');
       hasloaded(false);
     }
 

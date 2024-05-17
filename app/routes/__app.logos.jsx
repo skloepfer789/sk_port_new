@@ -80,7 +80,6 @@ const LogoDesign = () => {
     });
 
     const onReopen = () => {
-      console.log('fire');
       hasloaded(false);
     }
 
