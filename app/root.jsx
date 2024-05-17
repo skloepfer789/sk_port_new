@@ -18,6 +18,7 @@ export const links = () => [
 ];
 
 export default function App() {
+
   return (
     <html lang="en">
       <head>
@@ -28,18 +29,19 @@ export default function App() {
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
       </head>
       <body>
-        <AnimatedCursor   
-          color='255,255,255'
-          innerSize={5}
-          outerSize={50}
-          innerScale={1}
-          outerScale={5}
-          outerAlpha={1}
-          outerStyle={{
-            mixBlendMode: 'exclusion'
-          }}
-          trailingSpeed={15}
-        />
+      <AnimatedCursor   
+        color='255,255,255'
+        innerSize={5}
+        outerSize={50}
+        innerScale={1}
+        outerScale={3}
+        outerAlpha={1}
+        outerStyle={{
+          mixBlendMode: 'exclusion'
+        }}
+        trailingSpeed={15}
+      />
+        
         <Outlet />
         <ScrollRestoration />
         <Scripts />

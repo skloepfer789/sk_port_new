@@ -1,7 +1,7 @@
 import {
   MainMenu,
   menu_styles_default
-} from "/build/_shared/chunk-OIEYX6RZ.js";
+} from "/build/_shared/chunk-TKMSJEEK.js";
 import {
   __toESM,
   require_jsx_dev_runtime
@@ -42,4 +42,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.menu-GFPJMDT3.js.map
+//# sourceMappingURL=/build/routes/__app.menu-BAJ6SK7Z.js.map

@@ -3,7 +3,7 @@ import {
   MainMenu,
   links,
   require_scrollAnimation_min
-} from "/build/_shared/chunk-OIEYX6RZ.js";
+} from "/build/_shared/chunk-TKMSJEEK.js";
 import {
   __commonJS,
   __toESM,
@@ -303,7 +303,7 @@ var import_react_animate_on_scroll = __toESM(require_scrollAnimation_min());
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
 function Hero() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "hero", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/HoodGuyMockup copy.webp", alt: "hero image" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/brandImages/rolling/RollingRest_Sketches.webp", alt: "hero image" }, void 0, false, {
       fileName: "app/components/hero.component.jsx",
       lineNumber: 7,
       columnNumber: 25
@@ -317,7 +317,7 @@ function Hero() {
       columnNumber: 17
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/HoodGuyMockup copy.webp", alt: "hero image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/brandImages/rolling/RollingRest_Logo.webp", alt: "hero image" }, void 0, false, {
         fileName: "app/components/hero.component.jsx",
         lineNumber: 12,
         columnNumber: 25
@@ -326,7 +326,7 @@ function Hero() {
         lineNumber: 11,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/HoodGuyMockup copy.webp", alt: "hero image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/printImages/EliteEstheticianBooth.webp", alt: "hero image" }, void 0, false, {
         fileName: "app/components/hero.component.jsx",
         lineNumber: 15,
         columnNumber: 25
@@ -341,7 +341,7 @@ function Hero() {
       columnNumber: 17
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/HoodGuyMockup copy.webp", alt: "hero image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/printImages/MatadorBottle_v2_Mockup.webp", alt: "hero image" }, void 0, false, {
         fileName: "app/components/hero.component.jsx",
         lineNumber: 20,
         columnNumber: 25
@@ -350,7 +350,7 @@ function Hero() {
         lineNumber: 19,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/HoodGuyMockup copy.webp", alt: "hero image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "/images/brandImages/rex/Rex Van.webp", alt: "hero image" }, void 0, false, {
         fileName: "app/components/hero.component.jsx",
         lineNumber: 23,
         columnNumber: 25
@@ -444,4 +444,4 @@ export {
   links2 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app._index-F4TMXUOG.js.map
+//# sourceMappingURL=/build/routes/__app._index-DPRBVPQD.js.map

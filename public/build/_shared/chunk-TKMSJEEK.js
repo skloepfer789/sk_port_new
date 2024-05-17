@@ -1469,14 +1469,14 @@ var menuItems = [
     image: "/images/RexTest.png"
   },
   {
-    name: "web design",
-    link: "/web",
-    image: "/images/HoodGuyMockup copy.webp"
-  },
-  {
     name: "print design",
     link: "/print",
     image: "/images/SummitSign.webp"
+  },
+  {
+    name: "web design",
+    link: "/web",
+    image: "/images/HoodGuyMockup copy.webp"
   },
   {
     name: "about me",
@@ -1715,4 +1715,4 @@ object-assign/index.js:
   @license MIT
   *)
 */
-//# sourceMappingURL=/build/_shared/chunk-OIEYX6RZ.js.map
+//# sourceMappingURL=/build/_shared/chunk-TKMSJEEK.js.map

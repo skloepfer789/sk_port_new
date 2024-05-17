@@ -1288,32 +1288,32 @@ function App() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("meta", { charSet: "utf-8" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 24,
+        lineNumber: 25,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("meta", { name: "viewport", content: "width=device-width, initial-scale=1" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 25,
+        lineNumber: 26,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 26,
+        lineNumber: 27,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 27,
+        lineNumber: 28,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("link", { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" }, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 28,
+        lineNumber: 29,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 23,
+      lineNumber: 24,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("body", { children: [
@@ -1324,7 +1324,7 @@ function App() {
           innerSize: 5,
           outerSize: 50,
           innerScale: 1,
-          outerScale: 5,
+          outerScale: 3,
           outerAlpha: 1,
           outerStyle: {
             mixBlendMode: "exclusion"
@@ -1335,39 +1335,39 @@ function App() {
         false,
         {
           fileName: "app/root.jsx",
-          lineNumber: 31,
-          columnNumber: 9
+          lineNumber: 32,
+          columnNumber: 7
         },
         this
       ),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Outlet, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 43,
+        lineNumber: 45,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 44,
+        lineNumber: 46,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 45,
+        lineNumber: 47,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.jsx",
-        lineNumber: 46,
+        lineNumber: 48,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.jsx",
-      lineNumber: 30,
+      lineNumber: 31,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.jsx",
-    lineNumber: 22,
+    lineNumber: 23,
     columnNumber: 5
   }, this);
 }
@@ -1400,4 +1400,4 @@ react/cjs/react-jsx-runtime.development.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/root-CCHLOHJI.js.map
+//# sourceMappingURL=/build/root-MSX4MN6J.js.map
