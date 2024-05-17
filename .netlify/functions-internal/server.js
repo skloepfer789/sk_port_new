@@ -762,7 +762,7 @@ var links3 = () => [
 ];
 
 // app/styles/page.styles.css
-var page_styles_default = "/build/_assets/page.styles-WSDGQXTK.css";
+var page_styles_default = "/build/_assets/page.styles-OG3IJOSZ.css";
 
 // brandingInfo.json
 var brandingInfo_default = {
@@ -1291,7 +1291,7 @@ var brandingInfo_default = {
 var import_react9 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-SDBD36HW.css";
+var modal_styles_default = "/build/_assets/modal.styles-C7Z5U5WH.css";
 
 // app/components/progressiveImage.component.jsx
 var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
@@ -1326,13 +1326,11 @@ var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/j
 var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) => {
   let onClose = props.onClose;
   if (props.data && props.data != "") {
-    let data = props.data;
-    console.log(data);
-    let images = data.images;
-    return console.log(images), /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalContain", children: [
+    let images = props.data.images;
+    return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalContain", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 17,
+        lineNumber: 15,
         columnNumber: 17
       }, this),
       images.map(
@@ -1348,7 +1346,7 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) 
           !1,
           {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 19,
+            lineNumber: 17,
             columnNumber: 11
           },
           this
@@ -1356,11 +1354,11 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) 
       )
     ] }, void 0, !0, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 16,
+      lineNumber: 14,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 15,
+      lineNumber: 13,
       columnNumber: 7
     }, this);
   }
@@ -1691,7 +1689,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
   let onClose = () => {
     setActiveBrand(""), setBrandBool(!1);
   }, onReopen = () => {
-    console.log("fire"), hasloaded(!1);
+    hasloaded(!1);
   };
   function checkLength(brand) {
     return brand.images.length;
@@ -1707,7 +1705,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
       !1,
       {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 7
       },
       this
@@ -1715,12 +1713,12 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 102,
+        lineNumber: 101,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 103,
+        lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { children: [
@@ -1728,24 +1726,24 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
           "Brand Identity ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 105,
+            lineNumber: 104,
             columnNumber: 50
           }, this),
           " & Logo Design"
         ] }, void 0, !0, {
           fileName: "app/routes/__app.branding.jsx",
-          lineNumber: 105,
+          lineNumber: 104,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
           (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { children: [
             checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
-              lineNumber: 113,
+              lineNumber: 112,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
-              lineNumber: 114,
+              lineNumber: 113,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1761,33 +1759,33 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
               !1,
               {
                 fileName: "app/routes/__app.branding.jsx",
-                lineNumber: 117,
+                lineNumber: 116,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 17
           }, this) }, brand.name, !1, {
             fileName: "app/routes/__app.branding.jsx",
-            lineNumber: 109,
+            lineNumber: 108,
             columnNumber: 13
           }, this)
         ) }, void 0, !1, {
           fileName: "app/routes/__app.branding.jsx",
-          lineNumber: 106,
+          lineNumber: 105,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 104,
+        lineNumber: 103,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.branding.jsx",
-      lineNumber: 101,
+      lineNumber: 100,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
@@ -1802,14 +1800,14 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
       !1,
       {
         fileName: "app/routes/__app.branding.jsx",
-        lineNumber: 136,
+        lineNumber: 135,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/routes/__app.branding.jsx",
-    lineNumber: 96,
+    lineNumber: 95,
     columnNumber: 5
   }, this);
 }, app_branding_default = Branding2;
@@ -1832,7 +1830,7 @@ var landing_styles_default = "/build/_assets/landing.styles-M5IV2WLF.css";
 var hero_styles_default = "/build/_assets/hero.styles-LLBGJUWI.css";
 
 // app/components/logoSVG.component.jsx
-var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), MainLogo = (props) => (console.log(props), /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), MainLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
   "svg",
   {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1843,11 +1841,11 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, !1, {
         fileName: "app/components/logoSVG.component.jsx",
-        lineNumber: 13,
+        lineNumber: 12,
         columnNumber: 7
       }, this) }, void 0, !1, {
         fileName: "app/components/logoSVG.component.jsx",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 5
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
@@ -1861,7 +1859,7 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
           !1,
           {
             fileName: "app/components/logoSVG.component.jsx",
-            lineNumber: 16,
+            lineNumber: 15,
             columnNumber: 7
           },
           this
@@ -1876,14 +1874,14 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
           !1,
           {
             fileName: "app/components/logoSVG.component.jsx",
-            lineNumber: 20,
+            lineNumber: 19,
             columnNumber: 7
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/components/logoSVG.component.jsx",
-        lineNumber: 15,
+        lineNumber: 14,
         columnNumber: 5
       }, this)
     ]
@@ -1892,11 +1890,11 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
   !0,
   {
     fileName: "app/components/logoSVG.component.jsx",
-    lineNumber: 5,
+    lineNumber: 4,
     columnNumber: 3
   },
   this
-)), logoSVG_component_default = MainLogo;
+), logoSVG_component_default = MainLogo;
 
 // app/routes/__app._index.jsx
 var import_react_plx = require("react-plx");
@@ -2424,14 +2422,14 @@ var LogoDesign = () => {
       {
         page: "logos",
         onReopen: () => {
-          console.log("fire"), hasloaded(!1);
+          hasloaded(!1);
         }
       },
       void 0,
       !1,
       {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 89,
+        lineNumber: 88,
         columnNumber: 7
       },
       this
@@ -2439,34 +2437,34 @@ var LogoDesign = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider backgroundBlue activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 94,
+        lineNumber: 93,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "logos" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 95,
+        lineNumber: 94,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "heading", children: "Logo Design" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 11
       }, this) }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 96,
+        lineNumber: 95,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: brandData.logos.map((logo, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logosRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoBounding", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoDescriptionNoSlide", children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h2", { children: logo.name }, void 0, !1, {
             fileName: "app/routes/__app.logos.jsx",
-            lineNumber: 107,
+            lineNumber: 106,
             columnNumber: 17
           }, this),
           logo.description
         ] }, void 0, !0, {
           fileName: "app/routes/__app.logos.jsx",
-          lineNumber: 106,
+          lineNumber: 105,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoBoxNoSlide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
@@ -2481,41 +2479,41 @@ var LogoDesign = () => {
           !1,
           {
             fileName: "app/routes/__app.logos.jsx",
-            lineNumber: 111,
+            lineNumber: 110,
             columnNumber: 17
           },
           this
         ) }, void 0, !1, {
           fileName: "app/routes/__app.logos.jsx",
-          lineNumber: 110,
+          lineNumber: 109,
           columnNumber: 15
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 105,
+        lineNumber: 104,
         columnNumber: 13
       }, this) }, logo.name, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 104,
+        lineNumber: 103,
         columnNumber: 15
       }, this)) }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 99,
+        lineNumber: 98,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 124,
+        lineNumber: 123,
         columnNumber: 7
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.logos.jsx",
-      lineNumber: 93,
+      lineNumber: 92,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/__app.logos.jsx",
-    lineNumber: 88,
+    lineNumber: 87,
     columnNumber: 5
   }, this);
 }, app_logos_default = LogoDesign;
@@ -2570,7 +2568,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
   let onClose = () => {
     setActive(""), setActiveBool(!1);
   }, onReopen = () => {
-    console.log("fire"), hasloaded(!1);
+    hasloaded(!1);
   };
   function checkLength(item) {
     return item.images.length;
@@ -2586,7 +2584,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
       !1,
       {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 7
       },
       this
@@ -2594,18 +2592,18 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
     /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 102,
+        lineNumber: 101,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 103,
+        lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
           fileName: "app/routes/__app.print.jsx",
-          lineNumber: 105,
+          lineNumber: 104,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
@@ -2614,25 +2612,25 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
-                lineNumber: 113,
+                lineNumber: 112,
                 columnNumber: 106
               }, this),
               "Click to See More"
             ] }, void 0, !0, {
               fileName: "app/routes/__app.print.jsx",
-              lineNumber: 113,
+              lineNumber: 112,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
-                lineNumber: 114,
+                lineNumber: 113,
                 columnNumber: 106
               }, this),
               "Click to Expand Image"
             ] }, void 0, !0, {
               fileName: "app/routes/__app.print.jsx",
-              lineNumber: 114,
+              lineNumber: 113,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
@@ -2648,33 +2646,33 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
               !1,
               {
                 fileName: "app/routes/__app.print.jsx",
-                lineNumber: 117,
+                lineNumber: 116,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/__app.print.jsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 17
           }, this) }, item.name, !1, {
             fileName: "app/routes/__app.print.jsx",
-            lineNumber: 109,
+            lineNumber: 108,
             columnNumber: 13
           }, this)
         ) }, void 0, !1, {
           fileName: "app/routes/__app.print.jsx",
-          lineNumber: 106,
+          lineNumber: 105,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 104,
+        lineNumber: 103,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.print.jsx",
-      lineNumber: 101,
+      lineNumber: 100,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
@@ -2689,14 +2687,14 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
       !1,
       {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 135,
+        lineNumber: 134,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, !0, {
     fileName: "app/routes/__app.print.jsx",
-    lineNumber: 96,
+    lineNumber: 95,
     columnNumber: 5
   }, this);
 }, app_print_default = Branding3;
@@ -2775,14 +2773,14 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
       {
         page: "web",
         onReopen: () => {
-          console.log("fire"), hasloaded(!1);
+          hasloaded(!1);
         }
       },
       void 0,
       !1,
       {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 68,
+        lineNumber: 67,
         columnNumber: 7
       },
       this
@@ -2790,18 +2788,18 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
     /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 73,
+        lineNumber: 72,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "web" }, void 0, !1, {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 74,
+        lineNumber: 73,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime21.jsxDEV)("h1", { className: "heading", children: "Web Design" }, void 0, !1, {
           fileName: "app/routes/__app.web.jsx",
-          lineNumber: 76,
+          lineNumber: 75,
           columnNumber: 11
         }, this),
         brandData.web.map(
@@ -2817,7 +2815,7 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
             !1,
             {
               fileName: "app/routes/__app.web.jsx",
-              lineNumber: 79,
+              lineNumber: 78,
               columnNumber: 11
             },
             this
@@ -2825,17 +2823,17 @@ var import_jsx_dev_runtime21 = require("react/jsx-dev-runtime"), links13 = () =>
         )
       ] }, void 0, !0, {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 75,
+        lineNumber: 74,
         columnNumber: 9
       }, this)
     ] }, void 0, !0, {
       fileName: "app/routes/__app.web.jsx",
-      lineNumber: 72,
+      lineNumber: 71,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/routes/__app.web.jsx",
-    lineNumber: 67,
+    lineNumber: 66,
     columnNumber: 5
   }, this);
 }, app_web_default = WebDesign;
@@ -2908,7 +2906,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OTCTUX5C.js", imports: ["/build/_shared/chunk-Q4PXM3OL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-VSFCKTVE.js", imports: ["/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-YGNMDTHI.js", imports: ["/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-OUSNG3BU.js", imports: ["/build/_shared/chunk-O3OVWVHW.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-SKVWVOQV.js", imports: ["/build/_shared/chunk-O3OVWVHW.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-AY3BUC7U.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-BAJ6SK7Z.js", imports: ["/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-5SDQ3MTL.js", imports: ["/build/_shared/chunk-O3OVWVHW.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-4KECRDMN.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-SKEY75OM.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-6Y2FJKOI.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "51084504", hmr: void 0, url: "/build/manifest-51084504.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OTCTUX5C.js", imports: ["/build/_shared/chunk-Q4PXM3OL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-KWJ7UURS.js", imports: ["/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-ARTK3T2E.js", imports: ["/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-LFUO7KFB.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-PQ3WU337.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-5T6KGR43.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-BAJ6SK7Z.js", imports: ["/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-QZYFN3ZI.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-ITQZNTGB.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-AMXPWCGY.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "825c3038", hmr: void 0, url: "/build/manifest-825C3038.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

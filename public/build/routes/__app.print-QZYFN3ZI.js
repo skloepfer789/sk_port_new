@@ -1,7 +1,7 @@
 import {
   links as links3,
   modal_component_default
-} from "/build/_shared/chunk-O3OVWVHW.js";
+} from "/build/_shared/chunk-QQ3ITVZO.js";
 import {
   progressiveImage_component_default
 } from "/build/_shared/chunk-MOFTYH3I.js";
@@ -9,7 +9,7 @@ import {
   links,
   page_styles_default,
   pagesHeader_component_default
-} from "/build/_shared/chunk-6Y2FJKOI.js";
+} from "/build/_shared/chunk-G7CVNWTA.js";
 import {
   global_styles_default
 } from "/build/_shared/chunk-Q4PXM3OL.js";
@@ -89,7 +89,6 @@ var Branding = () => {
     setActiveBool(false);
   };
   const onReopen = () => {
-    console.log("fire");
     hasloaded(false);
   };
   function checkLength(item) {
@@ -106,7 +105,7 @@ var Branding = () => {
       false,
       {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 7
       },
       this
@@ -114,18 +113,18 @@ var Branding = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: triggered ? `slider backgroundDark activeSlide` : `slider inactiveSlide`, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, false, {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 102,
+        lineNumber: 101,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, false, {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 103,
+        lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, false, {
           fileName: "app/routes/__app.print.jsx",
-          lineNumber: 105,
+          lineNumber: 104,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
@@ -134,25 +133,25 @@ var Branding = () => {
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "app/routes/__app.print.jsx",
-                lineNumber: 113,
+                lineNumber: 112,
                 columnNumber: 106
               }, this),
               "Click to See More"
             ] }, void 0, true, {
               fileName: "app/routes/__app.print.jsx",
-              lineNumber: 113,
+              lineNumber: 112,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
               /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
                 fileName: "app/routes/__app.print.jsx",
-                lineNumber: 114,
+                lineNumber: 113,
                 columnNumber: 106
               }, this),
               "Click to Expand Image"
             ] }, void 0, true, {
               fileName: "app/routes/__app.print.jsx",
-              lineNumber: 114,
+              lineNumber: 113,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -168,33 +167,33 @@ var Branding = () => {
               false,
               {
                 fileName: "app/routes/__app.print.jsx",
-                lineNumber: 117,
+                lineNumber: 116,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, true, {
             fileName: "app/routes/__app.print.jsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 17
           }, this) }, item.name, false, {
             fileName: "app/routes/__app.print.jsx",
-            lineNumber: 109,
+            lineNumber: 108,
             columnNumber: 13
           }, this)
         ) }, void 0, false, {
           fileName: "app/routes/__app.print.jsx",
-          lineNumber: 106,
+          lineNumber: 105,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 104,
+        lineNumber: 103,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/__app.print.jsx",
-      lineNumber: 101,
+      lineNumber: 100,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -209,14 +208,14 @@ var Branding = () => {
       false,
       {
         fileName: "app/routes/__app.print.jsx",
-        lineNumber: 135,
+        lineNumber: 134,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, true, {
     fileName: "app/routes/__app.print.jsx",
-    lineNumber: 96,
+    lineNumber: 95,
     columnNumber: 5
   }, this);
 };
@@ -226,4 +225,4 @@ export {
   links4 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.print-5SDQ3MTL.js.map
+//# sourceMappingURL=/build/routes/__app.print-QZYFN3ZI.js.map

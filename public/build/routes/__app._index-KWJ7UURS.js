@@ -216,7 +216,6 @@ var hero_styles_default = "/build/_assets/hero.styles-LLBGJUWI.css";
 var React = __toESM(require_react());
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 var MainLogo = (props) => {
-  console.log(props);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
     "svg",
     {
@@ -228,11 +227,11 @@ var MainLogo = (props) => {
       children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, false, {
           fileName: "app/components/logoSVG.component.jsx",
-          lineNumber: 13,
+          lineNumber: 12,
           columnNumber: 7
         }, this) }, void 0, false, {
           fileName: "app/components/logoSVG.component.jsx",
-          lineNumber: 12,
+          lineNumber: 11,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
@@ -246,7 +245,7 @@ var MainLogo = (props) => {
             false,
             {
               fileName: "app/components/logoSVG.component.jsx",
-              lineNumber: 16,
+              lineNumber: 15,
               columnNumber: 7
             },
             this
@@ -261,14 +260,14 @@ var MainLogo = (props) => {
             false,
             {
               fileName: "app/components/logoSVG.component.jsx",
-              lineNumber: 20,
+              lineNumber: 19,
               columnNumber: 7
             },
             this
           )
         ] }, void 0, true, {
           fileName: "app/components/logoSVG.component.jsx",
-          lineNumber: 15,
+          lineNumber: 14,
           columnNumber: 5
         }, this)
       ]
@@ -277,7 +276,7 @@ var MainLogo = (props) => {
     true,
     {
       fileName: "app/components/logoSVG.component.jsx",
-      lineNumber: 5,
+      lineNumber: 4,
       columnNumber: 3
     },
     this
@@ -444,4 +443,4 @@ export {
   links2 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app._index-VSFCKTVE.js.map
+//# sourceMappingURL=/build/routes/__app._index-KWJ7UURS.js.map

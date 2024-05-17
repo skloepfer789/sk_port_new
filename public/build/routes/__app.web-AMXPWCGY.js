@@ -5,7 +5,7 @@ import {
   links,
   page_styles_default,
   pagesHeader_component_default
-} from "/build/_shared/chunk-6Y2FJKOI.js";
+} from "/build/_shared/chunk-G7CVNWTA.js";
 import {
   global_styles_default
 } from "/build/_shared/chunk-Q4PXM3OL.js";
@@ -67,7 +67,6 @@ var WebDesign = () => {
     }
   });
   const onReopen = () => {
-    console.log("fire");
     hasloaded(false);
   };
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "main", children: [
@@ -81,7 +80,7 @@ var WebDesign = () => {
       false,
       {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 68,
+        lineNumber: 67,
         columnNumber: 7
       },
       this
@@ -89,18 +88,18 @@ var WebDesign = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, false, {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 73,
+        lineNumber: 72,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "web" }, void 0, false, {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 74,
+        lineNumber: 73,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "heading", children: "Web Design" }, void 0, false, {
           fileName: "app/routes/__app.web.jsx",
-          lineNumber: 76,
+          lineNumber: 75,
           columnNumber: 11
         }, this),
         brandData.web.map(
@@ -116,7 +115,7 @@ var WebDesign = () => {
             false,
             {
               fileName: "app/routes/__app.web.jsx",
-              lineNumber: 79,
+              lineNumber: 78,
               columnNumber: 11
             },
             this
@@ -124,17 +123,17 @@ var WebDesign = () => {
         )
       ] }, void 0, true, {
         fileName: "app/routes/__app.web.jsx",
-        lineNumber: 75,
+        lineNumber: 74,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/__app.web.jsx",
-      lineNumber: 72,
+      lineNumber: 71,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/__app.web.jsx",
-    lineNumber: 67,
+    lineNumber: 66,
     columnNumber: 5
   }, this);
 };
@@ -144,4 +143,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.web-SKEY75OM.js.map
+//# sourceMappingURL=/build/routes/__app.web-AMXPWCGY.js.map

@@ -5,7 +5,7 @@ import {
   links,
   page_styles_default,
   pagesHeader_component_default
-} from "/build/_shared/chunk-6Y2FJKOI.js";
+} from "/build/_shared/chunk-G7CVNWTA.js";
 import {
   global_styles_default
 } from "/build/_shared/chunk-Q4PXM3OL.js";
@@ -91,7 +91,6 @@ var LogoDesign = () => {
     }
   });
   const onReopen = () => {
-    console.log("fire");
     hasloaded(false);
   };
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "main", children: [
@@ -105,7 +104,7 @@ var LogoDesign = () => {
       false,
       {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 89,
+        lineNumber: 88,
         columnNumber: 7
       },
       this
@@ -113,21 +112,21 @@ var LogoDesign = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: triggered ? `slider backgroundBlue activeSlide` : `slider inactiveSlide`, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, false, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 94,
+        lineNumber: 93,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "logos" }, void 0, false, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 95,
+        lineNumber: 94,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "heading", children: "Logo Design" }, void 0, false, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 97,
+        lineNumber: 96,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 96,
+        lineNumber: 95,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: brandData.logos.map((logo, index) => {
@@ -135,13 +134,13 @@ var LogoDesign = () => {
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "logoDescriptionNoSlide", children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h2", { children: logo.name }, void 0, false, {
               fileName: "app/routes/__app.logos.jsx",
-              lineNumber: 107,
+              lineNumber: 106,
               columnNumber: 17
             }, this),
             logo.description
           ] }, void 0, true, {
             fileName: "app/routes/__app.logos.jsx",
-            lineNumber: 106,
+            lineNumber: 105,
             columnNumber: 15
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "logoBoxNoSlide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -156,42 +155,42 @@ var LogoDesign = () => {
             false,
             {
               fileName: "app/routes/__app.logos.jsx",
-              lineNumber: 111,
+              lineNumber: 110,
               columnNumber: 17
             },
             this
           ) }, void 0, false, {
             fileName: "app/routes/__app.logos.jsx",
-            lineNumber: 110,
+            lineNumber: 109,
             columnNumber: 15
           }, this)
         ] }, void 0, true, {
           fileName: "app/routes/__app.logos.jsx",
-          lineNumber: 105,
+          lineNumber: 104,
           columnNumber: 13
         }, this) }, logo.name, false, {
           fileName: "app/routes/__app.logos.jsx",
-          lineNumber: 104,
+          lineNumber: 103,
           columnNumber: 15
         }, this);
       }) }, void 0, false, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 99,
+        lineNumber: 98,
         columnNumber: 7
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "spacer" }, void 0, false, {
         fileName: "app/routes/__app.logos.jsx",
-        lineNumber: 124,
+        lineNumber: 123,
         columnNumber: 7
       }, this)
     ] }, void 0, true, {
       fileName: "app/routes/__app.logos.jsx",
-      lineNumber: 93,
+      lineNumber: 92,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/routes/__app.logos.jsx",
-    lineNumber: 88,
+    lineNumber: 87,
     columnNumber: 5
   }, this);
 };
@@ -201,4 +200,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.logos-AY3BUC7U.js.map
+//# sourceMappingURL=/build/routes/__app.logos-5T6KGR43.js.map
