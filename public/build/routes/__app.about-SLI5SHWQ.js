@@ -5,7 +5,7 @@ import {
 } from "/build/_shared/chunk-4UBGADOS.js";
 import {
   global_styles_default
-} from "/build/_shared/chunk-Q4PXM3OL.js";
+} from "/build/_shared/chunk-ISWDE4OT.js";
 import {
   MainMenu,
   links as links2
@@ -297,4 +297,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-BB5LIMBK.js.map
+//# sourceMappingURL=/build/routes/__app.about-SLI5SHWQ.js.map

@@ -7,7 +7,7 @@ import {
 } from "/build/_shared/chunk-V3SLA63D.js";
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-AYASN3VM.css";
+var modal_styles_default = "/build/_assets/modal.styles-6Q2KGLMH.css";
 
 // app/components/modal.component.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -22,7 +22,7 @@ var Modal = (props) => {
         lineNumber: 15,
         columnNumber: 17
       }, this),
-      images.map(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "modalImageContain", children: images.map(
         (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           progressiveImage_component_default,
           {
@@ -35,12 +35,16 @@ var Modal = (props) => {
           false,
           {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 17,
-            columnNumber: 11
+            lineNumber: 18,
+            columnNumber: 13
           },
           this
         )
-      )
+      ) }, void 0, false, {
+        fileName: "app/components/modal.component.jsx",
+        lineNumber: 16,
+        columnNumber: 17
+      }, this)
     ] }, void 0, true, {
       fileName: "app/components/modal.component.jsx",
       lineNumber: 14,
@@ -61,4 +65,4 @@ export {
   modal_component_default,
   links
 };
-//# sourceMappingURL=/build/_shared/chunk-CINSSE6K.js.map
+//# sourceMappingURL=/build/_shared/chunk-M6YQX24F.js.map

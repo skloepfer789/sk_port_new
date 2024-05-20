@@ -241,6 +241,12 @@ footer p {
     }
 }
 
+@media only screen and (max-width: 700px) {
+    .slider {
+        padding-bottom: 10vh;
+    }
+}
+
 @media only screen and (max-width: 550px) {
     .imageBox {
         width: 100%;

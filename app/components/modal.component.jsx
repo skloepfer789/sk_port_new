@@ -13,6 +13,7 @@ const Modal = (props) => {
             <div className={"modalBackground " + props.className} style={{backgroundColor: props.color}} >
             <div className='modalContain'>
                 <button onClick={onClose} className="buttonModal">x</button>
+                <div className='modalImageContain'>
                 {images.map((image) => (
                     <ProgressiveImg 
                         key={image.image}
@@ -24,6 +25,7 @@ const Modal = (props) => {
                         alt={image.alt}
                     />
                 ))}
+                </div>
             </div>
             </div>
         )
