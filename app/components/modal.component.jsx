@@ -19,7 +19,7 @@ const Modal = (props) => {
                         src={image.image}
                         placeholderSrc={image.placeholder}
                         classTitle={
-                            image.size === 'small' ? `secondaryImage` : `brandImage`
+                            image.size === 'small' ? `secondaryImage` : image.size === 'mid' ? 'midImage' : `brandImage`
                         }
                         alt={image.alt}
                     />

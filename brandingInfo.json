@@ -20,22 +20,22 @@
             "image": "/images/brandImages/enhance/Enhance_Sketches.webp",
             "alt": "Sketching out the Idea",
             "placeholder": "/images/brandImages/enhance/Enhance_Sketches_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-8.webp",
             "alt": "Branded Icons to Communicate Services Quickly",
             "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-8_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-4.webp",
             "alt": "Bringing the Brand To Life With Color",
             "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-4_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-6.webp",
             "alt": "The Brand Identity Across Print",
             "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-6_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/enhance/EnhanceMagazines.webp",
             "alt": "Magazines to Showcase Services",
@@ -63,22 +63,22 @@
             "image": "/images/brandImages/rolling/FoodWrap_1.webp",
             "alt": "Eyecatching Wraps to Draw New Customers",
             "placeholder": "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rolling/FoodWrap_2.webp",
             "alt": "Eyecatching Wraps to Draw New Customers",
             "placeholder": "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rolling/RollingRest_Sketches.webp",
             "alt": "Crafting the Brand Identity",
             "placeholder": "/images/brandImages/rolling/RollingRest_Sketches.webp_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rolling/RollingRest_Alternates.webp",
             "alt": "Alternate Logos in the Brainstorming Stage",
             "placeholder": "/images/brandImages/rolling/RollingRest_Alternates_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rolling/Shirt-Mockup.webp",
             "alt": "Repping the Brand While Cooking",
@@ -88,12 +88,12 @@
             "image": "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
             "alt": "Business Cards to Drum Up Business",
             "placeholder": "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
             "alt": "Taking a Piece Home With You",
             "placeholder": "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
             "alt": "A Menu To Catch the Eye",
@@ -121,22 +121,22 @@
             "image": "/images/brandImages/rex/Rex_Sketches.webp",
             "alt": "Crafting the Brand Identity",
             "placeholder": "/images/brandImages/rex/Rex_Sketches_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rex/Rex_Alternates.webp",
             "alt": "Alternate Logos in the Brainstorming Stage",
             "placeholder": "/images/brandImages/rex/Rex_Alternates_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rex/RexBC.webp",
             "alt": "Business Cards to Drum Up Business",
             "placeholder": "/images/brandImages/rex/RexBCs_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6.webp",
             "alt": "Creating the Brand's Voice",
             "placeholder": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6_LowRes.webp",
-            "size": "small"
+            "size": "mid"
         }, {
             "image": "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11.webp",
             "alt": "A New Face For Rex",
@@ -151,26 +151,6 @@
             "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
             "size": "large"
         }, {
-            "image": "/images/brandImages/aegir/Aegir_Sketches.webp",
-            "alt": "Crafting the Brand Identity",
-            "placeholder": "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/aegir/Aegir_Alternates.webp",
-            "alt": "Alternate Logos in the Brainstorming Stage",
-            "placeholder": "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
-            "alt": "Branded Imagery",
-            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
-            "size": "small"
-        }, {
-            "image": "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
-            "alt": "Finding the Brand's Look",
-            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
-            "size": "small"
-        }, {
             "image": "/images/brandImages/aegir/AegirsWorkshopSite.webp",
             "alt": "A Website To Draw Consumer's to Custom Goods",
             "placeholder": "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",
@@ -180,6 +160,26 @@
             "alt": "Business Cards for Local Sales",
             "placeholder": "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
             "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/Aegir_Sketches.webp",
+            "alt": "Crafting the Brand Identity",
+            "placeholder": "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/aegir/Aegir_Alternates.webp",
+            "alt": "Alternate Logos in the Brainstorming Stage",
+            "placeholder": "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
+            "alt": "Branded Imagery",
+            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
+            "alt": "Finding the Brand's Look",
+            "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
+            "size": "mid"
         }, {
             "image": "/images/brandImages/aegir/AegirsLabel.webp",
             "alt": "Custom Tags",
@@ -202,12 +202,12 @@
             "image": "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
             "alt": "Mutt Knee Brace Business Cards",
             "placeholder": "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }, {
             "image": "/images/brandImages/mutt/MuttKneeTrifold.webp",
             "alt": "Mutt Knee Brace Brochures",
             "placeholder": "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }]
     }, {
         "name": "Four Seasons Businesss Solutions",
@@ -220,12 +220,12 @@
             "image": "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
             "alt": "Four Seasons Businesss Solutions Letterhead",
             "placeholder": "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }, {
             "image": "/images/brandImages/seasons/FourSeasons_BC.webp",
             "alt": "Four Seasons Businesss Solutions Business Cards",
             "placeholder": "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }]
     }, {
         "name": "Sleepy Siren Bath Company",
@@ -238,12 +238,12 @@
             "image": "/images/brandImages/siren/SleepySirenSoapMockup.webp",
             "alt": "Sleepy Siren Bath Co. Soap Packaging",
             "placeholder": "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }, {
             "image": "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
             "alt": "Sleepy Siren Bath Co. Fragrance Bottle",
             "placeholder": "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }]
     }, {
         "name": "RetroFit Electric",

@@ -7,7 +7,7 @@ import {
 } from "/build/_shared/chunk-V3SLA63D.js";
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-C7Z5U5WH.css";
+var modal_styles_default = "/build/_assets/modal.styles-AYASN3VM.css";
 
 // app/components/modal.component.jsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
@@ -28,7 +28,7 @@ var Modal = (props) => {
           {
             src: image.image,
             placeholderSrc: image.placeholder,
-            classTitle: image.size === "small" ? `secondaryImage` : `brandImage`,
+            classTitle: image.size === "small" ? `secondaryImage` : image.size === "mid" ? "midImage" : `brandImage`,
             alt: image.alt
           },
           image.image,
@@ -61,4 +61,4 @@ export {
   modal_component_default,
   links
 };
-//# sourceMappingURL=/build/_shared/chunk-QQ3ITVZO.js.map
+//# sourceMappingURL=/build/_shared/chunk-CINSSE6K.js.map

@@ -787,22 +787,22 @@ var brandingInfo_default = {
       image: "/images/brandImages/enhance/Enhance_Sketches.webp",
       alt: "Sketching out the Idea",
       placeholder: "/images/brandImages/enhance/Enhance_Sketches_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-8.webp",
       alt: "Branded Icons to Communicate Services Quickly",
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-8_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-4.webp",
       alt: "Bringing the Brand To Life With Color",
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-4_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-6.webp",
       alt: "The Brand Identity Across Print",
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-6_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/enhance/EnhanceMagazines.webp",
       alt: "Magazines to Showcase Services",
@@ -830,22 +830,22 @@ var brandingInfo_default = {
       image: "/images/brandImages/rolling/FoodWrap_1.webp",
       alt: "Eyecatching Wraps to Draw New Customers",
       placeholder: "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rolling/FoodWrap_2.webp",
       alt: "Eyecatching Wraps to Draw New Customers",
       placeholder: "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rolling/RollingRest_Sketches.webp",
       alt: "Crafting the Brand Identity",
       placeholder: "/images/brandImages/rolling/RollingRest_Sketches.webp_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rolling/RollingRest_Alternates.webp",
       alt: "Alternate Logos in the Brainstorming Stage",
       placeholder: "/images/brandImages/rolling/RollingRest_Alternates_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rolling/Shirt-Mockup.webp",
       alt: "Repping the Brand While Cooking",
@@ -855,12 +855,12 @@ var brandingInfo_default = {
       image: "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
       alt: "Business Cards to Drum Up Business",
       placeholder: "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rolling/RollingRestaurant_BurgerBox.webp",
       alt: "Taking a Piece Home With You",
       placeholder: "/images/brandImages/rolling/RollingRestaurant_BurgerBox_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rolling/RollingRestaurant_Menu.webp",
       alt: "A Menu To Catch the Eye",
@@ -888,22 +888,22 @@ var brandingInfo_default = {
       image: "/images/brandImages/rex/Rex_Sketches.webp",
       alt: "Crafting the Brand Identity",
       placeholder: "/images/brandImages/rex/Rex_Sketches_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rex/Rex_Alternates.webp",
       alt: "Alternate Logos in the Brainstorming Stage",
       placeholder: "/images/brandImages/rex/Rex_Alternates_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rex/RexBC.webp",
       alt: "Business Cards to Drum Up Business",
       placeholder: "/images/brandImages/rex/RexBCs_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6.webp",
       alt: "Creating the Brand's Voice",
       placeholder: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-6_LowRes.webp",
-      size: "small"
+      size: "mid"
     }, {
       image: "/images/brandImages/rex/Rex-Presentation-TemplateArtboard-11.webp",
       alt: "A New Face For Rex",
@@ -918,26 +918,6 @@ var brandingInfo_default = {
       placeholder: "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
       size: "large"
     }, {
-      image: "/images/brandImages/aegir/Aegir_Sketches.webp",
-      alt: "Crafting the Brand Identity",
-      placeholder: "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/Aegir_Alternates.webp",
-      alt: "Alternate Logos in the Brainstorming Stage",
-      placeholder: "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
-      alt: "Branded Imagery",
-      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
-      size: "small"
-    }, {
-      image: "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
-      alt: "Finding the Brand's Look",
-      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
-      size: "small"
-    }, {
       image: "/images/brandImages/aegir/AegirsWorkshopSite.webp",
       alt: "A Website To Draw Consumer's to Custom Goods",
       placeholder: "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",
@@ -947,6 +927,26 @@ var brandingInfo_default = {
       alt: "Business Cards for Local Sales",
       placeholder: "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
       size: "small"
+    }, {
+      image: "/images/brandImages/aegir/Aegir_Sketches.webp",
+      alt: "Crafting the Brand Identity",
+      placeholder: "/images/brandImages/aegir/Aegir_Sketches_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/Aegir_Alternates.webp",
+      alt: "Alternate Logos in the Brainstorming Stage",
+      placeholder: "/images/brandImages/aegir/Aegir_Alternates_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/Aegirs-Artboard-7.webp",
+      alt: "Branded Imagery",
+      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-7_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/brandImages/aegir/Aegirs-Artboard-4.webp",
+      alt: "Finding the Brand's Look",
+      placeholder: "/images/brandImages/aegir/Aegirs-Artboard-4_LowRes.webp",
+      size: "mid"
     }, {
       image: "/images/brandImages/aegir/AegirsLabel.webp",
       alt: "Custom Tags",
@@ -969,12 +969,12 @@ var brandingInfo_default = {
       image: "/images/brandImages/mutt/MuttKneeBusinessCards.webp",
       alt: "Mutt Knee Brace Business Cards",
       placeholder: "/images/brandImages/mutt/MuttKneeBusinessCards_LowRes.webp",
-      size: "large"
+      size: "small"
     }, {
       image: "/images/brandImages/mutt/MuttKneeTrifold.webp",
       alt: "Mutt Knee Brace Brochures",
       placeholder: "/images/brandImages/mutt/MuttKneeTrifold_LowRes.webp",
-      size: "large"
+      size: "small"
     }]
   }, {
     name: "Four Seasons Businesss Solutions",
@@ -987,12 +987,12 @@ var brandingInfo_default = {
       image: "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
       alt: "Four Seasons Businesss Solutions Letterhead",
       placeholder: "/images/brandImages/seasons/FourSeasons_Letterhead_LowRes.webp",
-      size: "large"
+      size: "small"
     }, {
       image: "/images/brandImages/seasons/FourSeasons_BC.webp",
       alt: "Four Seasons Businesss Solutions Business Cards",
       placeholder: "/images/brandImages/seasons/FourSeasons_BC_LowRes.webp",
-      size: "large"
+      size: "small"
     }]
   }, {
     name: "Sleepy Siren Bath Company",
@@ -1005,12 +1005,12 @@ var brandingInfo_default = {
       image: "/images/brandImages/siren/SleepySirenSoapMockup.webp",
       alt: "Sleepy Siren Bath Co. Soap Packaging",
       placeholder: "/images/brandImages/siren/SleepySirenSoapMockup_LowRes.webp",
-      size: "large"
+      size: "small"
     }, {
       image: "/images/brandImages/siren/SleepySiren_PerfumeBottle.webp",
       alt: "Sleepy Siren Bath Co. Fragrance Bottle",
       placeholder: "/images/brandImages/siren/SleepySiren_PerfumeBottle_LowRes.webp",
-      size: "large"
+      size: "small"
     }]
   }, {
     name: "RetroFit Electric",
@@ -1301,7 +1301,7 @@ var brandingInfo_default = {
 var import_react9 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-C7Z5U5WH.css";
+var modal_styles_default = "/build/_assets/modal.styles-AYASN3VM.css";
 
 // app/components/progressiveImage.component.jsx
 var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
@@ -1349,7 +1349,7 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) 
           {
             src: image.image,
             placeholderSrc: image.placeholder,
-            classTitle: image.size === "small" ? "secondaryImage" : "brandImage",
+            classTitle: image.size === "small" ? "secondaryImage" : image.size === "mid" ? "midImage" : "brandImage",
             alt: image.alt
           },
           image.image,
@@ -2988,7 +2988,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OTCTUX5C.js", imports: ["/build/_shared/chunk-Q4PXM3OL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-BB5LIMBK.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-PSKTB5RS.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-2XQXZLJH.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-JLDJU46J.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-DAKKI7QV.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RGVQF6FC.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-G6BRYM6L.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "b890a465", hmr: void 0, url: "/build/manifest-B890A465.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OTCTUX5C.js", imports: ["/build/_shared/chunk-Q4PXM3OL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-BB5LIMBK.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-LGF3MN4Z.js", imports: ["/build/_shared/chunk-CINSSE6K.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-4HHKSM3C.js", imports: ["/build/_shared/chunk-CINSSE6K.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-JLDJU46J.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-P3T2FMNT.js", imports: ["/build/_shared/chunk-CINSSE6K.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RGVQF6FC.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-G6BRYM6L.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "73c4bf8a", hmr: void 0, url: "/build/manifest-73C4BF8A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
