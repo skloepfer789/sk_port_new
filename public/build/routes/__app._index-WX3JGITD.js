@@ -421,30 +421,23 @@ function Hero() {
         lineNumber: 44,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("img", { src: "", alt: "hero image" }, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
+        progressiveImage_component_default,
+        {
+          src: "/images/HoodGuyMockup copy.webp",
+          placeholderSrc: "/images/HoodGuyMockup copy-lowRes.webp",
+          classTitle: "",
+          alt: "hero image"
+        },
+        void 0,
+        false,
+        {
           fileName: "app/components/hero.component.jsx",
           lineNumber: 53,
           columnNumber: 25
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
-          progressiveImage_component_default,
-          {
-            src: "/images/HoodGuyMockup copy.webp",
-            placeholderSrc: "/images/HoodGuyMockup copy-lowRes.webp",
-            classTitle: "",
-            alt: "hero image"
-          },
-          void 0,
-          false,
-          {
-            fileName: "app/components/hero.component.jsx",
-            lineNumber: 54,
-            columnNumber: 25
-          },
-          this
-        )
-      ] }, void 0, true, {
+        },
+        this
+      ) }, void 0, false, {
         fileName: "app/components/hero.component.jsx",
         lineNumber: 52,
         columnNumber: 21
@@ -525,4 +518,4 @@ export {
   links2 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app._index-4N266P32.js.map
+//# sourceMappingURL=/build/routes/__app._index-WX3JGITD.js.map
