@@ -50,7 +50,6 @@ export default function Hero() {
                         />
                     </div>
                     <div className="containerImage">
-                        <img src="" alt="hero image" />
                         <ProgressiveImg 
                             src='/images/HoodGuyMockup copy.webp'
                             placeholderSrc='/images/HoodGuyMockup copy-lowRes.webp'
