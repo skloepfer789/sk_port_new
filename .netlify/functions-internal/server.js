@@ -270,7 +270,7 @@ var import_react8 = require("react");
 var import_react3 = require("@remix-run/react");
 
 // app/components/logoBleedOfflSVG.component.jsx
-var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), BleedLogo = (props) => (console.log(props), /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
+var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-runtime"), BleedLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)(
   "svg",
   {
     xmlns: "http://www.w3.org/2000/svg",
@@ -281,11 +281,11 @@ var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-r
     children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, !1, {
         fileName: "app/components/logoBleedOfflSVG.component.jsx",
-        lineNumber: 13,
+        lineNumber: 12,
         columnNumber: 7
       }, this) }, void 0, !1, {
         fileName: "app/components/logoBleedOfflSVG.component.jsx",
-        lineNumber: 12,
+        lineNumber: 11,
         columnNumber: 5
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime3.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
@@ -299,7 +299,7 @@ var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-r
           !1,
           {
             fileName: "app/components/logoBleedOfflSVG.component.jsx",
-            lineNumber: 16,
+            lineNumber: 15,
             columnNumber: 7
           },
           this
@@ -314,14 +314,14 @@ var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-r
           !1,
           {
             fileName: "app/components/logoBleedOfflSVG.component.jsx",
-            lineNumber: 20,
+            lineNumber: 19,
             columnNumber: 7
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/components/logoBleedOfflSVG.component.jsx",
-        lineNumber: 15,
+        lineNumber: 14,
         columnNumber: 5
       }, this)
     ]
@@ -330,11 +330,11 @@ var React = require("react"), import_jsx_dev_runtime3 = require("react/jsx-dev-r
   !0,
   {
     fileName: "app/components/logoBleedOfflSVG.component.jsx",
-    lineNumber: 5,
+    lineNumber: 4,
     columnNumber: 3
   },
   this
-)), logoBleedOfflSVG_component_default = BleedLogo;
+), logoBleedOfflSVG_component_default = BleedLogo;
 
 // app/styles/header.styles.css
 var header_styles_default = "/build/_assets/header.styles-G6EVTQRN.css";
@@ -1268,7 +1268,7 @@ var brandingInfo_default = {
     name: "Hood Guy Website",
     image: "/images/HoodGuyMockup copy.webp",
     alt: "Hood Guy Website",
-    placeholder: "/images/webImages/HoodGuyMockup copy-lowRes.webp"
+    placeholder: "/images/HoodGuyMockup copy-lowRes.webp"
   }, {
     name: "Aegir's Workshop Website",
     image: "/images/webImages/AegirsSite.webp",
@@ -1918,83 +1918,162 @@ function Background() {
 var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
 function Hero() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "hero", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/brandImages/rolling/RollingRest_Sketches.webp", alt: "hero image" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      progressiveImage_component_default,
+      {
+        src: "/images/brandImages/rolling/RollingRest_Sketches.webp",
+        placeholderSrc: "/images/brandImages/rolling/RollingRest_Sketches_LowRes.webp",
+        classTitle: "",
+        alt: "hero image"
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/components/hero.component.jsx",
+        lineNumber: 9,
+        columnNumber: 25
+      },
+      this
+    ) }, void 0, !1, {
       fileName: "app/components/hero.component.jsx",
-      lineNumber: 7,
-      columnNumber: 25
-    }, this) }, void 0, !1, {
-      fileName: "app/components/hero.component.jsx",
-      lineNumber: 6,
+      lineNumber: 8,
       columnNumber: 21
     }, this) }, void 0, !1, {
       fileName: "app/components/hero.component.jsx",
-      lineNumber: 5,
+      lineNumber: 7,
       columnNumber: 17
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/brandImages/rolling/RollingRest_Logo.webp", alt: "hero image" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        progressiveImage_component_default,
+        {
+          src: "/images/brandImages/rolling/RollingRest_Logo.webp",
+          placeholderSrc: "/images/brandImages/rolling/RollingRest_Logo_LowRes.webp",
+          classTitle: "",
+          alt: "hero image"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/components/hero.component.jsx",
+          lineNumber: 19,
+          columnNumber: 25
+        },
+        this
+      ) }, void 0, !1, {
         fileName: "app/components/hero.component.jsx",
-        lineNumber: 12,
-        columnNumber: 25
-      }, this) }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 11,
+        lineNumber: 18,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/printImages/EliteEstheticianBooth.webp", alt: "hero image" }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 15,
-        columnNumber: 25
-      }, this) }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 14,
-        columnNumber: 21
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/components/hero.component.jsx",
-      lineNumber: 10,
-      columnNumber: 17
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/printImages/MatadorBottle_v2_Mockup.webp", alt: "hero image" }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 20,
-        columnNumber: 25
-      }, this) }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 19,
-        columnNumber: 21
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/brandImages/rex/Rex Van.webp", alt: "hero image" }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 23,
-        columnNumber: 25
-      }, this) }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 22,
-        columnNumber: 21
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "/images/HoodGuyMockup copy.webp", alt: "hero image" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        progressiveImage_component_default,
+        {
+          src: "/images/printImages/EliteEstheticianBooth.webp",
+          placeholderSrc: "/images/printImages/EliteEstheticianBooth_LowRes.webp",
+          classTitle: "",
+          alt: "hero image"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/components/hero.component.jsx",
+          lineNumber: 27,
+          columnNumber: 25
+        },
+        this
+      ) }, void 0, !1, {
         fileName: "app/components/hero.component.jsx",
         lineNumber: 26,
-        columnNumber: 25
-      }, this) }, void 0, !1, {
-        fileName: "app/components/hero.component.jsx",
-        lineNumber: 25,
         columnNumber: 21
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/hero.component.jsx",
-      lineNumber: 18,
+      lineNumber: 17,
+      columnNumber: 17
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        progressiveImage_component_default,
+        {
+          src: "/images/printImages/MatadorBottle_v2_Mockup.webp",
+          placeholderSrc: "/images/printImages/MatadorBottle_v2_Mockup_LowRes.webp",
+          classTitle: "",
+          alt: "hero image"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/components/hero.component.jsx",
+          lineNumber: 37,
+          columnNumber: 25
+        },
+        this
+      ) }, void 0, !1, {
+        fileName: "app/components/hero.component.jsx",
+        lineNumber: 36,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+        progressiveImage_component_default,
+        {
+          src: "/images/brandImages/rex/Rex Van.webp",
+          placeholderSrc: "/images/brandImages/rex/Rex Van_LowRes.webp",
+          classTitle: "",
+          alt: "hero image"
+        },
+        void 0,
+        !1,
+        {
+          fileName: "app/components/hero.component.jsx",
+          lineNumber: 45,
+          columnNumber: 25
+        },
+        this
+      ) }, void 0, !1, {
+        fileName: "app/components/hero.component.jsx",
+        lineNumber: 44,
+        columnNumber: 21
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("img", { src: "", alt: "hero image" }, void 0, !1, {
+          fileName: "app/components/hero.component.jsx",
+          lineNumber: 53,
+          columnNumber: 25
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+          progressiveImage_component_default,
+          {
+            src: "/images/HoodGuyMockup copy.webp",
+            placeholderSrc: "/images/HoodGuyMockup copy-lowRes.webp",
+            classTitle: "",
+            alt: "hero image"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/components/hero.component.jsx",
+            lineNumber: 54,
+            columnNumber: 25
+          },
+          this
+        )
+      ] }, void 0, !0, {
+        fileName: "app/components/hero.component.jsx",
+        lineNumber: 52,
+        columnNumber: 21
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/components/hero.component.jsx",
+      lineNumber: 35,
       columnNumber: 17
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/hero.component.jsx",
-    lineNumber: 4,
+    lineNumber: 6,
     columnNumber: 13
   }, this) }, void 0, !1, {
     fileName: "app/components/hero.component.jsx",
-    lineNumber: 3,
+    lineNumber: 5,
     columnNumber: 9
   }, this);
 }
@@ -2062,7 +2141,7 @@ __export(app_about_exports, {
 var import_react15 = require("react");
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-LEIL3WT5.css";
+var about_styles_default = "/build/_assets/about.styles-B5AHZD4O.css";
 
 // app/routes/__app.about.jsx
 var import_react16 = require("@remix-run/react");
@@ -2906,7 +2985,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OTCTUX5C.js", imports: ["/build/_shared/chunk-Q4PXM3OL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-KWJ7UURS.js", imports: ["/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-ARTK3T2E.js", imports: ["/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-LFUO7KFB.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-PQ3WU337.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-5T6KGR43.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-BAJ6SK7Z.js", imports: ["/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-QZYFN3ZI.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-ITQZNTGB.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-AMXPWCGY.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-G7CVNWTA.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-TKMSJEEK.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "825c3038", hmr: void 0, url: "/build/manifest-825C3038.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-OTCTUX5C.js", imports: ["/build/_shared/chunk-Q4PXM3OL.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-4N266P32.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-BB5LIMBK.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-PSKTB5RS.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-2XQXZLJH.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-JLDJU46J.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-DAKKI7QV.js", imports: ["/build/_shared/chunk-QQ3ITVZO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RGVQF6FC.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-G6BRYM6L.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-Q4PXM3OL.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "ac8c78fd", hmr: void 0, url: "/build/manifest-AC8C78FD.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

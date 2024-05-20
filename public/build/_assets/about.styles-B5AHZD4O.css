@@ -76,13 +76,13 @@
   text-align: center;
 }
 .activeBullet {
-  color: var(--greenMain);
+  color: var(--blueMain);
 }
 .bulletActive-line {
   position: absolute;
   left: 0;
   z-index: 40;
-  border-top: 1px solid white;
+  border-top: 1px solid var(--blueMain);
   width: 100%;
   transform: translateY(15px);
 }
@@ -90,7 +90,7 @@
   width: 80%;
   padding: 20px;
   color: #fff;
-  border: 1px solid white;
+  border: 1px solid var(--blueMain);
   font-size: 20px;
   line-height: 30px;
   min-height: 50vh;

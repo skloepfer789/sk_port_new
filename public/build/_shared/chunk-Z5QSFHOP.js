@@ -1390,7 +1390,6 @@ var import_react = __toESM(require_react());
 var React2 = __toESM(require_react());
 var import_jsx_dev_runtime2 = __toESM(require_jsx_dev_runtime());
 var BleedLogo = (props) => {
-  console.log(props);
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(
     "svg",
     {
@@ -1402,11 +1401,11 @@ var BleedLogo = (props) => {
       children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, false, {
           fileName: "app/components/logoBleedOfflSVG.component.jsx",
-          lineNumber: 13,
+          lineNumber: 12,
           columnNumber: 7
         }, this) }, void 0, false, {
           fileName: "app/components/logoBleedOfflSVG.component.jsx",
-          lineNumber: 12,
+          lineNumber: 11,
           columnNumber: 5
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
@@ -1420,7 +1419,7 @@ var BleedLogo = (props) => {
             false,
             {
               fileName: "app/components/logoBleedOfflSVG.component.jsx",
-              lineNumber: 16,
+              lineNumber: 15,
               columnNumber: 7
             },
             this
@@ -1435,14 +1434,14 @@ var BleedLogo = (props) => {
             false,
             {
               fileName: "app/components/logoBleedOfflSVG.component.jsx",
-              lineNumber: 20,
+              lineNumber: 19,
               columnNumber: 7
             },
             this
           )
         ] }, void 0, true, {
           fileName: "app/components/logoBleedOfflSVG.component.jsx",
-          lineNumber: 15,
+          lineNumber: 14,
           columnNumber: 5
         }, this)
       ]
@@ -1451,7 +1450,7 @@ var BleedLogo = (props) => {
     true,
     {
       fileName: "app/components/logoBleedOfflSVG.component.jsx",
-      lineNumber: 5,
+      lineNumber: 4,
       columnNumber: 3
     },
     this
@@ -1715,4 +1714,4 @@ object-assign/index.js:
   @license MIT
   *)
 */
-//# sourceMappingURL=/build/_shared/chunk-TKMSJEEK.js.map
+//# sourceMappingURL=/build/_shared/chunk-Z5QSFHOP.js.map

@@ -2,14 +2,14 @@ import {
   links,
   page_styles_default,
   pagesHeader_component_default
-} from "/build/_shared/chunk-G7CVNWTA.js";
+} from "/build/_shared/chunk-4UBGADOS.js";
 import {
   global_styles_default
 } from "/build/_shared/chunk-Q4PXM3OL.js";
 import {
   MainMenu,
   links as links2
-} from "/build/_shared/chunk-TKMSJEEK.js";
+} from "/build/_shared/chunk-Z5QSFHOP.js";
 import {
   __toESM,
   require_jsx_dev_runtime,
@@ -22,7 +22,7 @@ import {
 var import_react2 = __toESM(require_react());
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-LEIL3WT5.css";
+var about_styles_default = "/build/_assets/about.styles-B5AHZD4O.css";
 
 // app/components/timeline.component.jsx
 var import_react = __toESM(require_react());
@@ -297,4 +297,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-ARTK3T2E.js.map
+//# sourceMappingURL=/build/routes/__app.about-BB5LIMBK.js.map
