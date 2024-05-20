@@ -23,7 +23,7 @@
   padding-bottom: 9vh;
 }
 .modalImageContain {
-  width: 80vw;
+  width: 85vw;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -86,7 +86,7 @@
   cursor: pointer;
   transition: 2.5s;
 }
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 1500px) {
   .modalContain {
     position: relative;
     box-sizing: border-box;
@@ -95,6 +95,9 @@
     background-color: var(--darkGray);
     min-height: 100vh;
     padding-top: 20vh;
+  }
+  .modalImageContain {
+    width: 80vw;
   }
   .brandImage-o {
     max-width: 90vw;

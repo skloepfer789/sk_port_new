@@ -1,8 +1,10 @@
 import {
   links as links3,
   modal_component_default
-} from "/build/_shared/chunk-M6YQX24F.js";
-import "/build/_shared/chunk-MOFTYH3I.js";
+} from "/build/_shared/chunk-BV7KQWDP.js";
+import {
+  progressiveImage_component_default
+} from "/build/_shared/chunk-MOFTYH3I.js";
 import {
   links,
   page_styles_default,
@@ -23,7 +25,7 @@ import {
   useNavigate
 } from "/build/_shared/chunk-V3SLA63D.js";
 
-// app/routes/__app.branding-original.jsx
+// app/routes/__app.branding.jsx
 var import_react = __toESM(require_react());
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime());
 var links4 = () => [
@@ -87,9 +89,11 @@ var Branding = () => {
     setBrandBool(false);
   };
   const onReopen = () => {
-    console.log("fire");
     hasloaded(false);
   };
+  function checkLength(brand) {
+    return brand.images.length;
+  }
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "main", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
       MainMenu,
@@ -100,78 +104,88 @@ var Branding = () => {
       void 0,
       false,
       {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 92,
+        fileName: "app/routes/__app.branding.jsx",
+        lineNumber: 96,
         columnNumber: 7
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: triggered ? `slider backgroundGreen activeSlide` : `slider inactiveSlide`, children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`, children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, false, {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 97,
+        fileName: "app/routes/__app.branding.jsx",
+        lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(pagesHeader_component_default, { background: "#1A746F", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, false, {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 98,
+      /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, false, {
+        fileName: "app/routes/__app.branding.jsx",
+        lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "heading", children: "Brand Identity" }, void 0, false, {
-          fileName: "app/routes/__app.branding-original.jsx",
-          lineNumber: 100,
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { className: "heading", children: [
+          "Brand Identity ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("br", {}, void 0, false, {
+            fileName: "app/routes/__app.branding.jsx",
+            lineNumber: 104,
+            columnNumber: 50
+          }, this),
+          " & Logo Design"
+        ] }, void 0, true, {
+          fileName: "app/routes/__app.branding.jsx",
+          lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "submenuBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "submenuList", children: brandData.branding.map(
-          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === brand.name ? `highlightImage` : `highlightImage offImage` }, void 0, false, {
-              fileName: "app/routes/__app.branding-original.jsx",
-              lineNumber: 107,
-              columnNumber: 21
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
+          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { children: [
+            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, false, {
+              fileName: "app/routes/__app.branding.jsx",
+              lineNumber: 112,
+              columnNumber: 17
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, false, {
+              fileName: "app/routes/__app.branding.jsx",
+              lineNumber: 113,
+              columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("a", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
-              "h2",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
+              progressiveImage_component_default,
               {
-                className: hoveredItem === brand.name ? `menuItem active` : `menuItem`,
-                onClick: () => selectBrand(brand),
-                children: brand.name
+                alt: brand.name,
+                src: brand.images[0].image,
+                placeholderSrc: brand.images[0].placeholder,
+                classTitle: "primaryImage",
+                onClick: () => selectBrand(brand)
               },
-              void 0,
+              brand.name,
               false,
               {
-                fileName: "app/routes/__app.branding-original.jsx",
-                lineNumber: 110,
-                columnNumber: 28
+                fileName: "app/routes/__app.branding.jsx",
+                lineNumber: 116,
+                columnNumber: 19
               },
               this
-            ) }, void 0, false, {
-              fileName: "app/routes/__app.branding-original.jsx",
-              lineNumber: 110,
-              columnNumber: 25
-            }, this)
-          ] }, brand.name, true, {
-            fileName: "app/routes/__app.branding-original.jsx",
-            lineNumber: 106,
-            columnNumber: 15
+            )
+          ] }, void 0, true, {
+            fileName: "app/routes/__app.branding.jsx",
+            lineNumber: 109,
+            columnNumber: 17
+          }, this) }, brand.name, false, {
+            fileName: "app/routes/__app.branding.jsx",
+            lineNumber: 108,
+            columnNumber: 13
           }, this)
         ) }, void 0, false, {
-          fileName: "app/routes/__app.branding-original.jsx",
-          lineNumber: 103,
-          columnNumber: 13
-        }, this) }, void 0, false, {
-          fileName: "app/routes/__app.branding-original.jsx",
-          lineNumber: 101,
+          fileName: "app/routes/__app.branding.jsx",
+          lineNumber: 105,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 99,
+        fileName: "app/routes/__app.branding.jsx",
+        lineNumber: 103,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
-      fileName: "app/routes/__app.branding-original.jsx",
-      lineNumber: 96,
+      fileName: "app/routes/__app.branding.jsx",
+      lineNumber: 100,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
@@ -179,28 +193,28 @@ var Branding = () => {
       {
         onClose,
         className: brandIsActive ? "openModal" : "closeModal",
-        color: "black",
+        color: "white",
         data: activeBrand
       },
       void 0,
       false,
       {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 127,
+        fileName: "app/routes/__app.branding.jsx",
+        lineNumber: 135,
         columnNumber: 5
       },
       this
     )
   ] }, void 0, true, {
-    fileName: "app/routes/__app.branding-original.jsx",
-    lineNumber: 91,
+    fileName: "app/routes/__app.branding.jsx",
+    lineNumber: 95,
     columnNumber: 5
   }, this);
 };
-var app_branding_original_default = Branding;
+var app_branding_default = Branding;
 export {
-  app_branding_original_default as default,
+  app_branding_default as default,
   links4 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.branding-original-C3OWVVOW.js.map
+//# sourceMappingURL=/build/routes/__app.branding-2RLW76ZS.js.map
