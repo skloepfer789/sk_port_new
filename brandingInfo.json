@@ -468,14 +468,14 @@
             "placeholder": "/images/printImages/NelsonWrap_LowRes.webp",
             "size": "small"
         }, {
-            "image": "/images/printImages/CMM_wrap.webp",
-            "alt": "Concrete Mobile Mix Wrap",
-            "placeholder": "/images/printImages/CMM_wrap_LowRes.webp",
-            "size": "small"
-        }, {
             "image": "/images/brandImages/rex/Rex Van.webp",
             "alt": "Eyecatching Vehicles for Mobile Advertising",
             "placeholder": "/images/brandImages/rex/Rex Van_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/CMM_wrap.webp",
+            "alt": "Concrete Mobile Mix Wrap",
+            "placeholder": "/images/printImages/CMM_wrap_LowRes.webp",
             "size": "small"
         }]
     }, {
