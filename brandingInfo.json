@@ -439,6 +439,16 @@
             "alt": "Aegir's Workshop Custom Item Tag",
             "placeholder": "/images/brandImages/aegir/AegirsTag_LowRes.webp",
             "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/VistaPeaksMockup.webp",
+            "alt": "Vista Pearks Vineyards Bottles",
+            "placeholder": "/images/brandImages/aegir/VistaPeaksMockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/brandImages/aegir/VistaPeaksWineGlass_Mockup.webp",
+            "alt": "Vista Pearks Vineyards Engraved Wine Glasses",
+            "placeholder": "/images/brandImages/aegir/VistaPeaksWineGlass_Mockup_LowRes.webp",
+            "size": "small"
         }]
     }, {
         "name": "Vehicle Wraps",
@@ -451,6 +461,11 @@
             "image": "/images/brandImages/rolling/FoodWrap_2.webp",
             "alt": "Rolling Restaurant Vehicle Wrap",
             "placeholder": "/images/brandImages/rolling/FoodWrap_2_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/printImages/NelsonWrap.webp",
+            "alt": "Nelson Overhead Doors Wrap",
+            "placeholder": "/images/printImages/NelsonWrap_LowRes.webp",
             "size": "small"
         }, {
             "image": "/images/printImages/CMM_wrap.webp",
