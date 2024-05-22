@@ -512,17 +512,17 @@
             "image": "/images/printImages/Invitations_Gatefold.webp",
             "alt": "Wedding Invitations",
             "placeholder": "/images/printImages/Invitations_Gatefold_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }, {
             "image": "/images/printImages/GoodOlBoys_Postcard_Mockup.webp",
             "alt": "Handout Design",
             "placeholder": "/images/printImages/GoodOlBoys_Postcard_Mockup_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }, {
             "image": "/images/printImages/Levi_Postcard-Mockup.webp",
             "alt": "Notecard Design",
             "placeholder": "/images/printImages/Levi_Postcard-Mockup_LowRes.webp",
-            "size": "large"
+            "size": "small"
         }]
     }],
     "web": [{
