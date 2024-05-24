@@ -506,6 +506,11 @@
             "placeholder": "/images/brandImages/enhance/EnhanceMagazines_Spreads_LowRes.webp",
             "size": "small"
         }, {
+            "image": "/images/printImages/BugattiBook_Mockup.webp",
+            "alt": "Novel Cover Design",
+            "placeholder": "/images/printImages/BugattiBook_Mockup_LowRes.webp",
+            "size": "small"
+        }, {
             "image": "/images/printImages/DeadlandsBook Mockup.webp",
             "alt": "Novel Cover Design",
             "placeholder": "/images/printImages/DeadlandsBook Mockup_LowRes.webp",
