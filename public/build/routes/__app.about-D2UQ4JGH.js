@@ -22,7 +22,7 @@ import {
 var import_react2 = __toESM(require_react());
 
 // app/styles/about.styles.css
-var about_styles_default = "/build/_assets/about.styles-B5AHZD4O.css";
+var about_styles_default = "/build/_assets/about.styles-A5VLG4FA.css";
 
 // app/components/timeline.component.jsx
 var import_react = __toESM(require_react());
@@ -297,4 +297,4 @@ export {
   links3 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.about-SLI5SHWQ.js.map
+//# sourceMappingURL=/build/routes/__app.about-D2UQ4JGH.js.map

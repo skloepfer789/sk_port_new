@@ -227,7 +227,7 @@ li {
     font-size: 17px;
   }
   .activeBullet {
-    color: var(--greenMain);
+    color: var(--blueMain);
   }
   .bulletActive-line {
     position: absolute;
