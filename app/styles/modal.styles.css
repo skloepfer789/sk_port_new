@@ -98,6 +98,15 @@
     transition: 2.5s;
 }
 
+.descrText {
+    color: white;
+    text-align: left;
+    line-height: 150%;
+    width: 70%;
+    margin-left: 15%;
+    font-size: 135%;
+}
+
 @media only screen and (max-width: 1500px) {
     .modalContain {
         position: relative;

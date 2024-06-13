@@ -1,12 +1,14 @@
 {
     "branding": [{
         "name": "Enhance Printing",
-        "images": [{
+        "description": "When working on Enhance Printing’s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+        "hero": {
             "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
             "alt": "Enhance Printing Brand Portfolio",
             "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
             "size": "large"
-        }, {
+        },
+        "images": [{
             "image": "/images/brandImages/enhance/EnhanceWebsite.webp",
             "alt": "A Website To Compete in a Modern Market",
             "placeholder": "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
@@ -54,12 +56,14 @@
         }]
     }, {
         "name": "The Rolling Restaurant",
-        "images": [{
+        "description": "A rolling restaurant with a rotating menu, the Rolling Restaurant was looking for an image both eye-catching, and retro. My client initially came to me with the idea of a logo featuring a “caveman stone”, which was my leaping off point. The final brand was a built off the feel of classic rock from the late 1960s and early 1970s, while keeping a modern, clean edge. I worked to find both typographic options, and a color palette that was pulpy, and eye catching to best draw potential customers to his varied offerings.",
+        "hero": {
             "image": "/images/brandImages/rolling/RollingRest_Logo.webp",
             "alt": "The Rolling Restaurant Brand Identity",
             "placeholder": "/images/brandImages/rolling/RollingRest_Logo_LowRes.webp",
             "size": "large"
-        }, {
+        },
+        "images": [{
             "image": "/images/brandImages/rolling/FoodWrap_1.webp",
             "alt": "Eyecatching Wraps to Draw New Customers",
             "placeholder": "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
@@ -102,12 +106,14 @@
         }]
     }, {
         "name": "Rex's Plumbing",
-        "images": [{
+        "description": "The focus of this design was a bold, eye-catching look, primarily for use on Rex’s vans. For years, Rex’s image had included the woman with the plunger, seen in the sketches to the right. More recently, he began incorporating a T-Rex chasing the woman into his companies advertisements. For direction, we played with both the woman, the T-Rex, and the combination to find the right look for him. In the end, we settled on a unified look with just the T-Rex, because nothing quite screamed “Call Rex” like the maw of the King of the Dinosaurs himself.",
+        "hero": {
             "image": "/images/brandImages/rex/RexLogo.webp",
             "alt": "Rex's Plumbing & Heating",
             "placeholder": "/images/brandImages/rex/RexLogo_LowRes.webp",
             "size": "large"
-        }, {
+        },
+        "images": [{
             "image": "/images/brandImages/rex/Rex Van.webp",
             "alt": "Eyecatching Vehicles for Mobile Advertising",
             "placeholder": "/images/brandImages/rex/Rex Van_LowRes.webp",
@@ -145,12 +151,14 @@
         }]
     }, {
         "name": "Aegir's Workshop",
-        "images": [{
+        "description": "The owner of Aegir’s Workshop is fascinated by Norse mythology, and immediately wanted to name his company after the Norse Giant most commonly associated with the sea. Using this inspiration, I began honing in on a nautical theme. For the final logo, I went with a norse-inspired scrollwork interpretation of a Viking longship, paired with a heavy, neo-Viking font. For brand identity, I paired leather textures, with a nautical flair to give Aegir’s Workshop a hand-crafted feel, that ties classical elements to a modern image.",
+        "hero": {
             "image": "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
             "alt": "Aegir's Workshop Brand",
             "placeholder": "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
             "size": "large"
-        }, {
+        },
+        "images": [{
             "image": "/images/brandImages/aegir/AegirsWorkshopSite.webp",
             "alt": "A Website To Draw Consumer's to Custom Goods",
             "placeholder": "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",

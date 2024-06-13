@@ -1,7 +1,7 @@
 import {
   links as links3,
   modal_component_default
-} from "/build/_shared/chunk-BV7KQWDP.js";
+} from "/build/_shared/chunk-2OPWA7EO.js";
 import {
   progressiveImage_component_default
 } from "/build/_shared/chunk-MOFTYH3I.js";
@@ -150,8 +150,8 @@ var Branding = () => {
               progressiveImage_component_default,
               {
                 alt: brand.name,
-                src: brand.images[0].image,
-                placeholderSrc: brand.images[0].placeholder,
+                src: brand.hero ? brand.hero.image : brand.images[0].image,
+                placeholderSrc: brand.hero ? brand.hero.placeholder : brand.images[0].placeholder,
                 classTitle: "primaryImage",
                 onClick: () => selectBrand(brand)
               },
@@ -217,4 +217,4 @@ export {
   links4 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.branding-2RLW76ZS.js.map
+//# sourceMappingURL=/build/routes/__app.branding-SZEJ3N6Q.js.map

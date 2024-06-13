@@ -768,12 +768,14 @@ var page_styles_default = "/build/_assets/page.styles-OG3IJOSZ.css";
 var brandingInfo_default = {
   branding: [{
     name: "Enhance Printing",
-    images: [{
+    description: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+    hero: {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
       alt: "Enhance Printing Brand Portfolio",
       placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
       size: "large"
-    }, {
+    },
+    images: [{
       image: "/images/brandImages/enhance/EnhanceWebsite.webp",
       alt: "A Website To Compete in a Modern Market",
       placeholder: "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
@@ -821,12 +823,14 @@ var brandingInfo_default = {
     }]
   }, {
     name: "The Rolling Restaurant",
-    images: [{
+    description: "A rolling restaurant with a rotating menu, the Rolling Restaurant was looking for an image both eye-catching, and retro. My client initially came to me with the idea of a logo featuring a \u201Ccaveman stone\u201D, which was my leaping off point. The final brand was a built off the feel of classic rock from the late 1960s and early 1970s, while keeping a modern, clean edge. I worked to find both typographic options, and a color palette that was pulpy, and eye catching to best draw potential customers to his varied offerings.",
+    hero: {
       image: "/images/brandImages/rolling/RollingRest_Logo.webp",
       alt: "The Rolling Restaurant Brand Identity",
       placeholder: "/images/brandImages/rolling/RollingRest_Logo_LowRes.webp",
       size: "large"
-    }, {
+    },
+    images: [{
       image: "/images/brandImages/rolling/FoodWrap_1.webp",
       alt: "Eyecatching Wraps to Draw New Customers",
       placeholder: "/images/brandImages/rolling/FoodWrap_1_LowRes.webp",
@@ -869,12 +873,14 @@ var brandingInfo_default = {
     }]
   }, {
     name: "Rex's Plumbing",
-    images: [{
+    description: "The focus of this design was a bold, eye-catching look, primarily for use on Rex\u2019s vans. For years, Rex\u2019s image had included the woman with the plunger, seen in the sketches to the right. More recently, he began incorporating a T-Rex chasing the woman into his companies advertisements. For direction, we played with both the woman, the T-Rex, and the combination to find the right look for him. In the end, we settled on a unified look with just the T-Rex, because nothing quite screamed \u201CCall Rex\u201D like the maw of the King of the Dinosaurs himself.",
+    hero: {
       image: "/images/brandImages/rex/RexLogo.webp",
       alt: "Rex's Plumbing & Heating",
       placeholder: "/images/brandImages/rex/RexLogo_LowRes.webp",
       size: "large"
-    }, {
+    },
+    images: [{
       image: "/images/brandImages/rex/Rex Van.webp",
       alt: "Eyecatching Vehicles for Mobile Advertising",
       placeholder: "/images/brandImages/rex/Rex Van_LowRes.webp",
@@ -912,12 +918,14 @@ var brandingInfo_default = {
     }]
   }, {
     name: "Aegir's Workshop",
-    images: [{
+    description: "The owner of Aegir\u2019s Workshop is fascinated by Norse mythology, and immediately wanted to name his company after the Norse Giant most commonly associated with the sea. Using this inspiration, I began honing in on a nautical theme. For the final logo, I went with a norse-inspired scrollwork interpretation of a Viking longship, paired with a heavy, neo-Viking font. For brand identity, I paired leather textures, with a nautical flair to give Aegir\u2019s Workshop a hand-crafted feel, that ties classical elements to a modern image.",
+    hero: {
       image: "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
       alt: "Aegir's Workshop Brand",
       placeholder: "/images/brandImages/aegir/Aegirs-Artboard-11_LowRes.webp",
       size: "large"
-    }, {
+    },
+    images: [{
       image: "/images/brandImages/aegir/AegirsWorkshopSite.webp",
       alt: "A Website To Draw Consumer's to Custom Goods",
       placeholder: "/images/brandImages/aegir/AegirsWorkshopSite_LowRes.webp",
@@ -1326,7 +1334,7 @@ var brandingInfo_default = {
 var import_react9 = require("@remix-run/react");
 
 // app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-ONPZ7SLG.css";
+var modal_styles_default = "/build/_assets/modal.styles-2ZXSRZS3.css";
 
 // app/components/progressiveImage.component.jsx
 var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
@@ -1361,43 +1369,77 @@ var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/j
 var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) => {
   let onClose = props.onClose;
   if (props.data && props.data != "") {
-    let images = props.data.images;
-    return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalContain", children: [
+    let data = props.data, images = data.images, descr = data.description, hero = data.hero;
+    return console.log(descr), /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalContain", children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 15,
+        lineNumber: 18,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalImageContain", children: images.map(
-        (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-          progressiveImage_component_default,
-          {
-            src: image.image,
-            placeholderSrc: image.placeholder,
-            classTitle: image.size === "small" ? "secondaryImage" : image.size === "mid" ? "midImage" : "brandImage",
-            alt: image.alt
-          },
-          image.image,
-          !1,
-          {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalImageContain", children: [
+        data.hero ? /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+            progressiveImage_component_default,
+            {
+              src: hero.image,
+              placeholderSrc: hero.placeholder,
+              classTitle: "brandImage",
+              alt: hero.alt
+            },
+            hero.image,
+            !1,
+            {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 22,
+              columnNumber: 17
+            },
+            this
+          ),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "descrText", children: descr }, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
-            lineNumber: 18,
-            columnNumber: 13
-          },
-          this
+            lineNumber: 29,
+            columnNumber: 17
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 21,
+          columnNumber: 13
+        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, {}, void 0, !1, {
+          fileName: "app/components/modal.component.jsx",
+          lineNumber: 31,
+          columnNumber: 13
+        }, this),
+        images.map(
+          (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+            progressiveImage_component_default,
+            {
+              src: image.image,
+              placeholderSrc: image.placeholder,
+              classTitle: image.size === "small" ? "secondaryImage" : image.size === "mid" ? "midImage" : "brandImage",
+              alt: image.alt
+            },
+            image.image,
+            !1,
+            {
+              fileName: "app/components/modal.component.jsx",
+              lineNumber: 34,
+              columnNumber: 13
+            },
+            this
+          )
         )
-      ) }, void 0, !1, {
+      ] }, void 0, !0, {
         fileName: "app/components/modal.component.jsx",
-        lineNumber: 16,
+        lineNumber: 19,
         columnNumber: 17
       }, this)
     ] }, void 0, !0, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 14,
+      lineNumber: 17,
       columnNumber: 13
     }, this) }, void 0, !1, {
       fileName: "app/components/modal.component.jsx",
-      lineNumber: 13,
+      lineNumber: 16,
       columnNumber: 7
     }, this);
   }
@@ -1789,8 +1831,8 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
               progressiveImage_component_default,
               {
                 alt: brand.name,
-                src: brand.images[0].image,
-                placeholderSrc: brand.images[0].placeholder,
+                src: brand.hero ? brand.hero.image : brand.images[0].image,
+                placeholderSrc: brand.hero ? brand.hero.placeholder : brand.images[0].placeholder,
                 classTitle: "primaryImage",
                 onClick: () => selectBrand(brand)
               },
@@ -3017,7 +3059,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MSMUNHXB.js", imports: ["/build/_shared/chunk-ISWDE4OT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-D2UQ4JGH.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-2RLW76ZS.js", imports: ["/build/_shared/chunk-BV7KQWDP.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-PCQX4SA4.js", imports: ["/build/_shared/chunk-BV7KQWDP.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-NMPMXE3G.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-UPICW6CK.js", imports: ["/build/_shared/chunk-BV7KQWDP.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RIJOKIX3.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-Y7RY4E33.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "f1d7b8ea", hmr: void 0, url: "/build/manifest-F1D7B8EA.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MSMUNHXB.js", imports: ["/build/_shared/chunk-ISWDE4OT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-D2UQ4JGH.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-SZEJ3N6Q.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-LJQ5PYME.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-NMPMXE3G.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-ZDD6EOL7.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RIJOKIX3.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-Y7RY4E33.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "75ea4d9a", hmr: void 0, url: "/build/manifest-75EA4D9A.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

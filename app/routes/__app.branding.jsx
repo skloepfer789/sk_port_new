@@ -116,8 +116,8 @@ const Branding = () => {
                   <ProgressiveImg 
                     alt={brand.name}  
                     key={brand.name}
-                    src={brand.images[0].image}
-                    placeholderSrc={brand.images[0].placeholder}
+                    src={ brand.hero ? brand.hero.image : brand.images[0].image}
+                    placeholderSrc={brand.hero ? brand.hero.placeholder : brand.images[0].placeholder}
                     classTitle='primaryImage'
                     onClick={() => selectBrand(brand)}
                   />
