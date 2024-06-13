@@ -568,5 +568,21 @@
         "image": "/images/webImages/KennyAndersonWebsite.webp",
         "alt": "Kenny Anderson Website",
         "placeholder": "/images/webImages/KennyAndersonWebsite-lowRes.webp"
+    }],
+    "spec": [{
+        "name": "Enhance Printing",
+        "description": "When working on Enhance Printing’s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+        "hero": {
+            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
+            "alt": "Enhance Printing Brand Portfolio",
+            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
+            "size": "large"
+        },
+        "images": [{
+            "image": "/images/brandImages/enhance/EnhanceWebsite.webp",
+            "alt": "A Website To Compete in a Modern Market",
+            "placeholder": "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
+            "size": "small"
+        }]
     }]
 }

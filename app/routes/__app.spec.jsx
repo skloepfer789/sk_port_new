@@ -7,6 +7,7 @@ import pageStyles from '../styles/page.styles.css';
 import brandingInfo from '../../brandingInfo.json';
 import { useLoaderData, useNavigate } from '@remix-run/react';
 import Modal, {links as modalStyles} from '../components/modal.component';
+import ProgressiveImg from '../components/progressiveImage.component';
 
 export const links = () => [
   {rel: "stylesheet", href: styles},
@@ -83,8 +84,11 @@ const Branding = () => {
     }
 
     const onReopen = () => {
-      console.log('fire');
       hasloaded(false);
+    }
+
+    function checkLength(brand) {
+      return brand.images.length;
     }
 
   return (
@@ -93,32 +97,36 @@ const Branding = () => {
         page='branding'
         onReopen={onReopen}
       />
-      <div className={triggered ? `slider backgroundGreen activeSlide` : `slider inactiveSlide`} >
+      <div className={triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
-        <PageHeader background='#1A746F' setter={data_from_child} onClose={closeSlide} active='branding' />        
+        <PageHeader background='dark' setter={data_from_child} onClose={closeSlide} active='branding' />        
         <div>
-          <h1 className='heading'>Brand Identity</h1>
-          <div className='submenuBox'>          
-            
-            <div className='submenuList'>
-            {
-              brandData.branding.map((brand) => (
-                <div key={brand.name} className="bounding" onMouseEnter={() => changeHover(brand)} onMouseLeave={unsetHover}>
-                    <img src="/images/icon_SK.svg" alt="highlight" className={
-                        hoveredItem === brand.name ? `highlightImage` : `highlightImage offImage`
-                    } />
-                        <a><h2 
-                          className={hoveredItem === brand.name ? `menuItem active` : `menuItem` }
-                          onClick={() => selectBrand(brand)}
-                        >
-                          {brand.name}
-                        </h2></a>
+          <h1 className='heading'>Speculative Work <br/> & Creative Designs</h1>
+          <div className='imageGrid'>          
+                        {
+              brandData.spec.map((brand) => (
+                <div className='imageBox' key={brand.name} onMouseEnter={() => changeHover(brand)} onMouseLeave={unsetHover}>
+                <a>
+                {
+                  checkLength(brand) > 1 ? (
+                    <p className='overlay'>Click to See More</p>
+                  ): (<p className='overlay'>Click to Expand Image</p>)
+                }
+                
+                  <ProgressiveImg 
+                    alt={brand.name}  
+                    key={brand.name}
+                    src={ brand.hero ? brand.hero.image : brand.images[0].image}
+                    placeholderSrc={brand.hero ? brand.hero.placeholder : brand.images[0].placeholder}
+                    classTitle='primaryImage'
+                    onClick={() => selectBrand(brand)}
+                  />
+                </a>
                 </div>
+                
               ))
             }
-            
-            </div>
-                        
+                                    
         </div>
                     
       </div>
@@ -127,7 +135,7 @@ const Branding = () => {
     <Modal 
       onClose={onClose} 
       className={brandIsActive ? 'openModal' : 'closeModal'} 
-      color='black'
+      color='white'
       data={activeBrand}
     />
     

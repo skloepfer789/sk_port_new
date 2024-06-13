@@ -256,11 +256,11 @@ function App() {
   }, this);
 }
 
-// app/routes/__app.branding-original.jsx
-var app_branding_original_exports = {};
-__export(app_branding_original_exports, {
-  default: () => app_branding_original_default,
-  links: () => links5,
+// app/routes/__app.print-original.jsx
+var app_print_original_exports = {};
+__export(app_print_original_exports, {
+  default: () => app_print_original_default,
+  links: () => links4,
   loader: () => loader,
   meta: () => meta
 });
@@ -763,6 +763,12 @@ var links3 = () => [
 
 // app/styles/page.styles.css
 var page_styles_default = "/build/_assets/page.styles-OG3IJOSZ.css";
+
+// app/styles/print.styles.css
+var print_styles_default = "/build/_assets/print.styles-PZO324GG.css";
+
+// app/routes/__app.print-original.jsx
+var import_react9 = require("@remix-run/react");
 
 // brandingInfo.json
 var brandingInfo_default = {
@@ -1327,14 +1333,24 @@ var brandingInfo_default = {
     image: "/images/webImages/KennyAndersonWebsite.webp",
     alt: "Kenny Anderson Website",
     placeholder: "/images/webImages/KennyAndersonWebsite-lowRes.webp"
+  }],
+  spec: [{
+    name: "Enhance Printing",
+    description: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+    hero: {
+      image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
+      alt: "Enhance Printing Brand Portfolio",
+      placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
+      size: "large"
+    },
+    images: [{
+      image: "/images/brandImages/enhance/EnhanceWebsite.webp",
+      alt: "A Website To Compete in a Modern Market",
+      placeholder: "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
+      size: "small"
+    }]
   }]
 };
-
-// app/routes/__app.branding-original.jsx
-var import_react9 = require("@remix-run/react");
-
-// app/styles/modal.styles.css
-var modal_styles_default = "/build/_assets/modal.styles-2ZXSRZS3.css";
 
 // app/components/progressiveImage.component.jsx
 var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/jsx-dev-runtime"), ProgressiveImg = ({ placeholderSrc, src, ...props }) => {
@@ -1365,20 +1381,145 @@ var import_react7 = require("react"), import_jsx_dev_runtime7 = require("react/j
   );
 }, progressiveImage_component_default = ProgressiveImg;
 
+// app/routes/__app.print-original.jsx
+var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links4 = () => [
+  { rel: "stylesheet", href: global_styles_default },
+  { rel: "stylesheet", href: page_styles_default },
+  { rel: "stylesheet", href: print_styles_default },
+  ...links3(),
+  ...links2()
+], meta = () => [
+  { title: "Print Design | Stephen Kloepfer Branding & Design?" },
+  { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
+  { name: "description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
+  { name: "og:title", content: "Stephen Kloepfer Design for Print Production" },
+  { name: "og:description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
+  { name: "og:image", content: "/social_preview.png" }
+], PrintDesign = () => {
+  let [triggered, setTriggered] = (0, import_react8.useState)(!1), [loaded, hasloaded] = (0, import_react8.useState)(!1), brandData = (0, import_react9.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+    await delay(500), hasloaded(!0), setTriggered(!0);
+  }, closeSlide = () => {
+    setTriggered(!1);
+  }, navigate = (0, import_react9.useNavigate)(), data_from_child = async (data) => {
+    data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
+  };
+  return (0, import_react8.useEffect)(() => {
+    loaded || triggerSlide();
+  }), /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+      MainMenu,
+      {
+        page: "print",
+        onReopen: () => {
+          console.log("fire"), hasloaded(!1);
+        }
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/__app.print-original.jsx",
+        lineNumber: 70,
+        columnNumber: 7
+      },
+      this
+    ),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: triggered ? "slider backgroundGreen activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+        fileName: "app/routes/__app.print-original.jsx",
+        lineNumber: 75,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(pagesHeader_component_default, { background: "#1A746F", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
+        fileName: "app/routes/__app.print-original.jsx",
+        lineNumber: 76,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
+          fileName: "app/routes/__app.print-original.jsx",
+          lineNumber: 78,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "printRow", children: brandData.print.map(
+          (print) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "printImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+            progressiveImage_component_default,
+            {
+              src: print.image,
+              placeholderSrc: print.placeholder,
+              classTitle: "",
+              alt: print.alt
+            },
+            void 0,
+            !1,
+            {
+              fileName: "app/routes/__app.print-original.jsx",
+              lineNumber: 83,
+              columnNumber: 17
+            },
+            this
+          ) }, print.name, !1, {
+            fileName: "app/routes/__app.print-original.jsx",
+            lineNumber: 82,
+            columnNumber: 13
+          }, this)
+        ) }, void 0, !1, {
+          fileName: "app/routes/__app.print-original.jsx",
+          lineNumber: 79,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "spacerGreen" }, void 0, !1, {
+          fileName: "app/routes/__app.print-original.jsx",
+          lineNumber: 93,
+          columnNumber: 9
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/__app.print-original.jsx",
+        lineNumber: 77,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/__app.print-original.jsx",
+      lineNumber: 74,
+      columnNumber: 7
+    }, this)
+  ] }, void 0, !0, {
+    fileName: "app/routes/__app.print-original.jsx",
+    lineNumber: 69,
+    columnNumber: 5
+  }, this);
+}, app_print_original_default = PrintDesign;
+async function loader() {
+  return brandingInfo_default;
+}
+
+// app/routes/__app.branding.jsx
+var app_branding_exports = {};
+__export(app_branding_exports, {
+  default: () => app_branding_default,
+  links: () => links6,
+  loader: () => loader2,
+  meta: () => meta2
+});
+var import_react10 = require("react");
+var import_react11 = require("@remix-run/react");
+
+// app/styles/modal.styles.css
+var modal_styles_default = "/build/_assets/modal.styles-2ZXSRZS3.css";
+
 // app/components/modal.component.jsx
-var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) => {
+var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), Modal = (props) => {
   let onClose = props.onClose;
   if (props.data && props.data != "") {
     let data = props.data, images = data.images, descr = data.description, hero = data.hero;
-    return console.log(descr), /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalContain", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
+    return console.log(descr), /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "modalBackground " + props.className, style: { backgroundColor: props.color }, children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "modalContain", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { onClick: onClose, className: "buttonModal", children: "x" }, void 0, !1, {
         fileName: "app/components/modal.component.jsx",
         lineNumber: 18,
         columnNumber: 17
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "modalImageContain", children: [
-        data.hero ? /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, { children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "modalImageContain", children: [
+        data.hero ? /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_jsx_dev_runtime9.Fragment, { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
             progressiveImage_component_default,
             {
               src: hero.image,
@@ -1395,7 +1536,7 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) 
             },
             this
           ),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("p", { className: "descrText", children: descr }, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("p", { className: "descrText", children: descr }, void 0, !1, {
             fileName: "app/components/modal.component.jsx",
             lineNumber: 29,
             columnNumber: 17
@@ -1404,13 +1545,13 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) 
           fileName: "app/components/modal.component.jsx",
           lineNumber: 21,
           columnNumber: 13
-        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_jsx_dev_runtime8.Fragment, {}, void 0, !1, {
+        }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(import_jsx_dev_runtime9.Fragment, {}, void 0, !1, {
           fileName: "app/components/modal.component.jsx",
           lineNumber: 31,
           columnNumber: 13
         }, this),
         images.map(
-          (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
+          (image) => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
             progressiveImage_component_default,
             {
               src: image.image,
@@ -1443,18 +1584,18 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), Modal = (props) 
       columnNumber: 7
     }, this);
   }
-}, modal_component_default = Modal, links4 = () => [
+}, modal_component_default = Modal, links5 = () => [
   { rel: "stylesheet", href: modal_styles_default }
 ];
 
-// app/routes/__app.branding-original.jsx
-var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), links5 = () => [
+// app/routes/__app.branding.jsx
+var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
   ...links2(),
-  ...links4()
-], meta = () => [
+  ...links5()
+], meta2 = () => [
   { title: "Brand Identity Services | Stephen Kloepfer Branding & Design?" },
   { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
   { name: "description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
@@ -1462,302 +1603,17 @@ var import_jsx_dev_runtime9 = require("react/jsx-dev-runtime"), links5 = () => [
   { name: "og:description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
   { name: "og:image", content: "/social_preview.png" }
 ], Branding = () => {
-  let [triggered, setTriggered] = (0, import_react8.useState)(!1), [loaded, hasloaded] = (0, import_react8.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react8.useState)(), [brandIsActive, setBrandBool] = (0, import_react8.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react9.useNavigate)(), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react10.useState)(!1), [loaded, hasloaded] = (0, import_react10.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react10.useState)(), [brandIsActive, setBrandBool] = (0, import_react10.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react11.useNavigate)(), triggerSlide = async () => {
     await delay(250), hasloaded(!0), setTriggered(!0);
   }, data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   }, closeSlide = () => {
     setTriggered(!1);
-  }, brandData = (0, import_react9.useLoaderData)();
-  (0, import_react8.useEffect)(() => {
+  }, brandData = (0, import_react11.useLoaderData)();
+  (0, import_react10.useEffect)(() => {
     loaded || triggerSlide();
   });
-  let [hoveredItem, setHovered] = (0, import_react8.useState)("");
-  function changeHover(newItem) {
-    setHovered(newItem.name);
-  }
-  function unsetHover() {
-    setHovered("");
-  }
-  function selectBrand(brand) {
-    setActiveBrand(brand), setBrandBool(!0);
-  }
-  let onClose = () => {
-    setActiveBrand(""), setBrandBool(!1);
-  };
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
-      MainMenu,
-      {
-        page: "branding",
-        onReopen: () => {
-          console.log("fire"), hasloaded(!1);
-        }
-      },
-      void 0,
-      !1,
-      {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 92,
-        columnNumber: 7
-      },
-      this
-    ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: triggered ? "slider backgroundGreen activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 97,
-        columnNumber: 7
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(pagesHeader_component_default, { background: "#1A746F", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 98,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("h1", { className: "heading", children: "Brand Identity" }, void 0, !1, {
-          fileName: "app/routes/__app.branding-original.jsx",
-          lineNumber: 100,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "submenuBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "submenuList", children: brandData.branding.map(
-          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === brand.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
-              fileName: "app/routes/__app.branding-original.jsx",
-              lineNumber: 107,
-              columnNumber: 21
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)("a", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
-              "h2",
-              {
-                className: hoveredItem === brand.name ? "menuItem active" : "menuItem",
-                onClick: () => selectBrand(brand),
-                children: brand.name
-              },
-              void 0,
-              !1,
-              {
-                fileName: "app/routes/__app.branding-original.jsx",
-                lineNumber: 110,
-                columnNumber: 28
-              },
-              this
-            ) }, void 0, !1, {
-              fileName: "app/routes/__app.branding-original.jsx",
-              lineNumber: 110,
-              columnNumber: 25
-            }, this)
-          ] }, brand.name, !0, {
-            fileName: "app/routes/__app.branding-original.jsx",
-            lineNumber: 106,
-            columnNumber: 15
-          }, this)
-        ) }, void 0, !1, {
-          fileName: "app/routes/__app.branding-original.jsx",
-          lineNumber: 103,
-          columnNumber: 13
-        }, this) }, void 0, !1, {
-          fileName: "app/routes/__app.branding-original.jsx",
-          lineNumber: 101,
-          columnNumber: 11
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 99,
-        columnNumber: 9
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/routes/__app.branding-original.jsx",
-      lineNumber: 96,
-      columnNumber: 7
-    }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime9.jsxDEV)(
-      modal_component_default,
-      {
-        onClose,
-        className: brandIsActive ? "openModal" : "closeModal",
-        color: "black",
-        data: activeBrand
-      },
-      void 0,
-      !1,
-      {
-        fileName: "app/routes/__app.branding-original.jsx",
-        lineNumber: 127,
-        columnNumber: 5
-      },
-      this
-    )
-  ] }, void 0, !0, {
-    fileName: "app/routes/__app.branding-original.jsx",
-    lineNumber: 91,
-    columnNumber: 5
-  }, this);
-}, app_branding_original_default = Branding;
-async function loader() {
-  return brandingInfo_default;
-}
-
-// app/routes/__app.print-original.jsx
-var app_print_original_exports = {};
-__export(app_print_original_exports, {
-  default: () => app_print_original_default,
-  links: () => links6,
-  loader: () => loader2,
-  meta: () => meta2
-});
-var import_react10 = require("react");
-
-// app/styles/print.styles.css
-var print_styles_default = "/build/_assets/print.styles-PZO324GG.css";
-
-// app/routes/__app.print-original.jsx
-var import_react11 = require("@remix-run/react");
-var import_jsx_dev_runtime10 = require("react/jsx-dev-runtime"), links6 = () => [
-  { rel: "stylesheet", href: global_styles_default },
-  { rel: "stylesheet", href: page_styles_default },
-  { rel: "stylesheet", href: print_styles_default },
-  ...links3(),
-  ...links2()
-], meta2 = () => [
-  { title: "Print Design | Stephen Kloepfer Branding & Design?" },
-  { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
-  { name: "description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
-  { name: "og:title", content: "Stephen Kloepfer Design for Print Production" },
-  { name: "og:description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
-  { name: "og:image", content: "/social_preview.png" }
-], PrintDesign = () => {
-  let [triggered, setTriggered] = (0, import_react10.useState)(!1), [loaded, hasloaded] = (0, import_react10.useState)(!1), brandData = (0, import_react11.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
-    await delay(500), hasloaded(!0), setTriggered(!0);
-  }, closeSlide = () => {
-    setTriggered(!1);
-  }, navigate = (0, import_react11.useNavigate)(), data_from_child = async (data) => {
-    data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
-  };
-  return (0, import_react10.useEffect)(() => {
-    loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-      MainMenu,
-      {
-        page: "print",
-        onReopen: () => {
-          console.log("fire"), hasloaded(!1);
-        }
-      },
-      void 0,
-      !1,
-      {
-        fileName: "app/routes/__app.print-original.jsx",
-        lineNumber: 70,
-        columnNumber: 7
-      },
-      this
-    ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: triggered ? "slider backgroundGreen activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
-        fileName: "app/routes/__app.print-original.jsx",
-        lineNumber: 75,
-        columnNumber: 7
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(pagesHeader_component_default, { background: "#1A746F", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
-        fileName: "app/routes/__app.print-original.jsx",
-        lineNumber: 76,
-        columnNumber: 9
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
-          fileName: "app/routes/__app.print-original.jsx",
-          lineNumber: 78,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "printRow", children: brandData.print.map(
-          (print) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "printImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
-            progressiveImage_component_default,
-            {
-              src: print.image,
-              placeholderSrc: print.placeholder,
-              classTitle: "",
-              alt: print.alt
-            },
-            void 0,
-            !1,
-            {
-              fileName: "app/routes/__app.print-original.jsx",
-              lineNumber: 83,
-              columnNumber: 17
-            },
-            this
-          ) }, print.name, !1, {
-            fileName: "app/routes/__app.print-original.jsx",
-            lineNumber: 82,
-            columnNumber: 13
-          }, this)
-        ) }, void 0, !1, {
-          fileName: "app/routes/__app.print-original.jsx",
-          lineNumber: 79,
-          columnNumber: 11
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "spacerGreen" }, void 0, !1, {
-          fileName: "app/routes/__app.print-original.jsx",
-          lineNumber: 93,
-          columnNumber: 9
-        }, this)
-      ] }, void 0, !0, {
-        fileName: "app/routes/__app.print-original.jsx",
-        lineNumber: 77,
-        columnNumber: 9
-      }, this)
-    ] }, void 0, !0, {
-      fileName: "app/routes/__app.print-original.jsx",
-      lineNumber: 74,
-      columnNumber: 7
-    }, this)
-  ] }, void 0, !0, {
-    fileName: "app/routes/__app.print-original.jsx",
-    lineNumber: 69,
-    columnNumber: 5
-  }, this);
-}, app_print_original_default = PrintDesign;
-async function loader2() {
-  return brandingInfo_default;
-}
-
-// app/routes/__app.branding.jsx
-var app_branding_exports = {};
-__export(app_branding_exports, {
-  default: () => app_branding_default,
-  links: () => links7,
-  loader: () => loader3,
-  meta: () => meta3
-});
-var import_react12 = require("react");
-var import_react13 = require("@remix-run/react");
-var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => [
-  { rel: "stylesheet", href: global_styles_default },
-  { rel: "stylesheet", href: page_styles_default },
-  ...links3(),
-  ...links2(),
-  ...links4()
-], meta3 = () => [
-  { title: "Brand Identity Services | Stephen Kloepfer Branding & Design?" },
-  { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
-  { name: "description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
-  { name: "og:title", content: "Stephen Kloepfer Branding Services" },
-  { name: "og:description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
-  { name: "og:image", content: "/social_preview.png" }
-], Branding2 = () => {
-  let [triggered, setTriggered] = (0, import_react12.useState)(!1), [loaded, hasloaded] = (0, import_react12.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react12.useState)(), [brandIsActive, setBrandBool] = (0, import_react12.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react13.useNavigate)(), triggerSlide = async () => {
-    await delay(250), hasloaded(!0), setTriggered(!0);
-  }, data_from_child = async (data) => {
-    data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
-  }, closeSlide = () => {
-    setTriggered(!1);
-  }, brandData = (0, import_react13.useLoaderData)();
-  (0, import_react12.useEffect)(() => {
-    loaded || triggerSlide();
-  });
-  let [hoveredItem, setHovered] = (0, import_react12.useState)("");
+  let [hoveredItem, setHovered] = (0, import_react10.useState)("");
   function changeHover(newItem) {
     setHovered(newItem.name);
   }
@@ -1775,8 +1631,8 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
   function checkLength(brand) {
     return brand.images.length;
   }
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
       MainMenu,
       {
         page: "branding",
@@ -1791,21 +1647,21 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
         lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
         fileName: "app/routes/__app.branding.jsx",
         lineNumber: 102,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("h1", { className: "heading", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("h1", { className: "heading", children: [
           "Brand Identity ",
-          /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("br", {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.branding.jsx",
             lineNumber: 104,
             columnNumber: 50
@@ -1816,18 +1672,18 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
-          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("a", { children: [
-            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "imageGrid", children: brandData.branding.map(
+          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("a", { children: [
+            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
               lineNumber: 112,
               columnNumber: 17
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.branding.jsx",
               lineNumber: 113,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
               progressiveImage_component_default,
               {
                 alt: brand.name,
@@ -1869,7 +1725,7 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
       lineNumber: 100,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime10.jsxDEV)(
       modal_component_default,
       {
         onClose,
@@ -1891,8 +1747,8 @@ var import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), links7 = () => 
     lineNumber: 95,
     columnNumber: 5
   }, this);
-}, app_branding_default = Branding2;
-async function loader3() {
+}, app_branding_default = Branding;
+async function loader2() {
   return brandingInfo_default;
 }
 
@@ -1900,8 +1756,8 @@ async function loader3() {
 var app_index_exports = {};
 __export(app_index_exports, {
   default: () => Index,
-  links: () => links8,
-  meta: () => meta4
+  links: () => links7,
+  meta: () => meta3
 });
 
 // app/styles/landing.styles.css
@@ -1911,7 +1767,7 @@ var landing_styles_default = "/build/_assets/landing.styles-M5IV2WLF.css";
 var hero_styles_default = "/build/_assets/hero.styles-LLBGJUWI.css";
 
 // app/components/logoSVG.component.jsx
-var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev-runtime"), MainLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+var React3 = require("react"), import_jsx_dev_runtime11 = require("react/jsx-dev-runtime"), MainLogo = (props) => /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
   "svg",
   {
     xmlns: "http://www.w3.org/2000/svg",
@@ -1920,7 +1776,7 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
     viewBox: "0 0 303.28 51.96",
     ...props,
     children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("defs", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("style", { children: `.cls-1{fill:${props.color}}` }, void 0, !1, {
         fileName: "app/components/logoSVG.component.jsx",
         lineNumber: 12,
         columnNumber: 7
@@ -1929,8 +1785,8 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
         lineNumber: 11,
         columnNumber: 5
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)("g", { id: "Layer_1-2", "data-name": "Layer 1", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
           "path",
           {
             d: "M60.47 45.24h3.42c0 .75-.16 1.82-.83 2.68-.72.92-1.82 1.37-3.07 1.37-2.4 0-4.22-1.76-4.22-4.19s1.88-4.2 4.25-4.2c1.15 0 1.92.39 2.55.88.34.27.65.56.98 1.03l-.43.34c-.23-.39-.56-.72-.78-.9-.51-.43-1.32-.86-2.33-.86-2.09 0-3.68 1.66-3.68 3.74s1.54 3.68 3.64 3.68c1.39 0 2.4-.71 2.84-1.38.32-.49.51-1.16.54-1.69h-2.88v-.49ZM78.85 49.15l-2.64-3.85h-.24v3.85h-.54V41h1.17c.62 0 1.19.05 1.72.42.64.44.84 1.11.84 1.75 0 .81-.35 1.64-1.37 1.98-.43.15-.82.16-1 .16l2.66 3.85h-.61Zm-2.88-4.34h.78c1.16 0 1.86-.61 1.86-1.66 0-.82-.4-1.25-.72-1.42-.34-.2-.93-.24-1.25-.24h-.67v3.32ZM94.76 46.47h-3.47l-1.09 2.68h-.59l3.43-8.4 3.39 8.4h-.59l-1.09-2.68Zm-.2-.49-1.53-3.86-1.55 3.86h3.08ZM108.02 45.28v3.87h-.54V41h1.58c1.33 0 2.38.73 2.38 2.13s-.97 2.15-2.37 2.15h-1.05Zm0-.49h1.08c1.06 0 1.78-.62 1.78-1.65s-.68-1.65-1.87-1.65h-.99v3.3ZM123.24 44.46h4.94V41h.54v8.15h-.54v-4.2h-4.94v4.2h-.54V41h.54v3.46ZM141.23 41v8.15h-.54V41h.54ZM159.73 42.66c-.7-.82-1.7-1.28-2.75-1.28-2.09 0-3.65 1.67-3.65 3.74 0 2.42 2.02 3.68 3.67 3.68.82 0 1.91-.33 2.74-1.23v.71c-.83.73-1.83 1.01-2.71 1.01-2.44 0-4.25-1.92-4.25-4.19s1.88-4.2 4.23-4.2c1.55 0 2.49.83 2.74 1.06v.71ZM183.89 49.15V41h1.61c.72 0 1.98.11 3.01 1.14.87.87 1.17 2.05 1.17 2.94s-.31 2.07-1.17 2.93c-1.03 1.03-2.29 1.14-3.01 1.14h-1.61Zm.54-.49h1.06c2.15 0 3.63-1.47 3.63-3.58s-1.49-3.59-3.63-3.59h-1.06v7.17ZM205.13 41.49h-3.37v2.96h3.3v.49h-3.3v3.73h3.37v.49h-3.91v-8.15h3.91v.49ZM220.38 42.38c-.5-.98-1.38-1-1.6-1-.97 0-1.52.7-1.52 1.52 0 .88.61 1.17 1.43 1.58.81.39 1.21.56 1.63.86.35.24.87.67.87 1.58 0 1.37-1.15 2.38-2.54 2.38-1.05 0-1.59-.5-1.89-.86a2.8 2.8 0 0 1-.53-.89l.46-.22c.11.32.32.64.44.78.37.46.97.7 1.53.7 1.1 0 1.97-.81 1.97-1.88 0-.44-.17-.9-.79-1.28-.23-.13-.71-.38-1.38-.71-.81-.39-1.21-.61-1.49-1.08-.18-.31-.26-.61-.26-.93 0-.94.64-2.03 2.09-2.03.82 0 1.56.39 1.98 1.16l-.39.33ZM233.26 41v8.15h-.54V41h.54ZM249.49 45.24h3.42c0 .75-.16 1.82-.83 2.68-.72.92-1.82 1.37-3.07 1.37-2.4 0-4.22-1.76-4.22-4.19s1.88-4.2 4.25-4.2c1.15 0 1.92.39 2.55.88.34.27.65.56.98 1.03l-.43.34c-.23-.39-.56-.72-.78-.9-.51-.43-1.32-.86-2.33-.86-2.09 0-3.68 1.66-3.68 3.74s1.54 3.68 3.64 3.68c1.39 0 2.4-.71 2.84-1.38.32-.49.51-1.16.54-1.69h-2.88v-.49ZM264.44 49.15v-8.24l6.84 7.16v-7.08h.54v8.36l-6.84-7.16v6.95h-.54ZM287.71 41.49h-3.37v2.96h3.3v.49h-3.3v3.73h3.37v.49h-3.91v-8.15h3.91v.49ZM302.67 49.15l-2.64-3.85h-.24v3.85h-.54V41h1.17c.62 0 1.19.05 1.72.42.64.44.84 1.11.84 1.75 0 .81-.35 1.64-1.37 1.98-.43.15-.82.16-1 .16l2.66 3.85h-.61Zm-2.89-4.34h.78c1.16 0 1.86-.61 1.86-1.66 0-.82-.4-1.25-.72-1.42-.34-.2-.93-.24-1.25-.24h-.67v3.32ZM182.2 14.04c.01-2.86.26-5.36.74-7.51h-9.38c.3 1.37.45 3.95.47 7.73v22.76h12.17l1.5-6.95-5.5.31V14.04ZM214.61 6.69c-.67.07-1.3.3-1.9.67-.85.55-1.44 1.53-1.76 2.95-.12.52-.23 1.41-.34 2.68s-.16 2.38-.16 3.33v9.72c-.03 3.68.17 6.31.6 7.91.36 1.43 1.17 2.35 2.43 2.75.6.19 2.28.31 5.05.34h7.66v-6.63h-7.57v-5.29h7.57v-6.63h-7.57V13.2h7.57V6.57h-7.66c-1.89.03-3.2.08-3.93.16ZM249.66 37.03h8.18V25.1H263v-6.64h-5.16v-5.29H263V6.54h-13.34v30.49zM269.11 6.69c-.67.07-1.3.3-1.9.67-.85.55-1.44 1.53-1.76 2.95-.12.52-.23 1.41-.34 2.68s-.16 2.38-.16 3.33v9.72c-.03 3.68.17 6.31.6 7.91.36 1.43 1.17 2.35 2.43 2.75.6.19 2.28.31 5.05.34h7.66v-6.63h-7.57v-5.29h7.57v-6.63h-7.57V13.2h7.57V6.57h-7.66c-1.89.03-3.2.08-3.93.16ZM171.37 17.77c.12-.49.18-1.42.18-2.79v-3.6c.01-1.55.05-2.52.11-2.93.06-.51.24-1.15.54-1.92h-8.13c-.46 1.09-.69 2.42-.69 4v3.48c0 1.01-.02 1.68-.07 2.01-.09.98-.33 1.66-.71 2.03-.28.25-.77.39-1.47.4h-1.21V6.54H50.85c-.32 0-.49.36-.3.61 4.01 5.22 6.41 11.75 6.41 18.83 0 .18-.01.35-.01.53 0 .16.01.32.01.47 0 1.67-.16 3.29-.47 4.87h13.19v-3.02h-3.55c-1.09 0-1.89-.13-2.41-.4-.48-.27-.8-.77-.98-1.46V16.23c.25-.86.72-1.48 1.4-1.86.58-.3 1.67-.45 3.26-.45h8.98v5.52h-6.61v2.77h2.57c2.13-.03 3.54.44 4.24 1.41.34.57.54 1.53.58 2.9.01.36.02 1.07.02 2.14v3.26c0 .33-.03.8-.1 1.41-.07.61-.13 1.06-.19 1.36-.18.85-.69 1.54-1.54 2.08-.15.09-.35.17-.56.24h7.42-.02c-.66-.23-1.17-.6-1.54-1.11-.64-.91-.94-2.26-.89-4.04V20.33h-1.97v-5.52h1.97V9.27h7.3v5.54h3.46v5.52h-3.46v9.87c0 .51.07.87.22 1.09.22.34.66.52 1.32.54h1.92v5.18h3.74c-.56-.16-1-.38-1.32-.66-.55-.55-.86-1.56-.94-3.04-.01-.39-.02-1.14-.02-2.26v-12.4c.01-1.76.38-2.99 1.09-3.69.51-.49 1.37-.8 2.59-.94.63-.07 1.39-.11 2.3-.11h5.76c2.52.03 4.18.39 4.98 1.07.64.52 1 1.29 1.07 2.3.01.27.02.82.02 1.65v9.63H99.25v1.23c0 .86.19 1.42.56 1.68.34.24 1.02.36 2.03.36h7.95v5.18h6.65c-1.53-1.81-2.85-4.18-3.96-7.12-.71-1.82-1.09-4.3-1.14-7.46v-8.51h7.28v8.47c0 1.98.1 3.66.31 5.03s.66 2.67 1.34 3.89c.67-1.24 1.11-2.53 1.32-3.89.21-1.37.31-3.05.31-5.03v-8.47h7.28v8.51c-.06 3.43-.55 6.21-1.47 8.35-1.09 2.56-2.3 4.63-3.64 6.23h9.01c-.56-.16-1-.38-1.32-.66-.55-.55-.86-1.56-.94-3.04-.01-.39-.02-1.14-.02-2.26v-12.4c.01-1.76.38-2.99 1.09-3.69.51-.49 1.37-.8 2.59-.94.63-.07 1.39-.11 2.3-.11h5.76c2.52.03 4.18.39 4.98 1.07.64.52 1 1.29 1.07 2.3.01.27.02.82.02 1.65v9.63h-10.54v1.23c0 .86.19 1.42.56 1.68.34.24 1.02.36 2.03.36h7.95v5.18h11.24V25.08h1.07c1.19.01 1.94.63 2.26 1.83.09.31.13.97.13 1.97v2.79c0 1.28.06 2.32.18 3.13.12.71.39 1.45.8 2.21h7.84c-.25-.82-.42-1.56-.51-2.23-.09-.73-.13-1.82-.13-3.26v-4.27c0-1.67-.3-2.93-.89-3.78-.74-.98-1.97-1.6-3.69-1.85-.15-.01-.47-.07-.96-.16 1.06-.21 1.81-.37 2.26-.49 1.68-.54 2.72-1.61 3.11-3.22Z",
@@ -1945,7 +1801,7 @@ var React3 = require("react"), import_jsx_dev_runtime12 = require("react/jsx-dev
           },
           this
         ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime11.jsxDEV)(
           "path",
           {
             d: "M141.05 20.33c-.31-.57-.74-.85-1.3-.85-1.09 0-1.63.85-1.63 2.55v2.12h3.26v-2.12c0-.74-.11-1.31-.34-1.7ZM102.21 20.33c-.31-.57-.74-.85-1.3-.85-1.09 0-1.63.85-1.63 2.55v2.12h3.26v-2.12c0-.74-.11-1.31-.34-1.7ZM205.26 7.56c-1.1-.67-2.71-1.01-4.83-1.03h-3.69c-2.11.01-3.72.36-4.83 1.03-1.59.95-2.6 2.86-3.02 5.72-.16 1.43-.25 3.31-.25 5.63v5.72c0 2.32.08 4.2.25 5.63.42 2.87 1.42 4.79 3.02 5.74 1.1.67 2.71 1.01 4.83 1.03h3.69c2.11-.01 3.72-.36 4.83-1.03 1.59-.95 2.59-2.87 2.99-5.74.18-1.43.27-3.31.27-5.63v-5.72c0-2.32-.09-4.2-.27-5.63-.4-2.86-1.4-4.77-2.99-5.72Zm-5.07 20.74c0 .73-.13 1.28-.38 1.65-.36.5-.81.76-1.36.76-.47 0-.89-.2-1.25-.6-.34-.39-.51-.99-.51-1.8V15.2c0-.73.13-1.27.38-1.62.36-.5.82-.76 1.38-.76.46 0 .87.2 1.22.6.34.37.51.96.51 1.78v13.11ZM246.57 7.41c-.66-.55-2.32-.84-5-.87h-13.22v30.49h8.18V25.1h5.7c1.07 0 1.76 0 2.06-.02 1.36-.1 2.3-.57 2.84-1.39.64-.91 1.01-3.21 1.12-6.9v-2.32c0-1.34-.07-2.52-.2-3.53-.19-1.67-.68-2.84-1.45-3.53Zm-7.4 10.52c-.27.31-.79.47-1.58.47h-1.36v-5.3h1.16c.91 0 1.5.21 1.78.62.36.49.53 1.2.53 2.14s-.18 1.65-.53 2.07ZM302.63 31.91V27.2c.07-2.25-.54-3.83-1.83-4.74-.55-.36-1.43-.71-2.64-1.07 1.18-.13 2.04-.39 2.59-.78.95-.7 1.54-1.82 1.76-3.35.07-.57.11-1.53.11-2.88v-1.97c-.01-1.37-.19-2.53-.54-3.48-.45-1.33-1.41-2.08-2.88-2.26-.73-.09-2.02-.13-3.86-.13h-12.51v30.49h8.18V25.1h1.03c.73 0 1.3.17 1.72.51.45.39.68 1.12.69 2.21v4.07c-.01 2.13.19 3.84.63 5.14h8.2c-.42-1.33-.63-3.03-.65-5.12Zm-9.15-13.94c-.27.28-.86.42-1.78.42h-1.16v-5.3h1.16c.76 0 1.28.13 1.58.38.49.43.73 1.19.73 2.27s-.18 1.85-.53 2.23ZM25.98 0C11.65 0 0 11.65 0 25.98s11.65 25.98 25.98 25.98 25.98-11.65 25.98-25.98S40.3 0 25.98 0Zm0 50.55c-9.32 0-17.43-5.19-21.6-12.84h5.64v-3.45H5.96c-1.24 0-2.16-.15-2.76-.46-.8-.41-.93-1.31-1.12-2.09-.15-.62-.28-1.26-.38-1.89-.2-1.28-.31-2.57-.31-3.86 0-1.22.09-2.43.27-3.64.09-.6.2-1.19.34-1.79.13-.56.18-1.12.47-1.62.28-.49.71-.92 1.22-1.18.66-.34 1.91-.51 3.73-.51h10.27v6.31h-7.56v3.17h2.94c2.44-.03 4.05.5 4.85 1.61.39.65.61 1.75.66 3.32.02.41.03 1.23.03 2.45v3.73c0 .37-.04.91-.11 1.61-.08.7-.15 1.22-.22 1.56-.2.97-.79 1.76-1.76 2.38-.23.14-.53.25-.87.34h11.02V30.06h1.23c1.36.02 2.22.72 2.58 2.09.1.36.15 1.11.15 2.25v3.19c0 1.46.07 2.66.2 3.58.14.82.44 1.66.92 2.53h8.97c-.29-.94-.49-1.79-.59-2.55-.1-.83-.15-2.08-.15-3.73v-4.88c0-1.91-.34-3.35-1.02-4.32-.85-1.12-2.26-1.83-4.22-2.12-.17-.02-.54-.08-1.1-.18 1.21-.24 2.07-.43 2.58-.56 1.92-.61 3.11-1.84 3.55-3.68.14-.56.2-1.63.2-3.19v-4.11c.02-1.77.06-2.89.13-3.35.07-.58.27-1.31.61-2.2h-9.3c-.53 1.24-.79 2.77-.79 4.57v3.99c0 1.16-.03 1.92-.08 2.3-.1 1.12-.37 1.9-.82 2.32-.32.29-.89.44-1.69.46h-1.38V1.41c13.27.36 23.92 11.2 23.92 24.55S39.56 50.55 25.98 50.55Z",
@@ -1982,9 +1838,9 @@ var import_react_plx = require("react-plx");
 var import_react_animate_on_scroll2 = __toESM(require("react-animate-on-scroll"));
 
 // app/components/background.component.jsx
-var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime12 = require("react/jsx-dev-runtime");
 function Background() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "backgroundImg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("img", { className: "textureImg", src: "/images/GraidentBackground_Light.webp", alt: "gradient" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("div", { className: "backgroundImg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime12.jsxDEV)("img", { className: "textureImg", src: "/images/GraidentBackground_Light.webp", alt: "gradient" }, void 0, !1, {
     fileName: "app/components/background.component.jsx",
     lineNumber: 4,
     columnNumber: 13
@@ -1996,10 +1852,10 @@ function Background() {
 }
 
 // app/components/hero.component.jsx
-var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime");
+var import_jsx_dev_runtime13 = require("react/jsx-dev-runtime");
 function Hero() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "hero", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "container", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "hero", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "container", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
       progressiveImage_component_default,
       {
         src: "/images/brandImages/rolling/RollingRest_Sketches.webp",
@@ -2024,8 +1880,8 @@ function Hero() {
       lineNumber: 7,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/brandImages/rolling/RollingRest_Logo.webp",
@@ -2046,7 +1902,7 @@ function Hero() {
         lineNumber: 18,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/EliteEstheticianBooth.webp",
@@ -2072,8 +1928,8 @@ function Hero() {
       lineNumber: 17,
       columnNumber: 17
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerRow", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerRow", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/printImages/MatadorBottle_v2_Mockup.webp",
@@ -2094,7 +1950,7 @@ function Hero() {
         lineNumber: 36,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/brandImages/rex/Rex Van.webp",
@@ -2115,7 +1971,7 @@ function Hero() {
         lineNumber: 44,
         columnNumber: 21
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(
+      /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)("div", { className: "containerImage", children: /* @__PURE__ */ (0, import_jsx_dev_runtime13.jsxDEV)(
         progressiveImage_component_default,
         {
           src: "/images/HoodGuyMockup copy.webp",
@@ -2153,37 +2009,37 @@ function Hero() {
 }
 
 // app/routes/__app._index.jsx
-var import_jsx_dev_runtime15 = require("react/jsx-dev-runtime"), meta4 = () => [
+var import_jsx_dev_runtime14 = require("react/jsx-dev-runtime"), meta3 = () => [
   { title: "Evolving Graphic Design | Stephen Kloepfer | Branding & Design" },
   { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
   { name: "description", content: "In today's evolving market, it is imperative your design evolves alongside. Stephen Kloepfer is here to help with all your branding and graphic design needs." },
   { name: "og:title", content: "Stephen Kloepfer | Branding and Design" },
   { name: "og:description", content: "Stephen Kloepfer specializes in evolving graphic design to compete in today's fast-paced market." },
   { name: "og:image", content: "/social_preview.png" }
-], links8 = () => [
+], links7 = () => [
   { rel: "stylesheet", href: landing_styles_default },
   { rel: "stylesheet", href: hero_styles_default },
   ...links3()
 ];
 function Index() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(logoSVG_component_default, { className: "logo", color: "#018aaa", logoID: "logo1" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(logoSVG_component_default, { className: "logo", color: "#018aaa", logoID: "logo1" }, void 0, !1, {
       fileName: "app/routes/__app._index.jsx",
       lineNumber: 90,
       columnNumber: 5
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(Hero, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(Hero, {}, void 0, !1, {
       fileName: "app/routes/__app._index.jsx",
       lineNumber: 91,
       columnNumber: 5
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "scroller", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "scroller", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
         fileName: "app/routes/__app._index.jsx",
         lineNumber: 93,
         columnNumber: 8
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_react_animate_on_scroll2.default, { animateIn: "slideInUp", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(MainMenu, { scrolling: !0 }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(import_react_animate_on_scroll2.default, { animateIn: "slideInUp", children: /* @__PURE__ */ (0, import_jsx_dev_runtime14.jsxDEV)(MainMenu, { scrolling: !0 }, void 0, !1, {
         fileName: "app/routes/__app._index.jsx",
         lineNumber: 95,
         columnNumber: 11
@@ -2208,17 +2064,17 @@ function Index() {
 var app_about_exports = {};
 __export(app_about_exports, {
   default: () => app_about_default,
-  links: () => links9,
-  loader: () => loader4,
-  meta: () => meta5
+  links: () => links8,
+  loader: () => loader3,
+  meta: () => meta4
 });
-var import_react15 = require("react");
+var import_react13 = require("react");
 
 // app/styles/about.styles.css
 var about_styles_default = "/build/_assets/about.styles-A5VLG4FA.css";
 
 // app/routes/__app.about.jsx
-var import_react16 = require("@remix-run/react");
+var import_react14 = require("@remix-run/react");
 
 // workhistory.json
 var workhistory_default = {
@@ -2290,20 +2146,20 @@ var workhistory_default = {
 };
 
 // app/components/timeline.component.jsx
-var import_react14 = require("react"), import_jsx_dev_runtime16 = require("react/jsx-dev-runtime");
+var import_react12 = require("react"), import_jsx_dev_runtime15 = require("react/jsx-dev-runtime");
 function Timeline(props) {
-  let [activeInfo, setInfo] = (0, import_react14.useState)(""), [priorSelect, setPrior] = (0, import_react14.useState)("");
+  let [activeInfo, setInfo] = (0, import_react12.useState)(""), [priorSelect, setPrior] = (0, import_react12.useState)("");
   var aboutInfo;
   let select = props.selector;
   select === "about" ? aboutInfo = props.aboutInfo.about : select === "education" ? aboutInfo = props.aboutInfo.education : select === "skills" ? aboutInfo = props.aboutInfo.skills : aboutInfo = "";
   let setActive = (props2) => {
     setInfo(""), setInfo(props2);
   };
-  return (0, import_react14.useEffect)(() => {
+  return (0, import_react12.useEffect)(() => {
     (activeInfo == "" && priorSelect != select || priorSelect != select) && (setInfo(aboutInfo[0]), setPrior(select));
-  }, [aboutInfo, activeInfo, priorSelect, setPrior, select]), /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "scrollbox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutContainer", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "timeline", style: { maxHeight: props.heightBlock }, children: aboutInfo.map((info) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
+  }, [aboutInfo, activeInfo, priorSelect, setPrior, select]), /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "scrollbox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "aboutContainer", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "timeline", style: { maxHeight: props.heightBlock }, children: aboutInfo.map((info) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(
         "div",
         {
           className: activeInfo && activeInfo != "" && info.title === activeInfo.title ? "bullet activeBullet" : "bullet",
@@ -2319,12 +2175,12 @@ function Timeline(props) {
         },
         this
       ),
-      activeInfo && activeInfo != "" && info.title === activeInfo.title ? /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "bulletActive-line" }, void 0, !1, {
+      activeInfo && activeInfo != "" && info.title === activeInfo.title ? /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "bulletActive-line" }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 55,
         columnNumber: 33
       }, this) : "",
-      info.final ? "" : /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: info.spaceClass }, void 0, !1, {
+      info.final ? "" : /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: info.spaceClass }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 61,
         columnNumber: 33
@@ -2338,18 +2194,18 @@ function Timeline(props) {
       lineNumber: 38,
       columnNumber: 13
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "textbox", style: { minHeight: props.heightBlock }, children: activeInfo && activeInfo != "" ? /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(import_jsx_dev_runtime16.Fragment, { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { children: activeInfo.title }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("div", { className: "textbox", style: { minHeight: props.heightBlock }, children: activeInfo && activeInfo != "" ? /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)(import_jsx_dev_runtime15.Fragment, { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h2", { children: activeInfo.title }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 72,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h3", { children: activeInfo.date }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("h3", { children: activeInfo.date }, void 0, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 73,
         columnNumber: 25
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("ul", { children: activeInfo.text.map((text) => /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("li", { children: text }, text, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("ul", { children: activeInfo.text.map((text) => /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("li", { children: text }, text, !1, {
         fileName: "app/components/timeline.component.jsx",
         lineNumber: 77,
         columnNumber: 37
@@ -2362,7 +2218,7 @@ function Timeline(props) {
       fileName: "app/components/timeline.component.jsx",
       lineNumber: 71,
       columnNumber: 25
-    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: "Please Select a Bullet" }, void 0, !1, {
+    }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime15.jsxDEV)("p", { children: "Please Select a Bullet" }, void 0, !1, {
       fileName: "app/components/timeline.component.jsx",
       lineNumber: 83,
       columnNumber: 25
@@ -2383,13 +2239,13 @@ function Timeline(props) {
 }
 
 // app/routes/__app.about.jsx
-var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => [
+var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   { rel: "stylesheet", href: about_styles_default },
   ...links3(),
   ...links2()
-], meta5 = () => [
+], meta4 = () => [
   { title: "Who is Stephen Kloepfer?" },
   { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
   { name: "description", content: "A bit about me and my history in the fast-paced field of graphic design." },
@@ -2397,17 +2253,17 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => 
   { name: "og:description", content: "A bit about me and my history in the fast-paced field of graphic desig." },
   { name: "og:image", content: "/social_preview.png" }
 ], About = () => {
-  let aboutInfo = (0, import_react16.useLoaderData)(), [triggered, setTriggered] = (0, import_react15.useState)(!1), [loaded, hasloaded] = (0, import_react15.useState)(!1), [height, setHeight] = (0, import_react15.useState)("63vh"), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+  let aboutInfo = (0, import_react14.useLoaderData)(), [triggered, setTriggered] = (0, import_react13.useState)(!1), [loaded, hasloaded] = (0, import_react13.useState)(!1), [height, setHeight] = (0, import_react13.useState)("63vh"), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
     await delay(500), hasloaded(!0), setTriggered(!0);
   }, closeSlide = () => {
     setTriggered(!1);
-  }, navigate = (0, import_react16.useNavigate)(), data_from_child = async (data) => {
+  }, navigate = (0, import_react14.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   };
-  return (0, import_react15.useEffect)(() => {
+  return (0, import_react13.useEffect)(() => {
     loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
+  }), /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(
       MainMenu,
       {
         page: "about",
@@ -2424,43 +2280,43 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => 
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: triggered ? "slider backgroundGray activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: triggered ? "slider backgroundGray activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.about.jsx",
         lineNumber: 76,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(pagesHeader_component_default, { background: "#35444F", setter: data_from_child, onClose: closeSlide, active: "about" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(pagesHeader_component_default, { background: "#35444F", setter: data_from_child, onClose: closeSlide, active: "about" }, void 0, !1, {
         fileName: "app/routes/__app.about.jsx",
         lineNumber: 77,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "introBox", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h1", { className: "aboutHeading", children: "About Me" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introBox", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h1", { className: "aboutHeading", children: "About Me" }, void 0, !1, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 80,
             columnNumber: 11
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "introText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("p", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "introText", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("p", { children: [
             "It\u2019s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It\u2019s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market.",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
               lineNumber: 84,
               columnNumber: 15
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
               lineNumber: 84,
               columnNumber: 21
             }, this),
             "When not working, my greatest passion is my family. I can often be found playing with my two sons, or spending some quality time with my wife. My primary goal is to provide the best life that I can for them, and be a present and involved as a partner and father.",
-            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
               lineNumber: 86,
               columnNumber: 15
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("br", {}, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/__app.about.jsx",
               lineNumber: 86,
               columnNumber: 21
@@ -2480,7 +2336,7 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => 
           lineNumber: 79,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "historyBox", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("h2", { className: "historyText", children: "Work History" }, void 0, !1, {
           fileName: "app/routes/__app.about.jsx",
           lineNumber: 92,
           columnNumber: 13
@@ -2489,7 +2345,7 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => 
           lineNumber: 91,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "76vh" }, void 0, !1, {
+        /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)("div", { className: "aboutRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime16.jsxDEV)(Timeline, { aboutInfo, selector: "about", heightBlock: "76vh" }, void 0, !1, {
           fileName: "app/routes/__app.about.jsx",
           lineNumber: 95,
           columnNumber: 13
@@ -2514,7 +2370,7 @@ var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => 
     columnNumber: 5
   }, this);
 }, app_about_default = About;
-async function loader4() {
+async function loader3() {
   return workhistory_default;
 }
 
@@ -2522,24 +2378,24 @@ async function loader4() {
 var app_logos_exports = {};
 __export(app_logos_exports, {
   default: () => app_logos_default,
-  links: () => links10,
-  loader: () => loader5,
-  meta: () => meta6
+  links: () => links9,
+  loader: () => loader4,
+  meta: () => meta5
 });
-var import_react17 = require("react");
+var import_react15 = require("react");
 
 // app/styles/logos.styles.css
 var logos_styles_default = "/build/_assets/logos.styles-C2ZQ2X27.css";
 
 // app/routes/__app.logos.jsx
-var import_react18 = require("@remix-run/react");
-var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () => [
+var import_react16 = require("@remix-run/react");
+var import_jsx_dev_runtime17 = require("react/jsx-dev-runtime"), links9 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   { rel: "stylesheet", href: logos_styles_default },
   ...links3(),
   ...links2()
-], meta6 = () => [
+], meta5 = () => [
   { title: "Logo Design | Stephen Kloepfer Branding & Design?" },
   { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
   { name: "description", content: "I specialize in creating logos in a wide variety of styles to create a unique and personalized look that draws your customers' eyes." },
@@ -2548,8 +2404,8 @@ var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () =>
   { name: "og:image", content: "/social_preview.png" }
 ];
 function useHorizontalScroll() {
-  let elRef = (0, import_react17.useRef)();
-  return (0, import_react17.useEffect)(() => {
+  let elRef = (0, import_react15.useRef)();
+  return (0, import_react15.useEffect)(() => {
     let el = elRef.current;
     if (el) {
       let onWheel = (e) => {
@@ -2560,17 +2416,17 @@ function useHorizontalScroll() {
   }, []), elRef;
 }
 var LogoDesign = () => {
-  let [triggered, setTriggered] = (0, import_react17.useState)(!1), [loaded, hasloaded] = (0, import_react17.useState)(!1), brandData = (0, import_react18.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
+  let [triggered, setTriggered] = (0, import_react15.useState)(!1), [loaded, hasloaded] = (0, import_react15.useState)(!1), brandData = (0, import_react16.useLoaderData)(), delay = (ms) => new Promise((res) => setTimeout(res, ms)), triggerSlide = async () => {
     await delay(500), hasloaded(!0), setTriggered(!0);
   }, closeSlide = () => {
     setTriggered(!1);
-  }, navigate = (0, import_react18.useNavigate)(), data_from_child = async (data) => {
+  }, navigate = (0, import_react16.useNavigate)(), data_from_child = async (data) => {
     data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
   }, scrollRef = useHorizontalScroll();
-  return (0, import_react17.useEffect)(() => {
+  return (0, import_react15.useEffect)(() => {
     loaded || triggerSlide();
-  }), /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+  }), /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
       MainMenu,
       {
         page: "logos",
@@ -2587,18 +2443,18 @@ var LogoDesign = () => {
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider backgroundBlue activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: triggered ? "slider backgroundBlue activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 93,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "logos" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(pagesHeader_component_default, { background: "#1A4C74", setter: data_from_child, onClose: closeSlide, active: "logos" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 94,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "heading", children: "Logo Design" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h1", { className: "heading", children: "Logo Design" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 96,
         columnNumber: 11
@@ -2607,9 +2463,9 @@ var LogoDesign = () => {
         lineNumber: 95,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: brandData.logos.map((logo, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logosRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoBounding", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoDescriptionNoSlide", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h2", { children: logo.name }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { children: brandData.logos.map((logo, index) => /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logosRow", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logoBounding", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logoDescriptionNoSlide", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("h2", { children: logo.name }, void 0, !1, {
             fileName: "app/routes/__app.logos.jsx",
             lineNumber: 106,
             columnNumber: 17
@@ -2620,7 +2476,7 @@ var LogoDesign = () => {
           lineNumber: 105,
           columnNumber: 15
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "logoBoxNoSlide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
+        /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "logoBoxNoSlide", children: /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)(
           progressiveImage_component_default,
           {
             src: logo.image,
@@ -2654,7 +2510,7 @@ var LogoDesign = () => {
         lineNumber: 98,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime17.jsxDEV)("div", { className: "spacer" }, void 0, !1, {
         fileName: "app/routes/__app.logos.jsx",
         lineNumber: 123,
         columnNumber: 7
@@ -2670,7 +2526,7 @@ var LogoDesign = () => {
     columnNumber: 5
   }, this);
 }, app_logos_default = LogoDesign;
-async function loader5() {
+async function loader4() {
   return brandingInfo_default;
 }
 
@@ -2678,37 +2534,37 @@ async function loader5() {
 var app_print_exports = {};
 __export(app_print_exports, {
   default: () => app_print_default,
-  links: () => links11,
-  loader: () => loader6,
-  meta: () => meta7
+  links: () => links10,
+  loader: () => loader5,
+  meta: () => meta6
 });
-var import_react19 = require("react");
-var import_react20 = require("@remix-run/react");
-var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () => [
+var import_react17 = require("react");
+var import_react18 = require("@remix-run/react");
+var import_jsx_dev_runtime18 = require("react/jsx-dev-runtime"), links10 = () => [
   { rel: "stylesheet", href: global_styles_default },
   { rel: "stylesheet", href: page_styles_default },
   ...links3(),
   ...links2(),
-  ...links4()
-], meta7 = () => [
+  ...links5()
+], meta6 = () => [
   { title: "Print Design | Stephen Kloepfer Branding & Design" },
   { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
   { name: "description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
   { name: "og:title", content: "Stephen Kloepfer Design for Print Production" },
   { name: "og:description", content: "With over a decade in Print and Presentation, I specialize in crafting press ready visuals, working within your branded guidelines." },
   { name: "og:image", content: "/social_preview.png" }
-], Branding3 = () => {
-  let [triggered, setTriggered] = (0, import_react19.useState)(!1), [loaded, hasloaded] = (0, import_react19.useState)(!1), [active, setActive] = (0, import_react19.useState)(), [IsActive, setActiveBool] = (0, import_react19.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react20.useNavigate)(), triggerSlide = async () => {
+], Branding2 = () => {
+  let [triggered, setTriggered] = (0, import_react17.useState)(!1), [loaded, hasloaded] = (0, import_react17.useState)(!1), [active, setActive] = (0, import_react17.useState)(), [IsActive, setActiveBool] = (0, import_react17.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react18.useNavigate)(), triggerSlide = async () => {
     await delay(250), hasloaded(!0), setTriggered(!0);
   }, data_from_child = async (data2) => {
     data2 != "" && data2 != null && (closeSlide(), await delay(500), navigate("/" + data2));
   }, closeSlide = () => {
     setTriggered(!1);
-  }, data = (0, import_react20.useLoaderData)();
-  (0, import_react19.useEffect)(() => {
+  }, data = (0, import_react18.useLoaderData)();
+  (0, import_react17.useEffect)(() => {
     loaded || triggerSlide();
   });
-  let [hoveredItem, setHovered] = (0, import_react19.useState)("");
+  let [hoveredItem, setHovered] = (0, import_react17.useState)("");
   function changeHover(newItem) {
     setHovered(newItem.name);
   }
@@ -2726,8 +2582,8 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
   function checkLength(item) {
     return item.images.length;
   }
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
       MainMenu,
       {
         page: "print",
@@ -2742,28 +2598,28 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
       },
       this
     ),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: triggered ? "slider backgroundDark activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
         lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "print" }, void 0, !1, {
         fileName: "app/routes/__app.print.jsx",
         lineNumber: 102,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("h1", { className: "heading", children: "Print Design" }, void 0, !1, {
           fileName: "app/routes/__app.print.jsx",
           lineNumber: 104,
           columnNumber: 11
         }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
-          (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("a", { children: [
-            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "imageGrid", children: data.print.map(
+          (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("a", { children: [
+            checkLength(item) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
                 lineNumber: 112,
                 columnNumber: 106
@@ -2773,9 +2629,9 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
               fileName: "app/routes/__app.print.jsx",
               lineNumber: 112,
               columnNumber: 17
-            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("p", { className: "overlay", style: { fontSize: "150%", opacity: 1 }, children: [
               item.name.toUpperCase(),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("br", {}, void 0, !1, {
+              /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)("br", {}, void 0, !1, {
                 fileName: "app/routes/__app.print.jsx",
                 lineNumber: 113,
                 columnNumber: 106
@@ -2786,7 +2642,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
               lineNumber: 113,
               columnNumber: 17
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+            /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
               progressiveImage_component_default,
               {
                 alt: item.name,
@@ -2828,7 +2684,7 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
       lineNumber: 100,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(
+    /* @__PURE__ */ (0, import_jsx_dev_runtime18.jsxDEV)(
       modal_component_default,
       {
         onClose,
@@ -2850,8 +2706,8 @@ var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), links11 = () =>
     lineNumber: 95,
     columnNumber: 5
   }, this);
-}, app_print_default = Branding3;
-async function loader6() {
+}, app_print_default = Branding2;
+async function loader5() {
   return brandingInfo_default;
 }
 
@@ -2859,15 +2715,15 @@ async function loader6() {
 var app_menu_exports = {};
 __export(app_menu_exports, {
   default: () => Menu,
-  links: () => links12,
-  meta: () => meta8
+  links: () => links11,
+  meta: () => meta7
 });
-var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), meta8 = () => [{ title: "New Remix App" }], links12 = () => [
+var import_jsx_dev_runtime19 = require("react/jsx-dev-runtime"), meta7 = () => [{ title: "New Remix App" }], links11 = () => [
   { rel: "stylesheet", href: menu_styles_default }
 ];
 function Menu() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "main", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "backgroundImg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("img", { className: "textureImg", src: "/images/texture-1874580_1920.jpg", alt: "grunge" }, void 0, !1, {
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("div", { className: "backgroundImg", children: /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)("img", { className: "textureImg", src: "/images/texture-1874580_1920.jpg", alt: "grunge" }, void 0, !1, {
       fileName: "app/routes/__app.menu.jsx",
       lineNumber: 20,
       columnNumber: 9
@@ -2876,7 +2732,7 @@ function Menu() {
       lineNumber: 19,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(MainMenu, { scrolling: !1 }, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime19.jsxDEV)(MainMenu, { scrolling: !1 }, void 0, !1, {
       fileName: "app/routes/__app.menu.jsx",
       lineNumber: 23,
       columnNumber: 7
@@ -2886,6 +2742,179 @@ function Menu() {
     lineNumber: 17,
     columnNumber: 5
   }, this);
+}
+
+// app/routes/__app.spec.jsx
+var app_spec_exports = {};
+__export(app_spec_exports, {
+  default: () => app_spec_default,
+  links: () => links12,
+  loader: () => loader6,
+  meta: () => meta8
+});
+var import_react19 = require("react");
+var import_react20 = require("@remix-run/react");
+var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () => [
+  { rel: "stylesheet", href: global_styles_default },
+  { rel: "stylesheet", href: page_styles_default },
+  ...links3(),
+  ...links2(),
+  ...links5()
+], meta8 = () => [
+  { title: "Brand Identity Services | Stephen Kloepfer Branding & Design?" },
+  { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
+  { name: "description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
+  { name: "og:title", content: "Stephen Kloepfer Branding Services" },
+  { name: "og:description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
+  { name: "og:image", content: "/social_preview.png" }
+], Branding3 = () => {
+  let [triggered, setTriggered] = (0, import_react19.useState)(!1), [loaded, hasloaded] = (0, import_react19.useState)(!1), [activeBrand, setActiveBrand] = (0, import_react19.useState)(), [brandIsActive, setBrandBool] = (0, import_react19.useState)(!1), delay = (ms) => new Promise((res) => setTimeout(res, ms)), navigate = (0, import_react20.useNavigate)(), triggerSlide = async () => {
+    await delay(250), hasloaded(!0), setTriggered(!0);
+  }, data_from_child = async (data) => {
+    data != "" && data != null && (closeSlide(), await delay(500), navigate("/" + data));
+  }, closeSlide = () => {
+    setTriggered(!1);
+  }, brandData = (0, import_react20.useLoaderData)();
+  (0, import_react19.useEffect)(() => {
+    loaded || triggerSlide();
+  });
+  let [hoveredItem, setHovered] = (0, import_react19.useState)("");
+  function changeHover(newItem) {
+    setHovered(newItem.name);
+  }
+  function unsetHover() {
+    setHovered("");
+  }
+  function selectBrand(brand) {
+    setActiveBrand(brand), setBrandBool(!0);
+  }
+  let onClose = () => {
+    setActiveBrand(""), setBrandBool(!1);
+  }, onReopen = () => {
+    hasloaded(!1);
+  };
+  function checkLength(brand) {
+    return brand.images.length;
+  }
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "main", children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      MainMenu,
+      {
+        page: "branding",
+        onReopen
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/__app.spec.jsx",
+        lineNumber: 96,
+        columnNumber: 7
+      },
+      this
+    ),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: triggered ? "slider backgroundLight activeSlide" : "slider inactiveSlide", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("button", { onClick: closeSlide, className: triggered ? "button" : "button hiddenButton", children: "x" }, void 0, !1, {
+        fileName: "app/routes/__app.spec.jsx",
+        lineNumber: 101,
+        columnNumber: 7
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
+        fileName: "app/routes/__app.spec.jsx",
+        lineNumber: 102,
+        columnNumber: 9
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h1", { className: "heading", children: [
+          "Speculative Work ",
+          /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+            fileName: "app/routes/__app.spec.jsx",
+            lineNumber: 104,
+            columnNumber: 52
+          }, this),
+          " & Creative Designs"
+        ] }, void 0, !0, {
+          fileName: "app/routes/__app.spec.jsx",
+          lineNumber: 104,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageGrid", children: brandData.spec.map(
+          (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("a", { children: [
+            checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
+              fileName: "app/routes/__app.spec.jsx",
+              lineNumber: 112,
+              columnNumber: 17
+            }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
+              fileName: "app/routes/__app.spec.jsx",
+              lineNumber: 113,
+              columnNumber: 17
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+              progressiveImage_component_default,
+              {
+                alt: brand.name,
+                src: brand.hero ? brand.hero.image : brand.images[0].image,
+                placeholderSrc: brand.hero ? brand.hero.placeholder : brand.images[0].placeholder,
+                classTitle: "primaryImage",
+                onClick: () => selectBrand(brand)
+              },
+              brand.name,
+              !1,
+              {
+                fileName: "app/routes/__app.spec.jsx",
+                lineNumber: 116,
+                columnNumber: 19
+              },
+              this
+            )
+          ] }, void 0, !0, {
+            fileName: "app/routes/__app.spec.jsx",
+            lineNumber: 109,
+            columnNumber: 17
+          }, this) }, brand.name, !1, {
+            fileName: "app/routes/__app.spec.jsx",
+            lineNumber: 108,
+            columnNumber: 13
+          }, this)
+        ) }, void 0, !1, {
+          fileName: "app/routes/__app.spec.jsx",
+          lineNumber: 105,
+          columnNumber: 11
+        }, this)
+      ] }, void 0, !0, {
+        fileName: "app/routes/__app.spec.jsx",
+        lineNumber: 103,
+        columnNumber: 9
+      }, this)
+    ] }, void 0, !0, {
+      fileName: "app/routes/__app.spec.jsx",
+      lineNumber: 100,
+      columnNumber: 7
+    }, this),
+    /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
+      modal_component_default,
+      {
+        onClose,
+        className: brandIsActive ? "openModal" : "closeModal",
+        color: "white",
+        data: activeBrand
+      },
+      void 0,
+      !1,
+      {
+        fileName: "app/routes/__app.spec.jsx",
+        lineNumber: 135,
+        columnNumber: 5
+      },
+      this
+    )
+  ] }, void 0, !0, {
+    fileName: "app/routes/__app.spec.jsx",
+    lineNumber: 95,
+    columnNumber: 5
+  }, this);
+}, app_spec_default = Branding3;
+async function loader6() {
+  return brandingInfo_default;
 }
 
 // app/routes/__app.web.jsx
@@ -3059,7 +3088,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MSMUNHXB.js", imports: ["/build/_shared/chunk-ISWDE4OT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-D2UQ4JGH.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-SZEJ3N6Q.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding-original": { id: "routes/__app.branding-original", parentId: "routes/__app", path: "branding-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-original-LJQ5PYME.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-NMPMXE3G.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-ZDD6EOL7.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RIJOKIX3.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-Y7RY4E33.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "75ea4d9a", hmr: void 0, url: "/build/manifest-75EA4D9A.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MSMUNHXB.js", imports: ["/build/_shared/chunk-ISWDE4OT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-D2UQ4JGH.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-SZEJ3N6Q.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-NMPMXE3G.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-ZDD6EOL7.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RIJOKIX3.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-332SLHNV.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-Y7RY4E33.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "3d9995c9", hmr: void 0, url: "/build/manifest-3D9995C9.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -3070,14 +3099,6 @@ var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postc
     index: void 0,
     caseSensitive: void 0,
     module: root_exports
-  },
-  "routes/__app.branding-original": {
-    id: "routes/__app.branding-original",
-    parentId: "routes/__app",
-    path: "branding-original",
-    index: void 0,
-    caseSensitive: void 0,
-    module: app_branding_original_exports
   },
   "routes/__app.print-original": {
     id: "routes/__app.print-original",
@@ -3134,6 +3155,14 @@ var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postc
     index: void 0,
     caseSensitive: void 0,
     module: app_menu_exports
+  },
+  "routes/__app.spec": {
+    id: "routes/__app.spec",
+    parentId: "routes/__app",
+    path: "spec",
+    index: void 0,
+    caseSensitive: void 0,
+    module: app_spec_exports
   },
   "routes/__app.web": {
     id: "routes/__app.web",
