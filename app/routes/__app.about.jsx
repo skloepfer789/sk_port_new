@@ -78,7 +78,7 @@ const About = () => {
         <div>
           <div className='introBox'>
           <h1 className='aboutHeading'>About Me</h1>
-            <div className='introText'>
+            <div className='aboutText'>
               <p>
               It’s a rare thing to find something you love doing and even rarer to do it professionally. I am lucky enough to have found a calling that allows me to express my artistic side, while also helping my clients succeed. It’s my focus to create lasting imagery that is both eye-catching and matches the personality of my clients. To achieve this, I strive to stay up-to-date with the latest trends and technology in the field, so I can continue supporting my clients in today's competitive and evolving market. 
               <br/><br/>

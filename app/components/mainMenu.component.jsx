@@ -10,11 +10,11 @@ const menuItems = [
     {
       name: 'branding & logos',
       link: '/branding',
-      image: '/images/RexTest.png',
+      image: '/images/brandImages/rolling/RollingRest_Logo.webp',
     },{
       name: 'print design',
       link: '/print',
-      image: '/images/SummitSign.webp',
+      image: '/images/printImages/EliteEstheticianBooth.webp',
     },{
       name: 'playground',
       link: '/spec',
@@ -26,7 +26,7 @@ const menuItems = [
     },{
       name: 'about me',
       link: '/about',
-      image: '/images/AboutPic.png',
+      image: '/images/ContactBanner.png',
     }
 ];
 
