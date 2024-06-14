@@ -94,7 +94,7 @@ const Branding = () => {
   return (
     <div className='main'>
       <MainMenu 
-        page='playground'
+        page='spec'
         onReopen={onReopen}
       />
       <div className={triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`} >

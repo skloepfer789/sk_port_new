@@ -37,11 +37,11 @@ var links4 = () => [
 ];
 var meta = () => {
   return [
-    { title: "Brand Identity Services | Stephen Kloepfer Branding & Design?" },
+    { title: "Artistic Playground | Stephen Kloepfer Branding & Design?" },
     { name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved." },
-    { name: "description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
-    { name: "og:title", content: "Stephen Kloepfer Branding Services" },
-    { name: "og:description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition." },
+    { name: "description", content: "Featuring non-client projects, done for fun and practice." },
+    { name: "og:title", content: "Stephen Kloepfer Artistic Playground" },
+    { name: "og:description", content: "Featuring non-client projects, done for fun and practice." },
     { name: "og:image", content: "/social_preview.png" }
   ];
 };
@@ -98,7 +98,7 @@ var Branding = () => {
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
       MainMenu,
       {
-        page: "playground",
+        page: "spec",
         onReopen
       },
       void 0,
@@ -227,4 +227,4 @@ export {
   links4 as links,
   meta
 };
-//# sourceMappingURL=/build/routes/__app.spec-ESENC2ZW.js.map
+//# sourceMappingURL=/build/routes/__app.spec-UW4NEISJ.js.map
