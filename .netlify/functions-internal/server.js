@@ -155,7 +155,7 @@ __export(root_exports, {
 var import_css_bundle = __toESM(require_dist());
 
 // app/styles/global.styles.css
-var global_styles_default = "/build/_assets/global.styles-YJEKNQTX.css";
+var global_styles_default = "/build/_assets/global.styles-OR34CFQW.css";
 
 // app/root.jsx
 var import_react2 = require("@remix-run/react"), import_react_animated_cursor = __toESM(require("react-animated-cursor")), import_react_device_detect = require("react-device-detect"), import_jsx_dev_runtime2 = require("react/jsx-dev-runtime"), links = () => [
@@ -342,16 +342,24 @@ var header_styles_default = "/build/_assets/header.styles-G6EVTQRN.css";
 // app/components/pagesHeader.component.jsx
 var import_react4 = require("react"), import_jsx_dev_runtime4 = require("react/jsx-dev-runtime"), pageLinks = [
   {
-    link: "branding"
+    link: "branding",
+    name: "branding"
   },
   {
-    link: "print"
+    link: "print",
+    name: "print"
   },
   {
-    link: "web"
+    link: "web",
+    name: "web"
   },
   {
-    link: "about"
+    link: "spec",
+    name: "playground"
+  },
+  {
+    link: "about",
+    name: "about"
   }
 ];
 function determinePage(pageName) {
@@ -378,46 +386,46 @@ var PageHeader = (props) => {
           setter: link.link,
           onClick: () => setActive(link.link),
           style: { color: logoColor },
-          children: link.link
+          children: link.name
         },
         void 0,
         !1,
         {
           fileName: "app/components/pagesHeader.component.jsx",
-          lineNumber: 63,
+          lineNumber: 70,
           columnNumber: 29
         },
         this
       ) }, link.link, !1, {
         fileName: "app/components/pagesHeader.component.jsx",
-        lineNumber: 62,
+        lineNumber: 69,
         columnNumber: 11
       }, this)
     ) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 60,
+      lineNumber: 67,
       columnNumber: 17
     }, this) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 58,
+      lineNumber: 65,
       columnNumber: 13
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)("div", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(import_react3.Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime4.jsxDEV)(logoBleedOfflSVG_component_default, { className: "headerLogo", color: logoColor }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 76,
+      lineNumber: 83,
       columnNumber: 21
     }, this) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 75,
+      lineNumber: 82,
       columnNumber: 17
     }, this) }, void 0, !1, {
       fileName: "app/components/pagesHeader.component.jsx",
-      lineNumber: 74,
+      lineNumber: 81,
       columnNumber: 13
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/pagesHeader.component.jsx",
-    lineNumber: 57,
+    lineNumber: 64,
     columnNumber: 5
   }, this);
 }, pagesHeader_component_default = PageHeader, links2 = () => [
@@ -558,6 +566,11 @@ var import_jsx_dev_runtime6 = require("react/jsx-dev-runtime"), menuItems = [
     image: "/images/SummitSign.webp"
   },
   {
+    name: "playground",
+    link: "/spec",
+    image: "/images/specImages/coldstone/coldstone_Sketches.webp"
+  },
+  {
     name: "web design",
     link: "/web",
     image: "/images/HoodGuyMockup copy.webp"
@@ -592,11 +605,11 @@ function MainMenu(props) {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "background", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react6.Link, { to: "/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(logoBleedOfflSVG_component_default, { className: "logoHeading", color: "white", logoID: "logoHead" }, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 73,
+      lineNumber: 77,
       columnNumber: 19
     }, this) }, void 0, !1, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 73,
+      lineNumber: 77,
       columnNumber: 6
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -610,7 +623,7 @@ function MainMenu(props) {
       !1,
       {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 74,
+        lineNumber: 78,
         columnNumber: 7
       },
       this
@@ -619,7 +632,7 @@ function MainMenu(props) {
       scrolling && props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react_animate_on_scroll.default, { animateIn: "slideInLeft", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(currentElement), onMouseLeave: unsetHover, children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 84,
+          lineNumber: 88,
           columnNumber: 15
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -633,18 +646,18 @@ function MainMenu(props) {
           !1,
           {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 87,
+            lineNumber: 91,
             columnNumber: 15
           },
           this
         )
       ] }, void 0, !0, {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 83,
+        lineNumber: 87,
         columnNumber: 13
       }, this) }, void 0, !1, {
         fileName: "app/components/mainMenu.component.jsx",
-        lineNumber: 82,
+        lineNumber: 86,
         columnNumber: 9
       }, this) : props.page && props.page != "/" ? /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
         "div",
@@ -656,7 +669,7 @@ function MainMenu(props) {
           children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === currentElement.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 102,
+              lineNumber: 106,
               columnNumber: 13
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -669,7 +682,7 @@ function MainMenu(props) {
               !1,
               {
                 fileName: "app/components/mainMenu.component.jsx",
-                lineNumber: 105,
+                lineNumber: 109,
                 columnNumber: 13
               },
               this
@@ -680,7 +693,7 @@ function MainMenu(props) {
         !0,
         {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 96,
+          lineNumber: 100,
           columnNumber: 9
         },
         this
@@ -689,7 +702,7 @@ function MainMenu(props) {
         (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react_animate_on_scroll.default, { animateIn: "slideInLeft", children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 117,
+            lineNumber: 121,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -703,25 +716,25 @@ function MainMenu(props) {
             !1,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 120,
+              lineNumber: 124,
               columnNumber: 13
             },
             this
           )
         ] }, void 0, !0, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 116,
+          lineNumber: 120,
           columnNumber: 11
         }, this) }, item.name, !1, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 115,
+          lineNumber: 119,
           columnNumber: 9
         }, this)
       ) : newPages.map(
         (item) => /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "bounding", onMouseEnter: () => changeHover(item), onMouseLeave: unsetHover, children: [
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("img", { src: "/images/icon_SK.svg", alt: "highlight", className: hoveredItem === item.name ? "highlightImage" : "highlightImage offImage" }, void 0, !1, {
             fileName: "app/components/mainMenu.component.jsx",
-            lineNumber: 131,
+            lineNumber: 135,
             columnNumber: 13
           }, this),
           /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(
@@ -735,25 +748,25 @@ function MainMenu(props) {
             !1,
             {
               fileName: "app/components/mainMenu.component.jsx",
-              lineNumber: 134,
+              lineNumber: 138,
               columnNumber: 13
             },
             this
           )
         ] }, item.name, !0, {
           fileName: "app/components/mainMenu.component.jsx",
-          lineNumber: 130,
+          lineNumber: 134,
           columnNumber: 9
         }, this)
       )
     ] }, void 0, !0, {
       fileName: "app/components/mainMenu.component.jsx",
-      lineNumber: 79,
+      lineNumber: 83,
       columnNumber: 7
     }, this)
   ] }, void 0, !0, {
     fileName: "app/components/mainMenu.component.jsx",
-    lineNumber: 72,
+    lineNumber: 76,
     columnNumber: 5
   }, this);
 }
@@ -1335,19 +1348,144 @@ var brandingInfo_default = {
     placeholder: "/images/webImages/KennyAndersonWebsite-lowRes.webp"
   }],
   spec: [{
-    name: "Enhance Printing",
-    description: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+    name: "Coldstone Creamery",
+    description: "I've worked with Cold Stone Creamery for many years as to go-to printer for our local franchise. For fun, I deceided to try my hand at a brand refresh. My goal was to create a fresh look, that kept much of the franchies history intact, while modernizing their currently dated logo. To compliment the new looks, I created an array of slogans and imagery to use across digital, print, and storefronts.",
     hero: {
-      image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
-      alt: "Enhance Printing Brand Portfolio",
-      placeholder: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
+      image: "/images/specImages/coldstone/coldstoneLogo.webp",
+      alt: "Coldstone Speculative Rebrand",
+      placeholder: "/images/specImages/coldstone/coldstoneLogo_LowRes.webp",
       size: "large"
     },
     images: [{
-      image: "/images/brandImages/enhance/EnhanceWebsite.webp",
-      alt: "A Website To Compete in a Modern Market",
-      placeholder: "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
+      image: "/images/specImages/coldstone/mixItUpSlogan.webp",
+      alt: "Bold, Colorful, and Creative",
+      placeholder: "/images/specImages/coldstone/mixItUpSlogan_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/Coldstone Feather Flag Mockup.webp",
+      alt: "Bold Signage for Bold Slogans",
+      placeholder: "/images/specImages/coldstone/Coldstone Feather Flag Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_Sketches.webp",
+      alt: "Sketching Out Coldstone's Rebrand",
+      placeholder: "/images/specImages/coldstone/coldstone_Sketches_LowRes.webp",
       size: "small"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_Alternates.webp",
+      alt: "Logo Alternates for the Brand Image",
+      placeholder: "/images/specImages/coldstone/coldstone_Alternates_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_iceCreamTub.webp",
+      alt: "New Packaging for the New Look",
+      placeholder: "/images/specImages/coldstone/coldstone_iceCreamTub_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneCakeBox_Mockup.webp",
+      alt: "New Cake Boxes",
+      placeholder: "/images/specImages/coldstone/coldstoneCakeBox_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/colstoneCooler_Mockup.webp",
+      alt: "A New Look Keeping it Cool",
+      placeholder: "/images/specImages/coldstone/colstoneCooler_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneConeWrap_Mockup.webp",
+      alt: "Even the Cones are Sprinkled with Fun",
+      placeholder: "/images/specImages/coldstone/coldstoneConeWrap_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneInterior_Mockup.webp",
+      alt: "A New Look In the Store",
+      placeholder: "/images/specImages/coldstone/coldstoneInterior_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/ColdstoneSign_Mockup.webp",
+      alt: "Signage for Maximum Visibility",
+      placeholder: "/images/specImages/coldstone/ColdstoneSign_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneApron_Mockup.webp",
+      alt: "A New Uniform - Aprons",
+      placeholder: "/images/specImages/coldstone/coldstoneApron_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneVisor_Mockup.webp",
+      alt: "A New Uniform - Hats",
+      placeholder: "/images/specImages/coldstone/coldstoneVisor_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneCoupons_Mockup.webp",
+      alt: "New Print Collateral",
+      placeholder: "/images/specImages/coldstone/coldstoneCoupons_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstoneApp_Mockup.webp",
+      alt: "A New Ordering System",
+      placeholder: "/images/specImages/coldstone/coldstoneApp_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coldstone/coldstone_posters.webp",
+      alt: "New Street Marketing",
+      placeholder: "/images/specImages/coldstone/coldstone_posters_LowRes.webp",
+      size: "large"
+    }]
+  }, {
+    name: "Five Guys Burgers & Fries",
+    description: "For another fun rebrand, I wanted to visit the Five Guys Burger franchise. While I am a big fan of their burgers (especially the limitless toppings), I feel their brand is in need of a glow up. For this rebrand, I wanted to create a more 'edgy' look, to compliment their younger audience, while keeping a family friendly atmosphere. With this project, my goal was to craft a type-based design style that spanned across their print collateral and spruced up their restaurant interiors, focusing customers on their customizable burger options, and generous portions.",
+    hero: {
+      image: "/images/specImages/5guys/fiveGuysLogo.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Concept",
+      placeholder: "/images/specImages/5guys/fiveGuysLogo_LowRes.webp",
+      size: "large"
+    },
+    images: [{
+      image: "/images/specImages/5guys/5Guys_Sketches.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Sketches",
+      placeholder: "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/5guys/5Guys_Alternates.webp",
+      alt: "Five Guys Burgers & Fries Rebrand Alternate Logos",
+      placeholder: "/images/specImages/5guys/5Guys_Alternates_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/5guys/5Guys_FoodContainers.webp",
+      alt: "New Packaging For the New Look",
+      placeholder: "/images/specImages/5guys/5Guys_FoodContainers_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/fiveGuysSign_Mockup.webp",
+      alt: "Eyecatching Signage for Mouthwatering Burgers",
+      placeholder: "/images/specImages/5guys/fiveGuysSign_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/fiveguysInterior_mockup_04.webp",
+      alt: "New Interior Decoration",
+      placeholder: "/images/specImages/5guys/fiveguysInterior_mockup_04_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5GuysInterior2.webp",
+      alt: "Slogans as Art",
+      placeholder: "/images/specImages/5guys/5GuysInterior2_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5GuysShirt_Mockup.webp",
+      alt: "New Uniforms to Compliment the New Feel",
+      placeholder: "/images/specImages/5guys/5GuysShirt_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5GuysHat.webp",
+      alt: "Hats for Customers and Servers Alike",
+      placeholder: "/images/specImages/5guys/5GuysHat_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/5guys/5guysPosters.webp",
+      alt: "Street Marketing for the New Look",
+      placeholder: "/images/specImages/5guys/5guysPosters_LowRes.webp",
+      size: "large"
     }]
   }]
 };
@@ -2800,7 +2938,7 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
     /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
       MainMenu,
       {
-        page: "branding",
+        page: "playground",
         onReopen
       },
       void 0,
@@ -2818,34 +2956,44 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
         lineNumber: 101,
         columnNumber: 7
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "branding" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(pagesHeader_component_default, { background: "dark", setter: data_from_child, onClose: closeSlide, active: "spec" }, void 0, !1, {
         fileName: "app/routes/__app.spec.jsx",
         lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("h1", { className: "heading", children: [
-          "Speculative Work ",
+          "Artistic Playground",
           /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
             fileName: "app/routes/__app.spec.jsx",
             lineNumber: 104,
-            columnNumber: 52
+            columnNumber: 54
           }, this),
-          " & Creative Designs"
+          "& Speculative Work"
         ] }, void 0, !0, {
           fileName: "app/routes/__app.spec.jsx",
           lineNumber: 104,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("br", {}, void 0, !1, {
+          fileName: "app/routes/__app.spec.jsx",
+          lineNumber: 105,
+          columnNumber: 11
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "introText", children: "Whether to keep our creative edge honed, or just for day-to-day fun, sometimes our best work ends up being purely fictional work. While I prefer to focus my portfolio on real-world projects, occassionally a 'for fun' design is just too good to keep to myself. That is why I created the 'speculative' section of my portfolio, as a chance to show off work I'm proud of, that has never seen the light of day professionally." }, void 0, !1, {
+          fileName: "app/routes/__app.spec.jsx",
+          lineNumber: 106,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageGrid", children: brandData.spec.map(
           (brand) => /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("div", { className: "imageBox", onMouseEnter: () => changeHover(brand), onMouseLeave: unsetHover, children: /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("a", { children: [
             checkLength(brand) > 1 ? /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to See More" }, void 0, !1, {
               fileName: "app/routes/__app.spec.jsx",
-              lineNumber: 112,
+              lineNumber: 114,
               columnNumber: 17
             }, this) : /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)("p", { className: "overlay", children: "Click to Expand Image" }, void 0, !1, {
               fileName: "app/routes/__app.spec.jsx",
-              lineNumber: 113,
+              lineNumber: 115,
               columnNumber: 17
             }, this),
             /* @__PURE__ */ (0, import_jsx_dev_runtime20.jsxDEV)(
@@ -2861,23 +3009,23 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
               !1,
               {
                 fileName: "app/routes/__app.spec.jsx",
-                lineNumber: 116,
+                lineNumber: 118,
                 columnNumber: 19
               },
               this
             )
           ] }, void 0, !0, {
             fileName: "app/routes/__app.spec.jsx",
-            lineNumber: 109,
+            lineNumber: 111,
             columnNumber: 17
           }, this) }, brand.name, !1, {
             fileName: "app/routes/__app.spec.jsx",
-            lineNumber: 108,
+            lineNumber: 110,
             columnNumber: 13
           }, this)
         ) }, void 0, !1, {
           fileName: "app/routes/__app.spec.jsx",
-          lineNumber: 105,
+          lineNumber: 107,
           columnNumber: 11
         }, this)
       ] }, void 0, !0, {
@@ -2902,7 +3050,7 @@ var import_jsx_dev_runtime20 = require("react/jsx-dev-runtime"), links12 = () =>
       !1,
       {
         fileName: "app/routes/__app.spec.jsx",
-        lineNumber: 135,
+        lineNumber: 137,
         columnNumber: 5
       },
       this
@@ -3088,7 +3236,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-MSMUNHXB.js", imports: ["/build/_shared/chunk-ISWDE4OT.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-WX3JGITD.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-D2UQ4JGH.js", imports: ["/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-SZEJ3N6Q.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-NMPMXE3G.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-MYRPFE32.js", imports: ["/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-ZDD6EOL7.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-RIJOKIX3.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-332SLHNV.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-Y7RY4E33.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-4UBGADOS.js", "/build/_shared/chunk-ISWDE4OT.js", "/build/_shared/chunk-Z5QSFHOP.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "3d9995c9", hmr: void 0, url: "/build/manifest-3D9995C9.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RJB6ECYD.js", imports: ["/build/_shared/chunk-XIMEP2UI.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-IOXPYNKP.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-GVZB5F2U.js", imports: ["/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-LDLDERJW.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-OGAEEBFL.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-RTRWJCGS.js", imports: ["/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-ZGMN44IF.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-NRGLV4WB.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-ESENC2ZW.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-5ZBWOOVI.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-BH36IJXV.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-DTN3ATSO.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a4ef5ca7", hmr: void 0, url: "/build/manifest-A4EF5CA7.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

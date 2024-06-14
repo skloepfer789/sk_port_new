@@ -16,6 +16,10 @@ const menuItems = [
       link: '/print',
       image: '/images/SummitSign.webp',
     },{
+      name: 'playground',
+      link: '/spec',
+      image: '/images/specImages/coldstone/coldstone_Sketches.webp',
+    },{
       name: 'web design',
       link: '/web',
       image: '/images/HoodGuyMockup copy.webp',

@@ -7,12 +7,19 @@ import { useState } from "react";
 const pageLinks = [
     {
         link: "branding",
+        name: "branding",
     },{
         link: "print",
+        name: "print",
     },{
         link: "web",
+        name: "web",
     },{
-        link: "about"
+        link: 'spec',
+        name: "playground",
+    },{
+        link: "about",
+        name: "about",
     }
 ];
 
@@ -65,7 +72,7 @@ const PageHeader = (props) => {
                                 onClick={() => setActive(link.link)}  
                                 style={{color: logoColor}}                                
                             >
-                                {link.link}
+                                {link.name}
                             </h3>
                         </div>
                     ))}                    

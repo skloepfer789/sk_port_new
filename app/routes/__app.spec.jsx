@@ -94,14 +94,16 @@ const Branding = () => {
   return (
     <div className='main'>
       <MainMenu 
-        page='branding'
+        page='playground'
         onReopen={onReopen}
       />
       <div className={triggered ? `slider backgroundLight activeSlide` : `slider inactiveSlide`} >
       <button onClick={closeSlide} className={triggered? 'button' : 'button hiddenButton'} >x</button>
-        <PageHeader background='dark' setter={data_from_child} onClose={closeSlide} active='branding' />        
+        <PageHeader background='dark' setter={data_from_child} onClose={closeSlide} active='spec' />        
         <div>
-          <h1 className='heading'>Speculative Work <br/> & Creative Designs</h1>
+          <h1 className='heading'>Artistic Playground<br/>& Speculative Work</h1>
+          <br/>
+          <p className='introText'>Whether to keep our creative edge honed, or just for day-to-day fun, sometimes our best work ends up being purely fictional work. While I prefer to focus my portfolio on real-world projects, occassionally a 'for fun' design is just too good to keep to myself. That is why I created the 'speculative' section of my portfolio, as a chance to show off work I'm proud of, that has never seen the light of day professionally.</p>
           <div className='imageGrid'>          
                         {
               brandData.spec.map((brand) => (

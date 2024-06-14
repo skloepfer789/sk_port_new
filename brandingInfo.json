@@ -570,19 +570,144 @@
         "placeholder": "/images/webImages/KennyAndersonWebsite-lowRes.webp"
     }],
     "spec": [{
-        "name": "Enhance Printing",
-        "description": "When working on Enhance Printing’s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+        "name": "Coldstone Creamery",
+        "description": "I've worked with Cold Stone Creamery for many years as to go-to printer for our local franchise. For fun, I deceided to try my hand at a brand refresh. My goal was to create a fresh look, that kept much of the franchies history intact, while modernizing their currently dated logo. To compliment the new looks, I created an array of slogans and imagery to use across digital, print, and storefronts.",
         "hero": {
-            "image": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
-            "alt": "Enhance Printing Brand Portfolio",
-            "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1_LowRes.webp",
+            "image": "/images/specImages/coldstone/coldstoneLogo.webp",
+            "alt": "Coldstone Speculative Rebrand",
+            "placeholder": "/images/specImages/coldstone/coldstoneLogo_LowRes.webp",
             "size": "large"
         },
         "images": [{
-            "image": "/images/brandImages/enhance/EnhanceWebsite.webp",
-            "alt": "A Website To Compete in a Modern Market",
-            "placeholder": "/images/brandImages/enhance/EnhanceWebsite_LowRes.webp",
+            "image": "/images/specImages/coldstone/mixItUpSlogan.webp",
+            "alt": "Bold, Colorful, and Creative",
+            "placeholder": "/images/specImages/coldstone/mixItUpSlogan_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/Coldstone Feather Flag Mockup.webp",
+            "alt": "Bold Signage for Bold Slogans",
+            "placeholder": "/images/specImages/coldstone/Coldstone Feather Flag Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstone_Sketches.webp",
+            "alt": "Sketching Out Coldstone's Rebrand",
+            "placeholder": "/images/specImages/coldstone/coldstone_Sketches_LowRes.webp",
             "size": "small"
+        }, {
+            "image": "/images/specImages/coldstone/coldstone_Alternates.webp",
+            "alt": "Logo Alternates for the Brand Image",
+            "placeholder": "/images/specImages/coldstone/coldstone_Alternates_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/coldstone/coldstone_iceCreamTub.webp",
+            "alt": "New Packaging for the New Look",
+            "placeholder": "/images/specImages/coldstone/coldstone_iceCreamTub_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneCakeBox_Mockup.webp",
+            "alt": "New Cake Boxes",
+            "placeholder": "/images/specImages/coldstone/coldstoneCakeBox_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/colstoneCooler_Mockup.webp",
+            "alt": "A New Look Keeping it Cool",
+            "placeholder": "/images/specImages/coldstone/colstoneCooler_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneConeWrap_Mockup.webp",
+            "alt": "Even the Cones are Sprinkled with Fun",
+            "placeholder": "/images/specImages/coldstone/coldstoneConeWrap_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneInterior_Mockup.webp",
+            "alt": "A New Look In the Store",
+            "placeholder": "/images/specImages/coldstone/coldstoneInterior_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/ColdstoneSign_Mockup.webp",
+            "alt": "Signage for Maximum Visibility",
+            "placeholder": "/images/specImages/coldstone/ColdstoneSign_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneApron_Mockup.webp",
+            "alt": "A New Uniform - Aprons",
+            "placeholder": "/images/specImages/coldstone/coldstoneApron_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneVisor_Mockup.webp",
+            "alt": "A New Uniform - Hats",
+            "placeholder": "/images/specImages/coldstone/coldstoneVisor_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneCoupons_Mockup.webp",
+            "alt": "New Print Collateral",
+            "placeholder": "/images/specImages/coldstone/coldstoneCoupons_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstoneApp_Mockup.webp",
+            "alt": "A New Ordering System",
+            "placeholder": "/images/specImages/coldstone/coldstoneApp_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coldstone/coldstone_posters.webp",
+            "alt": "New Street Marketing",
+            "placeholder": "/images/specImages/coldstone/coldstone_posters_LowRes.webp",
+            "size": "large"
+        }]
+    }, {
+        "name": "Five Guys Burgers & Fries",
+        "description": "For another fun rebrand, I wanted to visit the Five Guys Burger franchise. While I am a big fan of their burgers (especially the limitless toppings), I feel their brand is in need of a glow up. For this rebrand, I wanted to create a more 'edgy' look, to compliment their younger audience, while keeping a family friendly atmosphere. With this project, my goal was to craft a type-based design style that spanned across their print collateral and spruced up their restaurant interiors, focusing customers on their customizable burger options, and generous portions.",
+        "hero": {
+            "image": "/images/specImages/5guys/fiveGuysLogo.webp",
+            "alt": "Five Guys Burgers & Fries Rebrand Concept",
+            "placeholder": "/images/specImages/5guys/fiveGuysLogo_LowRes.webp",
+            "size": "large"
+        },
+        "images": [{
+            "image": "/images/specImages/5guys/5Guys_Sketches.webp",
+            "alt": "Five Guys Burgers & Fries Rebrand Sketches",
+            "placeholder": "/images/specImages/5guys/5Guys_Sketches_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/5guys/5Guys_Alternates.webp",
+            "alt": "Five Guys Burgers & Fries Rebrand Alternate Logos",
+            "placeholder": "/images/specImages/5guys/5Guys_Alternates_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/5guys/5Guys_FoodContainers.webp",
+            "alt": "New Packaging For the New Look",
+            "placeholder": "/images/specImages/5guys/5Guys_FoodContainers_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/5guys/fiveGuysSign_Mockup.webp",
+            "alt": "Eyecatching Signage for Mouthwatering Burgers",
+            "placeholder": "/images/specImages/5guys/fiveGuysSign_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/5guys/fiveguysInterior_mockup_04.webp",
+            "alt": "New Interior Decoration",
+            "placeholder": "/images/specImages/5guys/fiveguysInterior_mockup_04_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/5guys/5GuysInterior2.webp",
+            "alt": "Slogans as Art",
+            "placeholder": "/images/specImages/5guys/5GuysInterior2_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/5guys/5GuysShirt_Mockup.webp",
+            "alt": "New Uniforms to Compliment the New Feel",
+            "placeholder": "/images/specImages/5guys/5GuysShirt_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/5guys/5GuysHat.webp",
+            "alt": "Hats for Customers and Servers Alike",
+            "placeholder": "/images/specImages/5guys/5GuysHat_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/5guys/5guysPosters.webp",
+            "alt": "Street Marketing for the New Look",
+            "placeholder": "/images/specImages/5guys/5guysPosters_LowRes.webp",
+            "size": "large"
         }]
     }]
 }
