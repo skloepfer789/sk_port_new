@@ -19,11 +19,11 @@ export const links = () => [
 
 export const meta = () => {
   return [
-    {title: "Brand Identity Services | Stephen Kloepfer Branding & Design?"} ,
+    {title: "Artistic Playground | Stephen Kloepfer Branding & Design?"} ,
     {name: "copyright", content: "Copyright &amp;copy; 2023 Stephen Kloepfer, All rights reserved."},
-    {name: "description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition."},    
-   {name: "og:title", content: "Stephen Kloepfer Branding Services"},
-   {name: "og:description", content: "I specialize in creating eye-catching and competitve brand identities to help you stand out amongst the competition."},
+    {name: "description", content: "Featuring non-client projects, done for fun and practice."},    
+   {name: "og:title", content: "Stephen Kloepfer Artistic Playground"},
+   {name: "og:description", content: "Featuring non-client projects, done for fun and practice."},
    {name: "og:image", content: "/social_preview.png"},
   ];
 };
