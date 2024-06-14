@@ -337,9 +337,9 @@
     "print": [{
         "name": "Branded Designs",
         "images": [{
-            "image": "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
+            "image": "/images/printImages/TimbeHueMockupBC.webp",
             "alt": "Rolling Restaurant Business Cards",
-            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
+            "placeholder": "/images/printImages/TimbeHueMockupBC_LowRes.webp",
             "size": "small"
         }, {
             "image": "/images/brandImages/seasons/FourSeasons_Letterhead.webp",
@@ -367,9 +367,9 @@
             "placeholder": "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-9_LowRes.webp",
             "size": "small"
         }, {
-            "image": "/images/brandImages/aegir/AegirsBC_Mockup.webp",
-            "alt": "Aegir's workshop Business Cards",
-            "placeholder": "/images/brandImages/aegir/AegirsBC_Mockup_LowRes.webp",
+            "image": "/images/brandImages/rolling/RollingRestaurant_BCs.webp",
+            "alt": "Rolling Restaurant Business Cards",
+            "placeholder": "/images/brandImages/rolling/RollingRestaurant_BCs_LowRes.webp",
             "size": "small"
         }, {
             "image": "/images/printImages/TopLine_Trifold.webp",
