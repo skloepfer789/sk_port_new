@@ -709,5 +709,60 @@
             "placeholder": "/images/specImages/5guys/5guysPosters_LowRes.webp",
             "size": "large"
         }]
+    }, {
+        "name": "Colorado Outfitters",
+        "description": "Colorado Outfitters is a company I've worked with on their marketing collateral for several years. As part of a project pitch, I came up with an alternate brand identity to help modernize their look. While they chose to remain with their old identity, I'm still proud of the work done on this project, and wanted to put it forward as an example of the work I am capable of.",
+        "hero": {
+            "image": "/images/specImages/coOutfitters/COOutfitters-Logo.webp",
+            "alt": "Colorado Outfitters Rebrand Concept",
+            "placeholder": "/images/specImages/coOutfitters/COOutfitters-Logo_LowRes.webp",
+            "size": "large"
+        },
+        "images": [{
+            "image": "/images/specImages/coOutfitters/Outfitters_Sketches.webp",
+            "alt": "Colorado Outfitters Rebrand Sketches",
+            "placeholder": "/images/specImages/coOutfitters/Outfitters_Sketches_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/coOutfitters/Outfitters_Alternates.webp",
+            "alt": "Colorado Outfitters Rebrand Alternate Options",
+            "placeholder": "/images/specImages/coOutfitters/Outfitters_Alternates_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/coOutfitters/CO_Outfit_WebMockups.webp",
+            "alt": "Colorado Outfitters Rebrand Website",
+            "placeholder": "/images/specImages/coOutfitters/CO_Outfit_WebMockups_LowRes.webp",
+            "size": "large"
+        }, {
+            "image": "/images/specImages/coOutfitters/COOutfitter_Trifold.webp",
+            "alt": "Colorado Outfitters Rebrand Trifolds",
+            "placeholder": "/images/specImages/coOutfitters/COOutfitter_Trifold_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/coOutfitters/CO_Outfitters_BCMockup.webp",
+            "alt": "Colorado Outfitters Rebrand Business Cards",
+            "placeholder": "/images/specImages/coOutfitters/CO_Outfitters_BCMockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/coOutfitters/COOutfitters_Hip Flask Mockup.webp",
+            "alt": "Colorado Outfitters Rebrand Collateral - Hip Flask",
+            "placeholder": "/images/specImages/coOutfitters/COOutfitters_Hip Flask Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coOutfitters/COOutfitters_Travel_Mug_Mockup.webp",
+            "alt": "Colorado Outfitters Rebrand Collateral - Travel Mug",
+            "placeholder": "/images/specImages/coOutfitters/COOutfitters_Travel_Mug_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coOutfitters/CO_Outfitters_Tote_Bag_Mockup.webp",
+            "alt": "Colorado Outfitters Rebrand Collateral - Tote Bag",
+            "placeholder": "/images/specImages/coOutfitters/CO_Outfitters_Tote_Bag_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/coOutfitters/COOutfitters_ShotGlass.webp",
+            "alt": "Colorado Outfitters Rebrand Collateral - Shot Glass",
+            "placeholder": "/images/specImages/coOutfitters/COOutfitters_ShotGlass_LowRes.webp",
+            "size": "mid"
+        }]
     }]
 }

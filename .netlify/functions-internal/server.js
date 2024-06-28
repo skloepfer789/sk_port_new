@@ -787,7 +787,7 @@ var import_react9 = require("@remix-run/react");
 var brandingInfo_default = {
   branding: [{
     name: "Enhance Printing",
-    description: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, with a focus on expanding the image to be friendlier across web and digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original company look, and pushed the brand to a modern, more web-friendly place.",
+    description: "When working on Enhance Printing\u2019s rebrand, I my goal was to retain key elements from the original logo, while working to create a modern look that worked across the web and in digital media. Using various local and international marketing companies as touchstones, I began diving into imagery that paid tribute to the original look, but also pushed the brand in a modern direction, to compete with increasingly digital competition.",
     hero: {
       image: "/images/brandImages/enhance/Enhance_PortfolioPieceArtboard-1.webp",
       alt: "Enhance Printing Brand Portfolio",
@@ -842,7 +842,7 @@ var brandingInfo_default = {
     }]
   }, {
     name: "The Rolling Restaurant",
-    description: "A rolling restaurant with a rotating menu, the Rolling Restaurant was looking for an image both eye-catching, and retro. My client initially came to me with the idea of a logo featuring a \u201Ccaveman stone\u201D, which was my leaping off point. The final brand was a built off the feel of classic rock from the late 1960s and early 1970s, while keeping a modern, clean edge. I worked to find both typographic options, and a color palette that was pulpy, and eye catching to best draw potential customers to his varied offerings.",
+    description: "A rolling restaurant with a rotating menu, the Rolling Restaurant was looking for an image both eye-catching, and retro. My client initially came to me with the idea of a logo featuring a \u201Ccaveman stone\u201D, which was my leaping off point. The final brand was a built off the feel of classic rock from the late 1960s and early 1970s, while keeping a modern, clean edge. I worked to find typographic options and a color palette that was both pulpy and eye catching to best draw potential customers to his varied offerings.",
     hero: {
       image: "/images/brandImages/rolling/RollingRest_Logo.webp",
       alt: "The Rolling Restaurant Brand Identity",
@@ -892,7 +892,7 @@ var brandingInfo_default = {
     }]
   }, {
     name: "Rex's Plumbing",
-    description: "The focus of this design was a bold, eye-catching look, primarily for use on Rex\u2019s vans. For years, Rex\u2019s image had included the woman with the plunger, seen in the sketches to the right. More recently, he began incorporating a T-Rex chasing the woman into his companies advertisements. For direction, we played with both the woman, the T-Rex, and the combination to find the right look for him. In the end, we settled on a unified look with just the T-Rex, because nothing quite screamed \u201CCall Rex\u201D like the maw of the King of the Dinosaurs himself.",
+    description: "The focus of this design was a bold, eye-catching look, primarily for use on Rex\u2019s vans. For years, Rex\u2019s image included a running woman carrying a plunger, (still seen in the some of the formitive sketches shown). More recently, he began incorporating a T-Rex chasing the woman into his companies advertisements. For direction, we played with both the woman, the T-Rex, and a combination of the two to find the right look for him. In the end, we settled on a unified look with just the T-Rex, because nothing quite screamed \u201CCall Rex\u201D like the maw of the King of the Dinosaurs himself.",
     hero: {
       image: "/images/brandImages/rex/RexLogo.webp",
       alt: "Rex's Plumbing & Heating",
@@ -937,7 +937,7 @@ var brandingInfo_default = {
     }]
   }, {
     name: "Aegir's Workshop",
-    description: "The owner of Aegir\u2019s Workshop is fascinated by Norse mythology, and immediately wanted to name his company after the Norse Giant most commonly associated with the sea. Using this inspiration, I began honing in on a nautical theme. For the final logo, I went with a norse-inspired scrollwork interpretation of a Viking longship, paired with a heavy, neo-Viking font. For brand identity, I paired leather textures, with a nautical flair to give Aegir\u2019s Workshop a hand-crafted feel, that ties classical elements to a modern image.",
+    description: "The owner of Aegir\u2019s Workshop is fascinated by Norse mythology, and immediately wanted to name his company after the Norse Giant most commonly associated with the sea. Using this as inspiration, I began honing in on a nautical theme. For the final logo, I went with a Viking longship done in a modernization of Nordic scrollwork, paired with a heavy neo-Viking font. For his brand identity, I paired leather textures with a nautical flair to give Aegir\u2019s Workshop a hand-crafted feel, that ties the classical to the modern.",
     hero: {
       image: "/images/brandImages/aegir/Aegirs-Artboard-11.webp",
       alt: "Aegir's Workshop Brand",
@@ -1349,7 +1349,7 @@ var brandingInfo_default = {
   }],
   spec: [{
     name: "Coldstone Creamery",
-    description: "I've worked with Cold Stone Creamery for many years as to go-to printer for our local franchise. For fun, I deceided to try my hand at a brand refresh. My goal was to create a fresh look, that kept much of the franchies history intact, while modernizing their currently dated logo. To compliment the new looks, I created an array of slogans and imagery to use across digital, print, and storefronts.",
+    description: "Enhance Printing has been our local Cold Stone Creamery's go-to printer for many years, so I've developed a long knowledge of their brand and marketing materials. For fun, I deceided to try my hand at crafting a brand refresh for Cold Stone. My goal was to create a fresh look that kept much of the franchies history intact, while modernizing their currently dated logo. To compliment the new looks, I created an array of slogans and imagery to use across digital and print media, as well as their storefronts and interiors.",
     hero: {
       image: "/images/specImages/coldstone/coldstoneLogo.webp",
       alt: "Coldstone Speculative Rebrand",
@@ -1434,7 +1434,7 @@ var brandingInfo_default = {
     }]
   }, {
     name: "Five Guys Burgers & Fries",
-    description: "For another fun rebrand, I wanted to visit the Five Guys Burger franchise. While I am a big fan of their burgers (especially the limitless toppings), I feel their brand is in need of a glow up. For this rebrand, I wanted to create a more 'edgy' look, to compliment their younger audience, while keeping a family friendly atmosphere. With this project, my goal was to craft a type-based design style that spanned across their print collateral and spruced up their restaurant interiors, focusing customers on their customizable burger options, and generous portions.",
+    description: "For another for-fun rebrand, I wanted to visit the Five Guys Burger franchise. While I am a big fan of their burgers (especially the limitless toppings), I feel their brand is in need of a glow up. For this rebrand, I wanted to create a more 'edgy' look, to draw in a younger, college-aged audience, without losing their family-friendly atmosphere. With this project, my goal was to craft a type-based design style that spanned across their print collateral and spruced up their restaurant interiors, focusing customers on their customizable burger options and generous portions.",
     hero: {
       image: "/images/specImages/5guys/fiveGuysLogo.webp",
       alt: "Five Guys Burgers & Fries Rebrand Concept",
@@ -1486,6 +1486,61 @@ var brandingInfo_default = {
       alt: "Street Marketing for the New Look",
       placeholder: "/images/specImages/5guys/5guysPosters_LowRes.webp",
       size: "large"
+    }]
+  }, {
+    name: "Colorado Outfitters",
+    description: "Colorado Outfitters is a company I've worked with on their marketing collateral for several years. As part of a project pitch, I came up with an alternate brand identity to help modernize their look. While they chose to remain with their old identity, I'm still proud of the work done on this project, and wanted to put it forward as an example of the work I am capable of.",
+    hero: {
+      image: "/images/specImages/coOutfitters/COOutfitters-Logo.webp",
+      alt: "Colorado Outfitters Rebrand Concept",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters-Logo_LowRes.webp",
+      size: "large"
+    },
+    images: [{
+      image: "/images/specImages/coOutfitters/Outfitters_Sketches.webp",
+      alt: "Colorado Outfitters Rebrand Sketches",
+      placeholder: "/images/specImages/coOutfitters/Outfitters_Sketches_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coOutfitters/Outfitters_Alternates.webp",
+      alt: "Colorado Outfitters Rebrand Alternate Options",
+      placeholder: "/images/specImages/coOutfitters/Outfitters_Alternates_LowRes.webp",
+      size: "small"
+    }, {
+      image: "/images/specImages/coOutfitters/CO_Outfit_WebMockups.webp",
+      alt: "Colorado Outfitters Rebrand Website",
+      placeholder: "/images/specImages/coOutfitters/CO_Outfit_WebMockups_LowRes.webp",
+      size: "large"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitter_Trifold.webp",
+      alt: "Colorado Outfitters Rebrand Trifolds",
+      placeholder: "/images/specImages/coOutfitters/COOutfitter_Trifold_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/CO_Outfitters_BCMockup.webp",
+      alt: "Colorado Outfitters Rebrand Business Cards",
+      placeholder: "/images/specImages/coOutfitters/CO_Outfitters_BCMockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitters_Hip Flask Mockup.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Hip Flask",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters_Hip Flask Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitters_Travel_Mug_Mockup.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Travel Mug",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters_Travel_Mug_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/CO_Outfitters_Tote_Bag_Mockup.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Tote Bag",
+      placeholder: "/images/specImages/coOutfitters/CO_Outfitters_Tote_Bag_Mockup_LowRes.webp",
+      size: "mid"
+    }, {
+      image: "/images/specImages/coOutfitters/COOutfitters_ShotGlass.webp",
+      alt: "Colorado Outfitters Rebrand Collateral - Shot Glass",
+      placeholder: "/images/specImages/coOutfitters/COOutfitters_ShotGlass_LowRes.webp",
+      size: "mid"
     }]
   }]
 };
@@ -2459,7 +2514,7 @@ var import_jsx_dev_runtime16 = require("react/jsx-dev-runtime"), links8 = () => 
               lineNumber: 86,
               columnNumber: 21
             }, this),
-            "In my free time, I enjoy watching movies, writing, and reading. While I enjoy a wide variety of genres, I find myself often pulled to speculative fiction, and have a vast collection of movies and books delving into the fantastic, horrific, and futuristic. I am also an avid fan of gaming. I enjoy regular table-top sessions with some close friends, and have a long-standing love for video games. Recently, I have begun the path towards a lifelong dream of teaching myself coding and 3D modeling in the hopes of creating a video game of my own from the ground up."
+            "In my free time, I enjoy watching movies, writing, and reading. While I enjoy a wide variety of genres, I find myself often pulled to speculative fiction, and have a vast collection of movies and books delving into the fantastic, horrific, and futuristic. I am also an avid fan of gaming. I enjoy regular table-top sessions with some close friends, and have a long-standing love for video games. Recently, I have begun the path towards a lifelong dream of teaching myself Unreal Engine and Blender in the hopes of creating a video game of my own from the ground up."
           ] }, void 0, !0, {
             fileName: "app/routes/__app.about.jsx",
             lineNumber: 82,
@@ -3236,7 +3291,7 @@ function App2() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RJB6ECYD.js", imports: ["/build/_shared/chunk-XIMEP2UI.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-KE5F2LZ2.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-GFGAXMA7.js", imports: ["/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-WKKAHSTH.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-D7724N5V.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-VIM7F2QW.js", imports: ["/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-5Y2MVZUH.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-SF5ZRCSQ.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-JNTHIY7C.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-M7WTJXWM.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a12231e6", hmr: void 0, url: "/build/manifest-A12231E6.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-ABZ5CL3R.js", imports: ["/build/_shared/chunk-V3SLA63D.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RJB6ECYD.js", imports: ["/build/_shared/chunk-XIMEP2UI.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app": { id: "routes/__app", parentId: "root", path: void 0, index: void 0, caseSensitive: void 0, module: "/build/routes/__app-NJEZMUPL.js", imports: ["/build/_shared/chunk-JJUAVGCW.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app._index": { id: "routes/__app._index", parentId: "routes/__app", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/__app._index-KE5F2LZ2.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.about": { id: "routes/__app.about", parentId: "routes/__app", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.about-JXHNFNGX.js", imports: ["/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.branding": { id: "routes/__app.branding", parentId: "routes/__app", path: "branding", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.branding-WKKAHSTH.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.logos": { id: "routes/__app.logos", parentId: "routes/__app", path: "logos", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.logos-D7724N5V.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.menu": { id: "routes/__app.menu", parentId: "routes/__app", path: "menu", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.menu-VIM7F2QW.js", imports: ["/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print": { id: "routes/__app.print", parentId: "routes/__app", path: "print", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-5Y2MVZUH.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.print-original": { id: "routes/__app.print-original", parentId: "routes/__app", path: "print-original", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.print-original-SF5ZRCSQ.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.spec": { id: "routes/__app.spec", parentId: "routes/__app", path: "spec", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.spec-JNTHIY7C.js", imports: ["/build/_shared/chunk-2OPWA7EO.js", "/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/__app.web": { id: "routes/__app.web", parentId: "routes/__app", path: "web", index: void 0, caseSensitive: void 0, module: "/build/routes/__app.web-M7WTJXWM.js", imports: ["/build/_shared/chunk-MOFTYH3I.js", "/build/_shared/chunk-MSXYQZJG.js", "/build/_shared/chunk-XIMEP2UI.js", "/build/_shared/chunk-HUWUKKUZ.js"], hasAction: !1, hasLoader: !0, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, version: "a6929fda", hmr: void 0, url: "/build/manifest-A6929FDA.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { v2_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_headers: !1, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

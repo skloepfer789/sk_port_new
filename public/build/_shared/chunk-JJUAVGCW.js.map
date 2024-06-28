@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/components/background.component.jsx"],
+  "sourcesContent": ["export default function Background() {\n    return (\n        <div className='backgroundImg'>\n            <img className='textureImg' src='/images/GraidentBackground_Light.webp' alt='gradient' />\n        </div>\n      )\n};"],
+  "mappings": ";;;;;;AAGY;AAHG,SAAR,aAA8B;AACjC,SACI,mDAAC,SAAI,WAAU,iBACX,6DAAC,SAAI,WAAU,cAAa,KAAI,yCAAwC,KAAI,cAA5E;AAAA;AAAA;AAAA;AAAA,SAAuF,KAD3F;AAAA;AAAA;AAAA;AAAA,SAEA;AAER;",
+  "names": []
+}
