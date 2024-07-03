@@ -764,5 +764,75 @@
             "placeholder": "/images/specImages/coOutfitters/COOutfitters_ShotGlass_LowRes.webp",
             "size": "mid"
         }]
+    }, {
+        "name": "Baker Law",
+        "description": "This was a pitch project I worked on for a local attorney, Bob Baker. While he decided to remain with his old branding, I am proud of this project, and wanted to use it to show my skills as a graphic designer. This rebrand focused on creating a brand identity that emphasized Mr. Baker's hopeful outlook, and willingness to assist others. His focus on estate law, led me to crafting an image centered around the sun over the horizon, both as a sunset (end of life), and as a sunrise (new beginnings).",
+        "hero": {
+            "image": "/images/specImages/bakerLaw/BakerLawLogo.webp",
+            "alt": "Baker Law Rebrand Concept",
+            "placeholder": "images/specImages/bakerLaw/BakerLawLogo_LowRes.webp",
+            "size": "large"
+        },
+        "images": [{
+            "image": "/images/specImages/bakerLaw/BakerLaw_Stationary_mockup.webp",
+            "alt": "Baker Law Stationary",
+            "placeholder": "images/specImages/bakerLaw/BakerLaw_Stationary_mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerLaw_Retractable_Mockup.webp",
+            "alt": "Baker Law Retractable Banner",
+            "placeholder": "images/specImages/bakerLaw/BakerLaw_Retractable_Mockup_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/bakerLaw/Baker_Sketches.webp",
+            "alt": "Baker Law Sketches",
+            "placeholder": "images/specImages/bakerLaw/Baker_Sketches_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/Baker_Alternates.webp",
+            "alt": "Baker Law Alternate Logos",
+            "placeholder": "images/specImages/bakerLaw/Baker_Alternates_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerLaw_Web_Mockup.webp",
+            "alt": "Baker Law Website 1",
+            "placeholder": "images/specImages/bakerLaw/BakerLaw_Web_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerLaw_Web_Mockup-2.webp",
+            "alt": "Baker Law Website 2",
+            "placeholder": "images/specImages/bakerLaw/BakerLaw_Web_Mockup-2_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerLaw_Web_Mockup-3.webp",
+            "alt": "Baker Law Website 3",
+            "placeholder": "images/specImages/bakerLaw/BakerLaw_Web_Mockup-3_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerLaw_Web_Mockup-4.webp",
+            "alt": "Baker Law Website 4",
+            "placeholder": "images/specImages/bakerLaw/BakerLaw_Web_Mockup-4_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerFolder_Mockup-Outside.webp",
+            "alt": "Baker Law Pocket Folder",
+            "placeholder": "images/specImages/bakerLaw/BakerFolder_Mockup-Outside_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerFolder_Mockup-Inside.webp",
+            "alt": "Baker Law Pocket Folder Inside",
+            "placeholder": "images/specImages/bakerLaw/BakerFolder_Mockup-Inside_LowRes.webp",
+            "size": "small"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerBinder_Mockup.webp",
+            "alt": "Baker Law Binders",
+            "placeholder": "images/specImages/bakerLaw/BakerBinder_Mockup_LowRes.webp",
+            "size": "mid"
+        }, {
+            "image": "/images/specImages/bakerLaw/BakerMug_Mockup.webp",
+            "alt": "Baker Law Mug",
+            "placeholder": "images/specImages/bakerLaw/BakerMug_Mockup_LowRes.webp",
+            "size": "mid"
+        }]
     }]
 }
